@@ -1,20 +1,28 @@
 # Summary
 
-... 1-2 sentences (see [release checklist](http://universaldependencies.org/contributing/release_checklist.html#the-readme-file) for README guidelines) ...
+Old-French ALTM (AUTOMATED Legal Texts Medieval) is a treebank of medieval legal French from Normandy.
+Currently in contains one text, _Atiremens et jugiés d'eschequiers_, dated 1314.
 
 
 # Introduction
+The text of _Atiremens et jugiés d'eschequiers_ was digitised from the following edition:
+R. Génestal & E.-J. Tardif. (1921). _Atiremenz et jugiés d'eschequiers_. Caen: A. Olivier. pp. 1-75.
 
-...
+The text was first annotated in PoS, lemmatised and automatically parsed as part of the Franco-German [MICLE project](https://www.unicaen.fr/projet_de_recherche/micle/) (2021-2024) led by Professor Pierre Larrivée (University of Caen) and Professor Cecilia Poletto (University of Frankfurt). An earlier version, annotated with [HT-CRISCO workflow](https://github.com/Corpus-Diachroniques-CRISCO/HT-CRISCO) incorporating the use of [HOPS parser](https://github.com/hopsparser/hopsparser), can be consulted on [CRISCO Lab's TXM server](https://txm-crisco.huma-num.fr/txm/) and via the [website](https://criscoht.unicaen.fr/).
+
+As part of [AUTOMATED project](https://www.unicaen.fr/projet_de_recherche/automated/) the text was reannotated with [BertForDeprel](https://github.com/kirianguiller/BertForDeprel) parser and manually corrected using bootstrapping methodology ([Peng et al 2022](https://hal.science/hal-03846834v1)) on [ArboratorGrew](https://arborator.grew.fr/#/) software.
+
+Annotation was conducted following the guidelines for Old French developed by the ([Profiterole project](https://github.com/UniversalDependencies/UD_Old_French-PROFITEROLE)).
+Wherever possible, lemmata used in the corpus are modern French or lemmata of the ([Dictionnaire du Moyen Français](http://zeus.atilf.fr/dmf/)).
 
 
 # Acknowledgments
 
-...
+This work was funded by ANR-DFG and Normandy Region grants and took place under the direction of Professor Pierre Larrivée (University of Caen). Mathieu Goux conducted initial PoS annotation and lemmatisation. Natasha Romanova is responsible for the revision of the annotation and for syntactic parsing. Rayan Ziane and Khensa Daoudi provided technical support. 
 
 ## References
 
-* (citation)
+* Forthcoming
 
 
 # Changelog
@@ -35,7 +43,7 @@ UPOS: manual native
 XPOS: not available
 Features: manual native
 Relations: manual native
-Contributors: Romanova, Natalia; Ziane, Rayan; Daoudi, Khensa
+Contributors: Romanova, Natalia; Ziane, Rayan; Goux, Mathieu; Daoudi, Khensa; Larrivée, Pierre
 Contributing: here
 Contact: natalia.romanova@unicaen.fr
 ===============================================================================
