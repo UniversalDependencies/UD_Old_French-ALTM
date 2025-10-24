@@ -1,3 +1,15 @@
+# sent_id = 1_1_17_1_1
+# len = 8
+# text = Item , un homme avoit eue fame ;
+1	Item	item	ADV	_	_	6	advmod	_	gold_pos=ADV|prpos=Rg|uppos=ADV
+2	,	,	PUNCT	_	_	1	punct	_	gold_pos=PUNCT|join=left|prpos=Fw|uppos=PON
+3	un	un	DET	_	Definite=Ind	4	det	_	gold_pos=DET|prpos=Dn|uppos=D
+4	homme	homme	NOUN	_	Number=Sing	6	nsubj	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
+5	avoit	avoir	AUX	_	VerbForm=Fin	6	aux	_	gold_pos=AUX|prpos=Vuc|uppos=AJ
+6	eue	avoir	VERB	_	VerbForm=Part	0	root	_	gold_pos=VERB|prpos=Ge|uppos=APP
+7	fame	femme	NOUN	_	Number=Sing	6	obj	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
+8	;	;	PUNCT	_	_	6	punct	_	gold_pos=PUNCT|join=left|prpos=Fw|uppos=PON
+
 # sent_id = 1314_Atir_1_1_1_1_1
 # len = 73
 # text = Premierement, l' en doit savoir que un homme qui achate terre la puet donner a qui que il veut dedens l' an et le jor que il l' a achatée comme son meuble, sans ce que l' en le puist rapeler par don desavenant mes, se il l' avoit tenue par ans et par jors, il n' en porroit donner que le tiers que ce ne fust don desavenant.
@@ -61,7 +73,7 @@
 58	jors	jour	NOUN	_	Number=Sing	55	conj	_	prpos=Nc|SpaceAfter=No|uppos=NCS
 59	,	,	PUNCT	_	_	53	punct	_	join=left|prpos=Fw|uppos=PON
 60	il	il	PRON	_	PronType=Prs	64	nsubj	_	prpos=Pp|uppos=PRO
-61	n'	ne	ADV	_	PronType=Neg	64	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+61	n'	ne	ADV	_	Polarity=Neg	64	advmod	_	prpos=Rp|uppos=NEG
 62	en	en	PRON	_	PronType=Prs	67	nmod	_	prpos=Pp|uppos=PRO
 63	porroit	pouvoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	64	aux	_	prpos=Vvc|uppos=MDJ
 64	donner	donner	VERB	_	VerbForm=Inf	15	conj	_	prpos=Vvn|uppos=VX
@@ -70,7 +82,7 @@
 67	tiers	tiers	NOUN	_	Number=Sing	64	obj	_	prpos=Nc|uppos=NCS
 68	que	que	SCONJ	_	_	72	mark	_	prpos=Cs|uppos=CONJS
 69	ce	ce	PRON	_	PronType=Dem	72	nsubj	_	prpos=Pd|uppos=PRO
-70	ne	ne	ADV	_	PronType=Neg	72	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+70	ne	ne	ADV	_	Polarity=Neg	72	advmod	_	prpos=Rp|uppos=NEG
 71	fust	être	AUX	_	Number=Sing|Person=3|VerbForm=Fin	72	cop	_	prpos=Vuc|uppos=EJ
 72	don	don	NOUN	_	Number=Sing	64	advcl	_	prpos=Nc|uppos=NCS
 73	desavenant	désavenant	ADJ	_	_	72	amod	_	prpos=Ag|SpaceAfter=No|uppos=ADJ
@@ -105,7 +117,7 @@
 24	que	que	SCONJ	_	_	30	mark	_	prpos=Cs|uppos=CONJS
 25	la	le	DET	_	Definite=Def|PronType=Art	26	det	_	prpos=Da|uppos=D
 26	veüe	vue	NOUN	_	Number=Sing	30	nsubj	_	prpos=Nc|uppos=NCS
-27	ne	ne	ADV	_	PronType=Neg	30	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+27	ne	ne	ADV	_	Polarity=Neg	30	advmod	_	prpos=Rp|uppos=NEG
 28	puet	pouvoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	30	aux	_	prpos=Vvc|uppos=MDJ
 29	estre	être	AUX	_	VerbForm=Inf	30	aux:pass	_	prpos=Vun|uppos=EX
 30	fete	faire	VERB	_	Tense=Past|VerbForm=Part	6	ccomp	_	prpos=Ge|SpaceAfter=No|uppos=VPP
@@ -113,7 +125,7 @@
 32	se	si	SCONJ	_	_	36	mark	_	prpos=Cs|uppos=CONJS
 33	l'	le	DET	_	Definite=Def|PronType=Art	34	det	_	prpos=Da|uppos=D
 34	en	on	PRON	_	PronType=Prs	36	nsubj	_	prpos=Pp|uppos=PRO
-35	ne	ne	ADV	_	PronType=Neg	36	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+35	ne	ne	ADV	_	Polarity=Neg	36	advmod	_	prpos=Rp|uppos=NEG
 36	moustre	montrer	VERB	_	Number=Sing|Person=3|VerbForm=Fin	30	advcl	_	prpos=Vvc|uppos=VJ
 37	le	le	DET	_	Definite=Def|PronType=Art	38	det	_	prpos=Da|uppos=D
 38	lieu	lieu	NOUN	_	Number=Sing	36	obj	_	prpos=Nc|uppos=NCS
@@ -160,9 +172,9 @@
 14	que	que	SCONJ	_	_	20	mark	_	prpos=Cs|uppos=CONJS
 15	l'	le	DET	_	Definite=Def|PronType=Art	16	det	_	prpos=Da|uppos=D
 16	en	on	PRON	_	PronType=Prs	20	nsubj	_	prpos=Pp|uppos=PRO
-17	n'	ne	ADV	_	PronType=Neg	20	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+17	n'	ne	ADV	_	Polarity=Neg	20	advmod	_	prpos=Rp|uppos=NEG
 18	est	être	AUX	_	Number=Sing|Person=3|VerbForm=Fin	20	aux:pass	_	prpos=Vuc|uppos=EJ
-19	pas	pas	ADV	_	PronType=Neg	20	advmod	_	prpos=Rg|uppos=ADVNEG
+19	pas	pas	ADV	_	Polarity=Neg	20	advmod	_	prpos=Rg|uppos=ADVNEG
 20	tenu	tenir	VERB	_	Tense=Past|VerbForm=Part	6	ccomp	_	prpos=Ge|uppos=VPP
 21	a	à	ADP	_	_	22	mark	_	prpos=S|uppos=P
 22	respondre	répondre	VERB	_	VerbForm=Inf	20	xcomp	_	prpos=Vvn|uppos=VX
@@ -214,9 +226,9 @@
 37	connoistre	connaître	VERB	_	VerbForm=Inf	33	xcomp	_	prpos=Vvn|SpaceAfter=No|uppos=VX
 38	,	,	PUNCT	_	_	33	punct	_	join=left|prpos=Fw|uppos=PON
 39	ele	il	PRON	_	PronType=Prs	43	nsubj	_	prpos=Pp|uppos=PRO
-40	n'	ne	ADV	_	PronType=Neg	43	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+40	n'	ne	ADV	_	Polarity=Neg	43	advmod	_	prpos=Rp|uppos=NEG
 41	est	être	AUX	_	Number=Sing|Person=3|VerbForm=Fin	43	aux:pass	_	prpos=Vuc|uppos=EJ
-42	pas	pas	ADV	_	PronType=Neg	43	advmod	_	prpos=Rg|uppos=ADVNEG
+42	pas	pas	ADV	_	Polarity=Neg	43	advmod	_	prpos=Rg|uppos=ADVNEG
 43	tenue	tenir	VERB	_	Tense=Past|VerbForm=Part	6	ccomp	_	prpos=Ge|uppos=VPP
 44	a	à	ADP	_	_	45	mark	_	prpos=S|uppos=P
 45	connoistre	connaître	VERB	_	VerbForm=Inf	43	xcomp	_	prpos=Vvn|uppos=VX
@@ -281,7 +293,7 @@
 # text = et partie n' i voult respondre devant que il eüst amendé sa deffaute.
 1	et	et	CCONJ	_	_	5	cc	_	prpos=Cc|uppos=CONJO
 2	partie	partie	NOUN	_	Number=Sing	5	nsubj	_	prpos=Nc|uppos=NCS
-3	n'	ne	ADV	_	PronType=Neg	5	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+3	n'	ne	ADV	_	Polarity=Neg	5	advmod	_	prpos=Rp|uppos=NEG
 4	i	y	PRON	_	PronType=Prs	6	obl	_	prpos=Pp|uppos=PRO
 5	voult	vouloir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	0	root	_	prpos=Vvc|uppos=MDJ
 6	respondre	répondre	VERB	_	VerbForm=Inf	5	xcomp	_	prpos=Vvn|uppos=VX
@@ -338,7 +350,7 @@
 9	dist	dire	VERB	_	Number=Sing|Person=3|VerbForm=Fin	0	root	_	prpos=Vvc|uppos=VJ
 10	que	que	SCONJ	_	_	13	mark	_	prpos=Cs|uppos=CONJS
 11	il	il	PRON	_	PronType=Prs	13	nsubj	_	prpos=Pp|uppos=PRO
-12	ne	ne	ADV	_	PronType=Neg	13	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+12	ne	ne	ADV	_	Polarity=Neg	13	advmod	_	prpos=Rp|uppos=NEG
 13	vouloit	vouloir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	9	ccomp	_	prpos=Vvc|uppos=VJ
 14	que	que	SCONJ	_	_	17	mark	_	prpos=Cs|uppos=CONJS
 15	le	le	DET	_	Definite=Def|PronType=Art	16	det	_	prpos=Da|uppos=D
@@ -397,7 +409,7 @@
 1	et	et	CCONJ	_	_	5	cc	_	prpos=Cc|uppos=CONJO
 2	l'	le	DET	_	Definite=Def|PronType=Art	3	det	_	prpos=Da|uppos=D
 3	autre	autre	PRON	_	PronType=Ind	5	nsubj	_	prpos=Pi|uppos=PRO
-4	ne	ne	ADV	_	PronType=Neg	5	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+4	ne	ne	ADV	_	Polarity=Neg	5	advmod	_	prpos=Rp|uppos=NEG
 5	vout	vouloir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	0	root	_	prpos=Vvc|uppos=VJ
 6	que	que	SCONJ	_	_	9	mark	_	prpos=Cs|uppos=CONJS
 7	il	il	PRON	_	PronType=Prs	9	nsubj	_	prpos=Pp|uppos=PRO
@@ -416,7 +428,7 @@
 1	quer	car	CCONJ	_	_	5	cc	_	prpos=Cc|uppos=CONJO
 2	nient	néant	PRON	_	PronType=Ind	5	obj	_	prpos=Pi|uppos=P
 3	plus	plus	ADV	_	_	5	advmod	_	prpos=Rg|uppos=ADV
-4	ne	ne	ADV	_	PronType=Neg	5	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+4	ne	ne	ADV	_	Polarity=Neg	5	advmod	_	prpos=Rp|uppos=NEG
 5	demandoit	demander	VERB	_	Number=Sing|Person=3|VerbForm=Fin	0	root	_	prpos=Vvc|uppos=VJ
 6	il	il	PRON	_	PronType=Prs	5	nsubj	_	prpos=Pp|uppos=PRO
 7	por	pour	ADP	_	_	10	case	_	prpos=S|uppos=P
@@ -439,7 +451,7 @@
 9	dessaisine	dessaisine	NOUN	_	Number=Sing	6	nmod	_	prpos=Nc|SpaceAfter=No|uppos=NCS
 10	,	,	PUNCT	_	_	6	punct	_	join=left|prpos=Fw|uppos=PON
 11	nul	nul	PRON	_	PronType=Ind	15	nsubj	_	prpos=Pi|uppos=PRO
-12	ne	ne	ADV	_	PronType=Neg	15	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+12	ne	ne	ADV	_	Polarity=Neg	15	advmod	_	prpos=Rp|uppos=NEG
 13	puet	pouvoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	15	aux	_	prpos=Vvc|uppos=MDJ
 14	avoir	avoir	AUX	_	VerbForm=Inf	15	aux	_	prpos=Vun|uppos=AX
 15	ataint	atteindre	VERB	_	Tense=Past|VerbForm=Part	1	ccomp	_	prpos=Ge|uppos=VPP
@@ -515,9 +527,9 @@
 3	que	que	SCONJ	_	_	7	mark	_	prpos=Cs|uppos=CONJS
 4	le	le	DET	_	Definite=Def|PronType=Art	5	det	_	prpos=Da|uppos=D
 5	brief	bref	NOUN	_	Number=Sing	7	nsubj	_	prpos=Nc|uppos=NCS
-6	ne	ne	ADV	_	PronType=Neg	7	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+6	ne	ne	ADV	_	Polarity=Neg	7	advmod	_	prpos=Rp|uppos=NEG
 7	leroit	laisser	VERB	_	Number=Sing|Person=3|VerbForm=Fin	1	ccomp	_	prpos=Vvc|uppos=VJ
-8	pas	pas	ADV	_	PronType=Neg	7	advmod	_	prpos=Rg|uppos=ADVNEG
+8	pas	pas	ADV	_	Polarity=Neg	7	advmod	_	prpos=Rg|uppos=ADVNEG
 9	a	à	ADP	_	_	10	mark	_	prpos=S|uppos=P
 10	corre	courir	VERB	_	VerbForm=Inf	7	xcomp	_	prpos=Vvn|uppos=VX
 11	por	pour	ADP	_	_	13	case	_	prpos=S|uppos=P
@@ -619,17 +631,17 @@
 10	assise	asseoir	VERB	_	Tense=Past|VerbForm=Part	22	advcl	_	prpos=Ge|uppos=VPP
 11	et	et	CCONJ	_	_	17	cc	_	prpos=Cc|uppos=CONJO
 12	ele	il	PRON	_	PronType=Prs	17	nsubj	_	prpos=Pp|uppos=PRO
-13	n'	ne	ADV	_	PronType=Neg	17	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+13	n'	ne	ADV	_	Polarity=Neg	17	advmod	_	prpos=Rp|uppos=NEG
 14	avoit	avoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	17	aux	_	prpos=Vuc|uppos=AJ
-15	pas	pas	ADV	_	PronType=Neg	17	advmod	_	prpos=Rg|uppos=ADVNEG
+15	pas	pas	ADV	_	Polarity=Neg	17	advmod	_	prpos=Rg|uppos=ADVNEG
 16	esté	être	AUX	_	Tense=Past|VerbForm=Part	17	aux:pass	_	prpos=Ge|uppos=EPP
 17	fete	faire	VERB	_	Tense=Past|VerbForm=Part	10	conj	_	prpos=Ge|SpaceAfter=No|uppos=VPP
 18	,	,	PUNCT	_	_	10	punct	_	join=left|prpos=Fw|uppos=PON
 19	que	que	SCONJ	_	_	22	mark	_	prpos=Cs|uppos=CONJS
 20	il	il	PRON	_	PronType=Prs	22	nsubj	_	prpos=Pp|uppos=PRO
-21	n'	ne	ADV	_	PronType=Neg	22	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+21	n'	ne	ADV	_	Polarity=Neg	22	advmod	_	prpos=Rp|uppos=NEG
 22	aroit	avoir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	1	ccomp	_	prpos=Vvc|uppos=VJ
-23	pas	pas	ADV	_	PronType=Neg	22	advmod	_	prpos=Rg|uppos=ADVNEG
+23	pas	pas	ADV	_	Polarity=Neg	22	advmod	_	prpos=Rg|uppos=ADVNEG
 24	le	le	DET	_	Definite=Def|PronType=Art	25	det	_	prpos=Da|uppos=D
 25	marchié	marché	NOUN	_	Number=Sing	22	obj	_	prpos=Nc|SpaceAfter=No|uppos=NCS
 26	.	.	PUNCT	_	_	1	punct	_	join=left|prpos=Fs|uppos=PONFP
@@ -672,7 +684,7 @@
 # len = 9
 # text = il ne la pout fere et l' amenda.
 1	il	il	PRON	_	PronType=Prs	5	nsubj	_	prpos=Pp|uppos=PRO
-2	ne	ne	ADV	_	PronType=Neg	5	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+2	ne	ne	ADV	_	Polarity=Neg	5	advmod	_	prpos=Rp|uppos=NEG
 3	la	il	PRON	_	PronType=Prs	5	obj	_	prpos=Pp|uppos=PRO
 4	pout	pouvoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	5	aux	_	prpos=Vvc|uppos=VJ
 5	fere	faire	VERB	_	VerbForm=Inf	0	root	_	prpos=Vvn|uppos=VX
@@ -709,7 +721,7 @@
 8	meffesoit	méfaire	VERB	_	Number=Sing|Person=3|VerbForm=Fin	3	acl	_	prpos=Vvc|uppos=VJ
 9	quant	quand	SCONJ	_	_	13	mark	_	prpos=Cs|uppos=CONJS
 10	il	il	PRON	_	PronType=Prs	13	nsubj	_	prpos=Pp|uppos=PRO
-11	ne	ne	ADV	_	PronType=Neg	13	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+11	ne	ne	ADV	_	Polarity=Neg	13	advmod	_	prpos=Rp|uppos=NEG
 12	le	il	PRON	_	PronType=Prs	13	obj	_	prpos=Pp|uppos=PRO
 13	suioit	suivre	VERB	_	Number=Sing|Person=3|VerbForm=Fin	8	advcl	_	prpos=Vvc|uppos=VJ
 14-15	des	_	_	_	_	_	_	_	_
@@ -737,7 +749,7 @@
 14	,	,	PUNCT	_	_	10	punct	_	join=left|prpos=Fw|uppos=PON
 15	que	que	SCONJ	_	_	20	mark	_	prpos=Cs|uppos=CONJS
 16	il	il	PRON	_	PronType=Prs	20	nsubj	_	prpos=Pp|uppos=PRO
-17	n'	ne	ADV	_	PronType=Neg	20	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+17	n'	ne	ADV	_	Polarity=Neg	20	advmod	_	prpos=Rp|uppos=NEG
 18	estoit	être	AUX	_	Number=Sing|Person=3|VerbForm=Fin	20	aux:pass	_	prpos=Vuc|uppos=EJ
 19	jamès	jamais	ADV	_	_	20	advmod	_	prpos=Rg|uppos=ADV
 20	tenu	tenir	VERB	_	Tense=Past|VerbForm=Part	1	ccomp	_	prpos=Ge|uppos=VPP
@@ -769,7 +781,7 @@
 14	il	il	PRON	_	PronType=Prs	15	nsubj	_	prpos=Pp|uppos=PRO
 15	tenoit	tenir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	12	acl:relcl	_	prpos=Vvc|uppos=VJ
 16	avoit	avoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	17	aux	_	prpos=Vuc|uppos=AJ
-17	esté	esté	VERB	_	Tense=Past|VerbForm=Part	5	ccomp	_	prpos=Ge|uppos=VPP
+17	esté	être	VERB	_	Tense=Past|VerbForm=Part	5	ccomp	_	prpos=Ge|uppos=VPP
 18	a	à	ADP	_	_	20	case	_	prpos=S|uppos=P
 19	un	un	DET	_	Definite=Ind|PronType=Art	20	det	_	prpos=Dn|uppos=D
 20	homme	homme	NOUN	_	Number=Sing	17	obl	_	prpos=Nc|uppos=NCS
@@ -816,7 +828,7 @@
 21	,	,	PUNCT	_	_	10	punct	_	join=left|prpos=Fw|uppos=PON
 22	que	que	SCONJ	_	_	26	mark	_	prpos=Cs|uppos=CONJS
 23	il	il	PRON	_	PronType=Prs	26	nsubj	_	prpos=Pp|uppos=PRO
-24	n'	ne	ADV	_	PronType=Neg	26	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+24	n'	ne	ADV	_	Polarity=Neg	26	advmod	_	prpos=Rp|uppos=NEG
 25	estoit	être	AUX	_	Number=Sing|Person=3|VerbForm=Fin	26	aux:pass	_	prpos=Vuc|uppos=EJ
 26	tenu	tenir	VERB	_	Tense=Past|VerbForm=Part	4	ccomp	_	prpos=Ge|uppos=VPP
 27	a	à	ADP	_	_	28	mark	_	prpos=S|uppos=P
@@ -838,19 +850,19 @@
 3	que	que	SCONJ	_	_	7	mark	_	prpos=Cs|uppos=CONJS
 4	l'	le	DET	_	Definite=Def|PronType=Art	5	det	_	prpos=Da|uppos=D
 5	omme	homme	NOUN	_	Number=Sing	7	nsubj	_	prpos=Nc|uppos=NCS
-6	ne	ne	ADV	_	PronType=Neg	7	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+6	ne	ne	ADV	_	Polarity=Neg	7	advmod	_	prpos=Rp|uppos=NEG
 7	respondroit	répondre	VERB	_	Number=Sing|Person=3|VerbForm=Fin	1	ccomp	_	prpos=Vvc|uppos=VJ
-8	mie	mie	ADV	_	PronType=Neg	7	advmod	_	prpos=Rg|uppos=ADV
+8	mie	mie	ADV	_	Polarity=Neg	7	advmod	_	prpos=Rg|uppos=ADV
 9	quant	quand	SCONJ	_	_	13	mark	_	prpos=Cs|uppos=CONJS
 10	li	le	DET	_	Definite=Def|PronType=Art	11	det	_	prpos=Da|uppos=D
 11	sires	sire	NOUN	_	Number=Sing	13	nsubj	_	prpos=Nc|uppos=NCS
-12	ne	ne	ADV	_	PronType=Neg	13	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+12	ne	ne	ADV	_	Polarity=Neg	13	advmod	_	prpos=Rp|uppos=NEG
 13	portoit	porter	VERB	_	Number=Sing|Person=3|VerbForm=Fin	7	advcl	_	prpos=Vvc|uppos=VJ
 14	brief	bref	NOUN	_	Number=Sing	13	obj	_	prpos=Nc|SpaceAfter=No|uppos=NCS
 15	,	,	PUNCT	_	_	7	punct	_	join=left|prpos=Fw|uppos=PON
 16	ne	ni	CCONJ	_	_	20	cc	_	prpos=Cc|uppos=CONJO
 17	il	il	PRON	_	PronType=Prs	20	nsubj	_	prpos=Pp|uppos=PRO
-18	ne	ne	ADV	_	PronType=Neg	20	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+18	ne	ne	ADV	_	Polarity=Neg	20	advmod	_	prpos=Rp|uppos=NEG
 19	le	il	PRON	_	PronType=Prs	20	obj	_	prpos=Pp|uppos=PRO
 20	demandoit	demander	VERB	_	Number=Sing|Person=3|VerbForm=Fin	7	conj	_	prpos=Vvc|uppos=VJ
 21	par	par	ADP	_	_	24	case	_	prpos=S|uppos=P
@@ -885,9 +897,9 @@
 3	disoit	dire	VERB	_	Number=Sing|Person=3|VerbForm=Fin	0	root	_	prpos=Vvc|uppos=VJ
 4	que	que	SCONJ	_	_	9	mark	_	prpos=Cs|uppos=CONJS
 5	il	il	PRON	_	PronType=Prs	9	nsubj	_	prpos=Pp|uppos=PRO
-6	n'	ne	ADV	_	PronType=Neg	9	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+6	n'	ne	ADV	_	Polarity=Neg	9	advmod	_	prpos=Rp|uppos=NEG
 7	estoit	être	AUX	_	Number=Sing|Person=3|VerbForm=Fin	9	aux:pass	_	prpos=Vuc|uppos=EJ
-8	pas	pas	ADV	_	PronType=Neg	9	advmod	_	prpos=Rg|uppos=ADVNEG
+8	pas	pas	ADV	_	Polarity=Neg	9	advmod	_	prpos=Rg|uppos=ADVNEG
 9	tenu	tenu	VERB	_	Tense=Past|VerbForm=Part	3	ccomp	_	prpos=Ge|uppos=VPP
 10	a	à	ADP	_	_	11	mark	_	prpos=S|uppos=P
 11	respondre	répondre	VERB	_	VerbForm=Inf	9	xcomp	_	prpos=Vvn|uppos=VX
@@ -1112,10 +1124,10 @@
 4	droit	droit	NOUN	_	Number=Sing	3	obj	_	prpos=Nc|uppos=NCS
 5	que	que	SCONJ	_	_	9	mark	_	prpos=Cs|uppos=CONJS
 6	il	il	PRON	_	PronType=Prs	9	nsubj	_	prpos=Pp|uppos=PRO
-7	ne	ne	ADV	_	PronType=Neg	9	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+7	ne	ne	ADV	_	Polarity=Neg	9	advmod	_	prpos=Rp|uppos=NEG
 8	le	il	PRON	_	PronType=Prs	9	obj	_	prpos=Pp|uppos=PRO
 9	metroit	mettre	VERB	_	Number=Sing|Person=3|VerbForm=Fin	4	acl	_	prpos=Vvc|uppos=VJ
-10	pas	pas	ADV	_	PronType=Neg	9	advmod	_	prpos=Rg|uppos=ADVNEG
+10	pas	pas	ADV	_	Polarity=Neg	9	advmod	_	prpos=Rg|uppos=ADVNEG
 11	en	en	ADP	_	_	12	case	_	prpos=S|uppos=P
 12	voir	voir	ADJ	_	_	9	obl	_	prpos=Ag|uppos=ADJ
 13	fors	fors	ADP	_	_	15	case	_	prpos=S|uppos=P
@@ -1356,9 +1368,9 @@
 34	que	que	SCONJ	_	_	32	fixed	_	prpos=Cs|uppos=CONJS
 35	le	le	DET	_	Definite=Def|PronType=Art	36	det	_	prpos=Da|uppos=D
 36	desbours	débours	NOUN	_	Number=Sing	41	nsubj	_	prpos=Nc|uppos=NCS
-37	n'	ne	ADV	_	PronType=Neg	41	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+37	n'	ne	ADV	_	Polarity=Neg	41	advmod	_	prpos=Rp|uppos=NEG
 38	avoit	avoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	41	aux	_	prpos=Vuc|uppos=AJ
-39	pas	pas	ADV	_	PronType=Neg	41	advmod	_	prpos=Rg|uppos=ADVNEG
+39	pas	pas	ADV	_	Polarity=Neg	41	advmod	_	prpos=Rg|uppos=ADVNEG
 40	esté	être	AUX	_	Tense=Past|VerbForm=Part	41	aux:pass	_	prpos=Ge|uppos=EPP
 41	fet	faire	VERB	_	Tense=Past|VerbForm=Part	22	advcl	_	prpos=Ge|uppos=VPP
 42	en	en	ADP	_	_	43	case	_	prpos=S|uppos=P
@@ -1464,15 +1476,15 @@
 1	et	et	CCONJ	_	_	6	cc	_	prpos=Cc|uppos=CONJO
 2	le	le	DET	_	Definite=Def|PronType=Art	3	det	_	prpos=Da|uppos=D
 3	tenant	tenant	NOUN	_	Number=Sing	6	nsubj	_	prpos=Nc|uppos=NCS
-4	ne	ne	ADV	_	PronType=Neg	6	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+4	ne	ne	ADV	_	Polarity=Neg	6	advmod	_	prpos=Rp|uppos=NEG
 5	le	il	PRON	_	PronType=Prs	6	obj	_	prpos=Pp|uppos=PRO
 6	vouloit	vouloir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	0	root	_	prpos=Vvc|uppos=VJ
-7	pas	pas	ADV	_	PronType=Neg	6	advmod	_	prpos=Rg|uppos=ADVNEG
+7	pas	pas	ADV	_	Polarity=Neg	6	advmod	_	prpos=Rg|uppos=ADVNEG
 8	por	pour	ADP	_	ExtPos=SCONJ	16	mark	_	prpos=S|uppos=P
 9	ce	ce	PRON	_	PronType=Dem	8	fixed	_	prpos=Pd|uppos=PRO
 10	que	que	SCONJ	_	_	8	fixed	_	prpos=Cs|uppos=CONJS
 11	veüe	vue	NOUN	_	Number=Sing	16	nsubj	_	prpos=Nc|uppos=NCS
-12	n'	ne	ADV	_	PronType=Neg	16	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+12	n'	ne	ADV	_	Polarity=Neg	16	advmod	_	prpos=Rp|uppos=NEG
 13	avoit	avoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	16	aux	_	prpos=Vuc|uppos=AJ
 14	onques	onques	ADV	_	_	16	advmod	_	prpos=Rg|uppos=ADV
 15	esté	être	AUX	_	Tense=Past|VerbForm=Part	16	aux:pass	_	prpos=Ge|uppos=EPP
@@ -1626,9 +1638,9 @@
 14	cen	ce	PRON	_	PronType=Dem	12	obl	_	prpos=Pd|uppos=PRO
 15	et	et	CCONJ	_	_	20	cc	_	prpos=Cc|uppos=CONJO
 16	il	il	PRON	_	PronType=Prs	20	nsubj	_	prpos=Pp|uppos=PRO
-17	n'	ne	ADV	_	PronType=Neg	20	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+17	n'	ne	ADV	_	Polarity=Neg	20	advmod	_	prpos=Rp|uppos=NEG
 18	avoit	avoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	20	aux	_	prpos=Vuc|uppos=AJ
-19	pas	pas	ADV	_	PronType=Neg	20	advmod	_	prpos=Rg|uppos=ADVNEG
+19	pas	pas	ADV	_	Polarity=Neg	20	advmod	_	prpos=Rg|uppos=ADVNEG
 20	donné	donner	VERB	_	Tense=Past|VerbForm=Part	7	conj	_	prpos=Ge|uppos=VPP
 21	plus	plus	ADV	_	_	20	advmod	_	prpos=Rg|uppos=ADV
 22	que	que	SCONJ	_	_	24	mark	_	prpos=Cs|uppos=CONJS
@@ -1649,7 +1661,7 @@
 5	jugié	juger	VERB	_	Tense=Past|VerbForm=Part	0	root	_	prpos=Ge|uppos=VPP
 6	que	que	SCONJ	_	_	10	mark	_	prpos=Cs|uppos=CONJS
 7	nul	nul	PRON	_	PronType=Ind	10	nsubj	_	prpos=Pi|uppos=PRO
-8	ne	ne	ADV	_	PronType=Neg	10	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+8	ne	ne	ADV	_	Polarity=Neg	10	advmod	_	prpos=Rp|uppos=NEG
 9	puet	pouvoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	10	aux	_	prpos=Vvc|uppos=MDJ
 10	vendre	vendre	VERB	_	VerbForm=Inf	5	ccomp	_	prpos=Vvn|uppos=VX
 11	le	le	DET	_	Definite=Def|PronType=Art	12	det	_	prpos=Da|uppos=D
@@ -1659,7 +1671,7 @@
 15	,	,	PUNCT	_	_	10	punct	_	join=left|prpos=Fw|uppos=PON
 16	se	si	SCONJ	_	_	19	mark	_	prpos=Cs|uppos=CONJS
 17	il	il	PRON	_	PronType=Prs	19	nsubj	_	prpos=Pp|uppos=PRO
-18	ne	ne	ADV	_	PronType=Neg	19	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+18	ne	ne	ADV	_	Polarity=Neg	19	advmod	_	prpos=Rp|uppos=NEG
 19	vent	vendre	VERB	_	Number=Sing|Person=3|VerbForm=Fin	10	advcl	_	prpos=Vvc|uppos=VJ
 20	tout	tout	DET	_	Definite=Ind	22	det	_	prpos=Di|uppos=D
 21	le	le	DET	_	Definite=Def|PronType=Art	22	det	_	prpos=Da|uppos=D
@@ -1715,15 +1727,15 @@
 42	,	,	PUNCT	_	_	12	punct	_	join=left|prpos=Fw|uppos=PON
 43	por	pour	ADP	_	_	44	case	_	prpos=S|uppos=P
 44	ce	ce	PRON	_	PronType=Dem	46	obl	_	prpos=Pd|uppos=PRO
-45	ne	ne	ADV	_	PronType=Neg	46	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+45	ne	ne	ADV	_	Polarity=Neg	46	advmod	_	prpos=Rp|uppos=NEG
 46	laira	laisser	VERB	_	Number=Sing|Person=3|VerbForm=Fin	6	ccomp	_	prpos=Vvc|uppos=VJ
-47	pas	pas	ADV	_	PronType=Neg	46	advmod	_	prpos=Rg|uppos=ADVNEG
+47	pas	pas	ADV	_	Polarity=Neg	46	advmod	_	prpos=Rg|uppos=ADVNEG
 48	celui	cil	PRON	_	PronType=Dem	46	nsubj	_	prpos=Pd|uppos=PRO
 49	qui	qui	PRON	_	PronType=Rel	50	nsubj	_	corr_head=#mg|prpos=Pr|uppos=WPRO
 50	vendi	vendre	VERB	_	Number=Sing|Person=3|VerbForm=Fin	48	acl:relcl	_	prpos=Vvc|uppos=VJ
 51	que	que	SCONJ	_	_	54	mark	_	prpos=Cs|uppos=CONJS
 52	il	il	PRON	_	PronType=Prs	54	nsubj	_	prpos=Pp|uppos=PRO
-53	ne	ne	ADV	_	PronType=Neg	54	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+53	ne	ne	ADV	_	Polarity=Neg	54	advmod	_	prpos=Rp|uppos=NEG
 54	tiengne	tenir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	46	ccomp	_	prpos=Vvc|uppos=VJ
 55	son	son	DET	_	Poss=Yes	56	det	_	prpos=Ds|uppos=DZ
 56	remanant	remanant	NOUN	_	Number=Sing	54	obj	_	prpos=Nc|uppos=NCS
@@ -1787,9 +1799,9 @@
 21	nie	nier	VERB	_	Number=Sing|Person=3|VerbForm=Fin	13	conj	_	prpos=Vvc|uppos=VJ
 22	que	que	SCONJ	_	_	27	mark	_	prpos=Cs|uppos=CONJS
 23	eles	il	PRON	_	PronType=Prs	27	nsubj	_	prpos=Pp|uppos=PRO
-24	ne	ne	ADV	_	PronType=Neg	27	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+24	ne	ne	ADV	_	Polarity=Neg	27	advmod	_	prpos=Rp|uppos=NEG
 25	furent	être	AUX	_	Number=Plur|Person=3|VerbForm=Fin	27	aux:pass	_	prpos=Vuc|uppos=EJ
-26	pas	pas	ADV	_	PronType=Neg	27	advmod	_	prpos=Rg|uppos=ADVNEG
+26	pas	pas	ADV	_	Polarity=Neg	27	advmod	_	prpos=Rg|uppos=ADVNEG
 27	dites	dire	VERB	_	Tense=Past|VerbForm=Part	21	ccomp	_	prpos=Ge|SpaceAfter=No|uppos=VPP
 28	,	,	PUNCT	_	_	13	punct	_	join=left|prpos=Fw|uppos=PON
 29	cil	cil	PRON	_	PronType=Dem	31	nsubj	_	prpos=Pd|uppos=PRO
@@ -1836,7 +1848,7 @@
 22	de	de	ADP	_	_	24	case	_	prpos=S|uppos=P
 23	les	le	DET	_	Definite=Def|PronType=Art	24	det	_	prpos=Da|uppos=D
 24	parties	partie	NOUN	_	Number=Plur	21	nmod	_	prpos=Nc|uppos=NCPL
-25	ne	ne	ADV	_	PronType=Neg	27	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+25	ne	ne	ADV	_	Polarity=Neg	27	advmod	_	prpos=Rp|uppos=NEG
 26	puet	pouvoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	27	aux	_	prpos=Vvc|uppos=MDJ
 27	seonner	seoner	VERB	_	VerbForm=Inf	5	ccomp	_	prpos=Vvn|uppos=VX
 28	son	son	DET	_	Poss=Yes	29	det	_	prpos=Ds|uppos=DZ
@@ -1847,7 +1859,7 @@
 33	qui	qui	PRON	_	PronType=Rel	38	obl	_	prpos=Pr|uppos=WPRO
 34	les	le	DET	_	Definite=Def|PronType=Art	35	det	_	prpos=Da|uppos=D
 35	tesmoins	témoin	NOUN	_	Number=Plur	38	nsubj	_	prpos=Nc|uppos=NCPL
-36	ne	ne	ADV	_	PronType=Neg	38	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+36	ne	ne	ADV	_	Polarity=Neg	38	advmod	_	prpos=Rp|uppos=NEG
 37	sont	être	AUX	_	Number=Plur|Person=3|VerbForm=Fin	38	cop	_	prpos=Vuc|uppos=EJ
 38	riens	rien	PRON	_	PronType=Ind	31	acl:relcl	_	prpos=Pi|uppos=PRO
 39	les	il	PRON	_	PronType=Prs	41	obj	_	prpos=Pp|uppos=PRO
@@ -1872,7 +1884,7 @@
 5	jugié	juger	VERB	_	Tense=Past|VerbForm=Part	0	root	_	prpos=Ge|SpaceAfter=No|uppos=VPP
 6	,	,	PUNCT	_	_	5	punct	_	join=left|prpos=Fw|uppos=PON
 7	qui	qui	PRON	_	PronType=Rel	8	nsubj	_	prpos=Pr|uppos=WPRO
-8	desbourse	débourser	VERB	_	Number=Sing|Person=3|VerbForm=Fin	20	csubj	_	prpos=Vvc|uppos=VJ
+8	desbourse	débourser	VERB	_	Number=Sing|Person=3|VerbForm=Fin	20	csubj:outer	_	prpos=Vvc|uppos=VJ
 9	terre	terre	NOUN	_	Number=Sing	8	obj	_	prpos=Nc|uppos=NCS
 10	et	et	CCONJ	_	_	13	cc	_	prpos=Cc|uppos=CONJO
 11	il	il	PRON	_	PronType=Prs	13	nsubj	_	prpos=Pp|uppos=PRO
@@ -2013,10 +2025,10 @@
 27	la	là	ADV	_	_	24	advmod	_	prpos=Rg|uppos=ADV
 28	ou	où	PRON	_	PronType=Rel	31	obl	_	prpos=Pr|uppos=WPRO
 29	il	il	PRON	_	PronType=Prs	31	nsubj	_	prpos=Pp|uppos=PRO
-30	ne	ne	ADV	_	PronType=Neg	31	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+30	ne	ne	ADV	_	Polarity=Neg	31	advmod	_	prpos=Rp|uppos=NEG
 31	pouoit	pouvoir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	27	acl:relcl	_	prpos=Vvc|uppos=VJ
 32	ne	ni	CCONJ	_	_	34	cc	_	prpos=Cc|uppos=CONJO
-33	ne	ne	ADV	_	PronType=Neg	34	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+33	ne	ne	ADV	_	Polarity=Neg	34	advmod	_	prpos=Rp|uppos=NEG
 34	devoit	devoir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	31	conj	_	prpos=Vvc|SpaceAfter=No|uppos=VJ
 35	,	,	PUNCT	_	_	12	punct	_	join=left|prpos=Fw|uppos=PON
 36	chascun	chacun	PRON	_	PronType=Ind	38	nsubj	_	prpos=Pi|uppos=PRO
@@ -2056,9 +2068,9 @@
 19	,	,	PUNCT	_	_	5	punct	_	join=left|prpos=Fw|uppos=PON
 20	l'	le	DET	_	Definite=Def|PronType=Art	21	det	_	prpos=Da|uppos=D
 21	en	on	PRON	_	PronType=Prs	25	nsubj	_	prpos=Pp|uppos=PRO
-22	ne	ne	ADV	_	PronType=Neg	25	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+22	ne	ne	ADV	_	Polarity=Neg	25	advmod	_	prpos=Rp|uppos=NEG
 23	doit	devoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	25	aux	_	prpos=Vvc|uppos=MDJ
-24	pas	pas	ADV	_	PronType=Neg	25	advmod	_	prpos=Rg|uppos=ADVNEG
+24	pas	pas	ADV	_	Polarity=Neg	25	advmod	_	prpos=Rg|uppos=ADVNEG
 25	demander	demander	VERB	_	VerbForm=Inf	0	root	_	prpos=Vvn|uppos=VX
 26	a	à	ADP	_	_	28	case	_	prpos=S|uppos=P
 27	l'	le	DET	_	Definite=Def|PronType=Art	28	det	_	prpos=Da|uppos=D
@@ -2224,9 +2236,9 @@
 54	,	,	PUNCT	_	_	12	punct	_	join=left|prpos=Fw|uppos=PON
 55	l'	le	DET	_	Definite=Def|PronType=Art	56	det	_	prpos=Da|uppos=D
 56	en	on	PRON	_	PronType=Prs	60	nsubj	_	prpos=Pp|uppos=PRO
-57	ne	ne	ADV	_	PronType=Neg	60	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+57	ne	ne	ADV	_	Polarity=Neg	60	advmod	_	prpos=Rp|uppos=NEG
 58	doit	devoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	60	aux	_	prpos=Vvc|uppos=MDJ
-59	pas	pas	ADV	_	PronType=Neg	60	advmod	_	prpos=Rg|uppos=ADVNEG
+59	pas	pas	ADV	_	Polarity=Neg	60	advmod	_	prpos=Rg|uppos=ADVNEG
 60	prendre	prendre	VERB	_	VerbForm=Inf	6	ccomp	_	prpos=Vvn|uppos=VX
 61	brief	bref	NOUN	_	Number=Sing	60	obj	_	prpos=Nc|uppos=NCS
 62	de	de	ADP	_	_	63	case	_	prpos=S|uppos=P
@@ -2244,17 +2256,17 @@
 3	que	que	SCONJ	_	_	2	fixed	_	prpos=Cs|uppos=CONJS
 4	li	le	DET	_	Definite=Def|PronType=Art	5	det	_	prpos=Da|uppos=D
 5	sires	sire	NOUN	_	Number=Sing	7	nsubj	_	prpos=Nc|uppos=NCS
-6	ne	ne	ADV	_	PronType=Neg	7	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+6	ne	ne	ADV	_	Polarity=Neg	7	advmod	_	prpos=Rp|uppos=NEG
 7	veut	vouloir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	14	advcl	_	prpos=Vvc|uppos=MDJ
-8	pas	pas	ADV	_	PronType=Neg	9	advmod	_	prpos=Rg|uppos=ADVNEG
+8	pas	pas	ADV	_	Polarity=Neg	9	advmod	_	prpos=Rg|uppos=ADVNEG
 9	prendre	prendre	VERB	_	VerbForm=Inf	7	xcomp	_	prpos=Vvn|uppos=VX
 10	le	le	DET	_	Definite=Def|PronType=Art	11	det	_	prpos=Da|uppos=D
 11	relief	relief	NOUN	_	Number=Sing	9	obj	_	prpos=Nc|SpaceAfter=No|uppos=NCS
 12	,	,	PUNCT	_	_	14	punct	_	join=left|prpos=Fw|uppos=PON
-13	ne	ne	ADV	_	PronType=Neg	14	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+13	ne	ne	ADV	_	Polarity=Neg	14	advmod	_	prpos=Rp|uppos=NEG
 14	tient	tenir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	0	root	_	prpos=Vvc|uppos=VJ
 15	il	il	PRON	_	PronType=Prs	14	nsubj	_	prpos=Pp|uppos=PRO
-16	pas	pas	ADV	_	PronType=Neg	14	advmod	_	prpos=Rg|uppos=ADVNEG
+16	pas	pas	ADV	_	Polarity=Neg	14	advmod	_	prpos=Rg|uppos=ADVNEG
 17	celi	cil	PRON	_	PronType=Dem	14	obj	_	prpos=Pd|uppos=PRO
 18	qui	qui	PRON	_	PronType=Rel	20	nsubj	_	prpos=Pr|uppos=WPRO
 19	l'	il	PRON	_	PronType=Prs	20	obj	_	prpos=Pp|uppos=PRO
@@ -2358,7 +2370,7 @@
 1	Et	et	CCONJ	_	_	17	cc	_	prpos=Cc|uppos=CONJO
 2	se	si	SCONJ	_	_	6	mark	_	prpos=Cs|uppos=CONJS
 3	il	il	PRON	_	PronType=Prs	6	nsubj	_	prpos=Pp|uppos=PRO
-4	ne	ne	ADV	_	PronType=Neg	6	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+4	ne	ne	ADV	_	Polarity=Neg	6	advmod	_	prpos=Rp|uppos=NEG
 5	le	il	PRON	_	PronType=Prs	6	obj	_	prpos=Pp|uppos=PRO
 6	requiert	requérir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	17	advcl	_	prpos=Vvc|uppos=VJ
 7	devant	devant	ADP	_	_	9	case	_	prpos=S|uppos=P
@@ -2367,10 +2379,10 @@
 10	,	,	PUNCT	_	_	6	punct	_	join=left|prpos=Fw|uppos=PON
 11	l'	le	DET	_	Definite=Def|PronType=Art	12	det	_	prpos=Da|uppos=D
 12	en	on	PRON	_	PronType=Prs	17	nsubj	_	prpos=Pp|uppos=PRO
-13	ne	ne	ADV	_	PronType=Neg	17	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+13	ne	ne	ADV	_	Polarity=Neg	17	advmod	_	prpos=Rp|uppos=NEG
 14	li	il	PRON	_	PronType=Prs	17	iobj	_	prpos=Pp|uppos=PRO
 15	doit	devoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	17	aux	_	prpos=Vvc|uppos=MDJ
-16	pas	pas	ADV	_	PronType=Neg	17	advmod	_	prpos=Rg|uppos=ADVNEG
+16	pas	pas	ADV	_	Polarity=Neg	17	advmod	_	prpos=Rg|uppos=ADVNEG
 17	rendre	rendre	VERB	_	VerbForm=Inf	0	root	_	prpos=Vvn|SpaceAfter=No|uppos=VX
 18	,	,	PUNCT	_	_	17	punct	_	join=left|prpos=Fw|uppos=PON
 
@@ -2411,9 +2423,9 @@
 15	homme	homme	NOUN	_	Number=Sing	13	obj	_	prpos=Nc|SpaceAfter=No|uppos=NCS
 16	,	,	PUNCT	_	_	12	punct	_	join=left|prpos=Fw|uppos=PON
 17	il	il	PRON	_	PronType=Prs	21	nsubj	_	prpos=Pp|uppos=PRO
-18	ne	ne	ADV	_	PronType=Neg	21	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+18	ne	ne	ADV	_	Polarity=Neg	21	advmod	_	prpos=Rp|uppos=NEG
 19	doit	devoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	21	aux	_	prpos=Vvc|uppos=MDJ
-20	pas	pas	ADV	_	PronType=Neg	21	advmod	_	prpos=Rg|uppos=ADVNEG
+20	pas	pas	ADV	_	Polarity=Neg	21	advmod	_	prpos=Rg|uppos=ADVNEG
 21	prendre	prendre	VERB	_	VerbForm=Inf	6	ccomp	_	prpos=Vvn|uppos=VX
 22	les	le	DET	_	Definite=Def|PronType=Art	23	det	_	prpos=Da|uppos=D
 23	huches	huche	NOUN	_	Number=Plur	21	obj	_	prpos=Nc|uppos=NCPL
@@ -2434,7 +2446,7 @@
 37	,	,	PUNCT	_	_	21	punct	_	join=left|prpos=Fw|uppos=PON
 38	que	que	SCONJ	_	_	42	mark	_	prpos=Cs|uppos=CONJS
 39	il	il	PRON	_	PronType=Prs	42	nsubj	_	prpos=Pp|uppos=PRO
-40	n'	ne	ADV	_	PronType=Neg	42	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+40	n'	ne	ADV	_	Polarity=Neg	42	advmod	_	prpos=Rp|uppos=NEG
 41	en	en	PRON	_	PronType=Prs	42	obl	_	prpos=Pp|uppos=PRO
 42	fust	être	VERB	_	Number=Sing|Person=3|VerbForm=Fin	21	advcl	_	prpos=Vuc|uppos=EJ
 43	en	en	ADP	_	_	45	case	_	prpos=S|uppos=P
@@ -2498,9 +2510,9 @@
 50	,	,	PUNCT	_	_	41	punct	_	join=left|prpos=Fw|uppos=PON
 51	l'	le	DET	_	Definite=Def|PronType=Art	52	det	_	prpos=Da|uppos=D
 52	enqueste	enquête	NOUN	_	Number=Sing	54	nsubj	_	prpos=Nc|uppos=NCS
-53	ne	ne	ADV	_	PronType=Neg	54	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+53	ne	ne	ADV	_	Polarity=Neg	54	advmod	_	prpos=Rp|uppos=NEG
 54	vendra	vendre	VERB	_	Number=Sing|Person=3|VerbForm=Fin	6	ccomp	_	prpos=Vvc|uppos=VJ
-55	pas	pas	ADV	_	PronType=Neg	54	advmod	_	prpos=Rg|uppos=ADVNEG
+55	pas	pas	ADV	_	Polarity=Neg	54	advmod	_	prpos=Rg|uppos=ADVNEG
 56	de	de	ADP	_	_	57	case	_	prpos=S|uppos=P
 57	ce	ce	PRON	_	PronType=Dem	54	obl	_	prpos=Pd|SpaceAfter=No|uppos=PRO
 58	;	;	PUNCT	_	_	6	punct	_	join=left|prpos=Fw|uppos=PON
@@ -2523,9 +2535,9 @@
 13	ce	ce	PRON	_	PronType=Dem	12	fixed	_	prpos=Pd|uppos=PRO
 14	que	que	SCONJ	_	_	12	fixed	_	prpos=Cs|uppos=CONJS
 15	ce	ce	PRON	_	PronType=Dem	19	nsubj	_	prpos=Pd|uppos=PRO
-16	n'	ne	ADV	_	PronType=Neg	19	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+16	n'	ne	ADV	_	Polarity=Neg	19	advmod	_	prpos=Rp|uppos=NEG
 17	est	être	AUX	_	Number=Sing|Person=3|VerbForm=Fin	19	cop	_	prpos=Vuc|uppos=EJ
-18	mie	mie	ADV	_	PronType=Neg	19	advmod	_	prpos=Rg|uppos=ADV
+18	mie	mie	ADV	_	Polarity=Neg	19	advmod	_	prpos=Rg|uppos=ADV
 19	fiefe	fief	NOUN	_	Number=Sing	2	advcl	_	prpos=Nc|uppos=NCS
 20	a	à	ADP	_	_	21	case	_	prpos=S|uppos=P
 21	heritage	héritage	NOUN	_	Number=Sing	19	nmod	_	prpos=Nc|SpaceAfter=No|uppos=NCS
@@ -2545,7 +2557,7 @@
 9	de	de	ADP	_	_	11	case	_	prpos=S|uppos=P
 10	chief	chef	ADJ	_	_	11	amod	_	prpos=Ag|uppos=ADJ
 11	plet	plaid	NOUN	_	Number=Sing	8	nmod	_	prpos=Nc|uppos=NCS
-12	ne	ne	ADV	_	PronType=Neg	15	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+12	ne	ne	ADV	_	Polarity=Neg	15	advmod	_	uppos=NEG
 13	puet	pouvoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	15	aux	_	prpos=Vvc|uppos=MDJ
 14	estre	être	AUX	_	VerbForm=Inf	15	aux:pass	_	prpos=Vun|uppos=EX
 15	fete	faire	VERB	_	Tense=Past|VerbForm=Part	6	ccomp	_	prpos=Ge|uppos=VPP
@@ -2569,9 +2581,9 @@
 2	enfant	enfant	NOUN	_	Number=Sing	6	nsubj	_	prpos=Nc|uppos=NCS
 3	sous	sous	ADP	_	_	4	case	_	prpos=S|uppos=P
 4	aage	âge	NOUN	_	Number=Sing	2	nmod	_	prpos=Nc|uppos=NCS
-5	ne	ne	ADV	_	PronType=Neg	6	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+5	ne	ne	ADV	_	Polarity=Neg	6	advmod	_	prpos=Rp|uppos=NEG
 6	respondroit	répondre	VERB	_	Number=Sing|Person=3|VerbForm=Fin	0	root	_	prpos=Vvc|uppos=VJ
-7	mie	mie	ADV	_	PronType=Neg	6	advmod	_	prpos=Rg|uppos=ADV
+7	mie	mie	ADV	_	Polarity=Neg	6	advmod	_	prpos=Rg|uppos=ADV
 8	de	de	ADP	_	_	10	case	_	prpos=S|uppos=P
 9	cel	cil	DET	_	PronType=Dem	10	det	_	prpos=Dd|uppos=D
 10	cas	cas	NOUN	_	Number=Sing	6	obl	_	prpos=Nc|uppos=NCS
@@ -2637,7 +2649,7 @@
 49	tout	tout	PRON	_	PronType=Ind	47	conj	_	prpos=Pi|SpaceAfter=No|uppos=PRO
 50	,	,	PUNCT	_	_	42	punct	_	join=left|prpos=Fw|uppos=PON
 51	et	et	CCONJ	_	_	53	cc	_	prpos=Cc|uppos=CONJO
-52	n'	ne	ADV	_	PronType=Neg	53	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+52	n'	ne	ADV	_	Polarity=Neg	53	advmod	_	prpos=Rp|uppos=NEG
 53	aront	avoir	VERB	_	Number=Plur|Person=3|VerbForm=Fin	42	conj	_	prpos=Vuc|uppos=AJ
 54	riens	rien	PRON	_	PronType=Ind	53	obj	_	prpos=Pi|uppos=PRO
 55	de	de	ADP	_	_	57	case	_	prpos=S|uppos=P
@@ -2841,22 +2853,22 @@
 20	la	là	ADV	_	_	17	advmod	_	prpos=Rg|uppos=ADV
 21	ou	où	PRON	_	PronType=Rel	24	obl	_	prpos=Pr|uppos=WPRO
 22	il	il	PRON	_	PronType=Prs	24	nsubj	_	prpos=Pp|uppos=PRO
-23	ne	ne	ADV	_	PronType=Neg	24	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+23	ne	ne	ADV	_	Polarity=Neg	24	advmod	_	prpos=Rp|uppos=NEG
 24	puet	pouvoir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	20	acl:relcl	_	prpos=Vvc|uppos=VJ
 25	ne	ni	CCONJ	_	_	27	cc	_	prpos=Cc|uppos=CONJO
-26	ne	ne	ADV	_	PronType=Neg	27	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+26	ne	ne	ADV	_	Polarity=Neg	27	advmod	_	prpos=Rp|uppos=NEG
 27	doit	devoir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	24	conj	_	prpos=Vvc|uppos=VJ
 28	(	(	PUNCT	_	_	35	punct	_	prpos=Cc|SpaceAfter=No|uppos=CONJO
 29	quar	car	CCONJ	_	_	35	cc	_	prpos=Cc|uppos=CONJO
 30	le	le	DET	_	Definite=Def|PronType=Art	31	det	_	prpos=Da|uppos=D
 31	fieu	fief	NOUN	_	Number=Sing	35	nsubj	_	prpos=Nc|uppos=NCS
-32	n'	ne	ADV	_	PronType=Neg	35	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+32	n'	ne	ADV	_	Polarity=Neg	35	advmod	_	prpos=Rp|uppos=NEG
 33	est	être	AUX	_	Number=Sing|Person=3|VerbForm=Fin	35	aux:pass	_	prpos=Vuc|uppos=EJ
-34	pas	pas	ADV	_	PronType=Neg	35	advmod	_	prpos=Rg|uppos=ADVNEG
+34	pas	pas	ADV	_	Polarity=Neg	35	advmod	_	prpos=Rg|uppos=ADVNEG
 35	tenu	tenir	VERB	_	Tense=Past|VerbForm=Part	24	conj	_	prpos=Ge|uppos=VPP
 36	de	de	ADP	_	_	37	case	_	prpos=S|uppos=P
 37	li	il	PRON	_	PronType=Prs	35	obl	_	prpos=Pp|SpaceAfter=No|uppos=PRO
-38	)	)	PUNCT	_	PronType=Prs	10	punct	_	prpos=Pp|SpaceAfter=No|uppos=PRO
+38	)	)	PUNCT	_	_	10	punct	_	prpos=Pp|SpaceAfter=No|uppos=PRO
 39	,	,	PUNCT	_	_	10	punct	_	join=left|prpos=Fw|uppos=PON
 40	le	le	DET	_	Definite=Def|PronType=Art	41	det	_	prpos=Da|uppos=D
 41	gage	gage	NOUN	_	Number=Sing	45	nsubj	_	prpos=Nc|uppos=NCS
@@ -2923,9 +2935,9 @@
 # text = mes il ne seront pas por ce forfez par l' atirement de l' eschequier,
 1	mes	mais	CCONJ	_	_	8	cc	_	prpos=Cc|uppos=CONJO
 2	il	il	PRON	_	PronType=Prs	8	nsubj	_	prpos=Pp|uppos=PRO
-3	ne	ne	ADV	_	PronType=Neg	8	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+3	ne	ne	ADV	_	Polarity=Neg	8	advmod	_	prpos=Rp|uppos=NEG
 4	seront	être	AUX	_	Number=Plur|Person=3|VerbForm=Fin	8	aux:pass	_	prpos=Vuc|uppos=EJ
-5	pas	pas	ADV	_	PronType=Neg	8	advmod	_	prpos=Rg|uppos=ADVNEG
+5	pas	pas	ADV	_	Polarity=Neg	8	advmod	_	prpos=Rg|uppos=ADVNEG
 6	por	pour	ADP	_	_	7	case	_	prpos=S|uppos=P
 7	ce	ce	PRON	_	PronType=Dem	8	obl	_	prpos=Pd|uppos=PRO
 8	forfez	forfaire	VERB	_	Tense=Past|VerbForm=Part	0	root	_	prpos=Ge|uppos=VPP
@@ -3029,9 +3041,9 @@
 46	,	,	PUNCT	_	_	13	punct	_	join=left|prpos=Fw|uppos=PON
 47	l'	le	DET	_	Definite=Def|PronType=Art	48	det	_	prpos=Da|uppos=D
 48	autre	autre	PRON	_	PronType=Ind	50	nsubj	_	prpos=Pi|uppos=PRO
-49	n'	ne	ADV	_	PronType=Neg	50	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+49	n'	ne	ADV	_	Polarity=Neg	50	advmod	_	prpos=Rp|uppos=NEG
 50	avra	avoir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	5	ccomp	_	prpos=Vuc|uppos=AJ
-51	pas	pas	ADV	_	PronType=Neg	50	advmod	_	prpos=Rg|uppos=ADVNEG
+51	pas	pas	ADV	_	Polarity=Neg	50	advmod	_	prpos=Rg|uppos=ADVNEG
 52	la	le	DET	_	Definite=Def|PronType=Art	53	det	_	prpos=Da|uppos=D
 53	saisine	saisine	NOUN	_	Number=Sing	50	obj	_	prpos=Nc|uppos=NCS
 54	se	si	SCONJ	_	_	58	mark	_	prpos=Cs|uppos=CONJS
@@ -3176,9 +3188,9 @@
 23	,	,	PUNCT	_	_	6	punct	_	join=left|prpos=Fw|uppos=PON
 24	sa	son	DET	_	Poss=Yes	25	det	_	prpos=Ds|uppos=DZ
 25	fame	femme	NOUN	_	Number=Sing	27	nsubj	_	prpos=Nc|uppos=NCS
-26	n'	ne	ADV	_	PronType=Neg	27	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+26	n'	ne	ADV	_	Polarity=Neg	27	advmod	_	prpos=Rp|uppos=NEG
 27	avra	avoir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	0	root	_	prpos=Vuc|uppos=AJ
-28	pas	pas	ADV	_	PronType=Neg	27	advmod	_	prpos=Rg|uppos=ADVNEG
+28	pas	pas	ADV	_	Polarity=Neg	27	advmod	_	prpos=Rg|uppos=ADVNEG
 29	son	son	DET	_	Poss=Yes	30	det	_	prpos=Ds|uppos=DZ
 30	heritage	héritage	NOUN	_	Number=Sing	27	obj	_	prpos=Nc|uppos=NCS
 31	devant	devant	ADP	_	ExtPos=SCONJ	38	mark	_	prpos=S|uppos=P
@@ -3196,9 +3208,9 @@
 # text = quar ele n' a point de action tant comme son mari vit.
 1	quar	car	CCONJ	_	_	4	cc	_	prpos=Cc|uppos=CONJO
 2	ele	il	PRON	_	PronType=Prs	4	nsubj	_	prpos=Pp|uppos=PRO
-3	n'	ne	ADV	_	PronType=Neg	4	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+3	n'	ne	ADV	_	Polarity=Neg	4	advmod	_	prpos=Rp|uppos=NEG
 4	a	avoir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	0	root	_	prpos=Vuc|uppos=AJ
-5	point	point	ADV	_	PronType=Neg	4	advmod	_	prpos=Rg|uppos=ADVNEG
+5	point	point	ADV	_	Polarity=Neg	4	advmod	_	prpos=Rg|uppos=ADVNEG
 6	de	de	DET	_	Definite=Ind	7	det	_	prpos=Dn|uppos=D
 7	action	action	NOUN	_	Number=Sing	4	obj	_	prpos=Nc|uppos=NCS
 8	tant	tant	ADV	_	ExtPos=SCONJ	12	mark	_	prpos=Rg|uppos=ADV
@@ -3233,7 +3245,7 @@
 20	,	,	PUNCT	_	_	6	punct	_	join=left|prpos=Fw|uppos=PON
 21	et	et	CCONJ	_	_	23	cc	_	prpos=Cc|uppos=CONJO
 22	il	il	PRON	_	PronType=Prs	23	nsubj	_	prpos=Pp|uppos=PRO
-23	baille	bailler	VERB	_	VerbForm=Inf	6	conj	_	prpos=Ge|uppos=VPP
+23	baille	bailler	VERB	_	Number=Sing|Person=3|VerbForm=Fin	6	conj	_	prpos=Ge|uppos=VPP
 24	une	un	DET	_	Definite=Ind|PronType=Art	25	det	_	prpos=Dn|uppos=D
 25	piece	pièce	NOUN	_	Number=Sing	23	obj	_	prpos=Nc|uppos=NCS
 26	de	de	ADP	_	_	28	case	_	prpos=S|uppos=P
@@ -3306,11 +3318,11 @@
 93	que	que	SCONJ	_	_	99	mark	_	prpos=Cs|uppos=CONJS
 94	l'	le	DET	_	Definite=Def|PronType=Art	95	det	_	prpos=Da|uppos=D
 95	en	on	PRON	_	PronType=Prs	99	nsubj	_	prpos=Pp|uppos=PRO
-96	ne	ne	ADV	_	PronType=Neg	99	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+96	ne	ne	ADV	_	Polarity=Neg	99	advmod	_	prpos=Rp|uppos=NEG
 97	l'	il	PRON	_	PronType=Prs	99	obj	_	prpos=Pp|uppos=PRO
 98	i	y	PRON	_	PronType=Prs	99	obl	_	prpos=Pp|uppos=PRO
 99	fera	faire	VERB	_	Number=Sing|Person=3|VerbForm=Fin	92	ccomp	_	prpos=Vvc|uppos=VJ
-100	pas	pas	ADV	_	PronType=Neg	99	advmod	_	prpos=Rg|uppos=ADVNEG
+100	pas	pas	ADV	_	Polarity=Neg	99	advmod	_	prpos=Rg|uppos=ADVNEG
 101	por	pour	ADP	_	ExtPos=SCONJ	105	mark	_	prpos=S|uppos=P
 102	ce	ce	PRON	_	PronType=Dem	101	fixed	_	prpos=Pd|uppos=PRO
 103	que	que	SCONJ	_	_	101	fixed	_	prpos=Cs|uppos=CONJS
@@ -3367,9 +3379,9 @@
 10	haubert	haubert	NOUN	_	Number=Sing	8	nmod	_	prpos=Nc|SpaceAfter=No|uppos=NCS
 11	,	,	PUNCT	_	_	21	punct	_	join=left|prpos=Fw|uppos=PON
 12	il	il	PRON	_	PronType=Prs	21	nsubj	_	prpos=Pp|uppos=PRO
-13	ne	ne	ADV	_	PronType=Neg	21	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+13	ne	ne	ADV	_	Polarity=Neg	21	advmod	_	prpos=Rp|uppos=NEG
 14	puet	pouvoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	21	aux	_	prpos=Vvc|uppos=MDJ
-15	pas	pas	ADV	_	PronType=Neg	21	advmod	_	prpos=Rg|uppos=NEG
+15	pas	pas	ADV	_	Polarity=Neg	21	advmod	_	prpos=Rg|uppos=NEG
 16	les	le	DET	_	Definite=Def|PronType=Art	17	det	_	prpos=Da|uppos=D
 17	hommes	homme	NOUN	_	Number=Plur	21	obj	_	prpos=Nc|uppos=NCPL
 18	d'	de	ADP	_	_	20	case	_	prpos=S|uppos=P
@@ -3432,7 +3444,7 @@
 18	,	,	PUNCT	_	_	14	punct	_	join=left|prpos=Fw|uppos=PON
 19	que	que	SCONJ	_	_	23	mark	_	prpos=Cs|uppos=CONJS
 20	il	il	PRON	_	PronType=Prs	23	nsubj	_	prpos=Pp|uppos=PRO
-21	ne	ne	ADV	_	PronType=Neg	23	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+21	ne	ne	ADV	_	Polarity=Neg	23	advmod	_	prpos=Rp|uppos=NEG
 22	puet	pouvoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	23	aux	_	prpos=Vvc|uppos=MDJ
 23	fere	faire	VERB	_	VerbForm=Inf	6	ccomp	_	prpos=Vvn|uppos=VX
 24	pes	paix	NOUN	_	Number=Sing	23	obj	_	prpos=Nc|uppos=NCS
@@ -3441,7 +3453,7 @@
 27	,	,	PUNCT	_	_	23	punct	_	join=left|prpos=Fw|uppos=PON
 28	se	si	SCONJ	_	_	32	mark	_	prpos=Cs|uppos=CONJS
 29	heritage	héritage	NOUN	_	Number=Sing	32	nsubj	_	prpos=Nc|uppos=NCS
-30	ne	ne	ADV	_	PronType=Neg	32	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+30	ne	ne	ADV	_	Polarity=Neg	32	advmod	_	prpos=Rp|uppos=NEG
 31	li	il	PRON	_	PronType=Prs	32	iobj	_	prpos=Pp|uppos=PRO
 32	demore	demeurer	VERB	_	Number=Sing|Person=3|VerbForm=Fin	23	advcl	_	prpos=Vvc|uppos=VJ
 33	ou	ou	CCONJ	_	_	41	cc	_	prpos=Cc|uppos=CONJO
@@ -3450,7 +3462,7 @@
 36	de	de	ADP	_	_	38	case	_	prpos=S|uppos=P
 37	ses	son	DET	_	Poss=Yes	38	det	_	prpos=Ds|uppos=DZ
 38	amis	ami	NOUN	_	Number=Plur	35	nmod	_	prpos=Nc|uppos=NCPL
-39	ne	ne	ADV	_	PronType=Neg	41	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+39	ne	ne	ADV	_	Polarity=Neg	41	advmod	_	prpos=Rp|uppos=NEG
 40	se	se	PRON	_	PronType=Prs	41	expl	_	prpos=Pp|uppos=PRO
 41	lient	lier	VERB	_	Number=Plur|Person=3|VerbForm=Fin	32	conj	_	prpos=Vvc|uppos=VJ
 42	par	par	ADP	_	_	43	case	_	prpos=S|uppos=P
@@ -3542,7 +3554,7 @@
 50	espousa[i]lles	épousailles	NOUN	_	Number=Plur	47	obl	_	prpos=Nc|SpaceAfter=No|uppos=NCPL
 51	,	,	PUNCT	_	_	43	punct	_	join=left|prpos=Fw|uppos=PON
 52	et	et	CCONJ	_	_	56	cc	_	prpos=Cc|uppos=CONJO
-53	ne	ne	ADV	_	PronType=Neg	56	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+53	ne	ne	ADV	_	Polarity=Neg	56	advmod	_	prpos=Rp|uppos=NEG
 54	puet	pouvoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	56	aux	_	prpos=Vvc|uppos=MDJ
 55	on	on	PRON	_	PronType=Prs	56	nsubj	_	prpos=Pp|uppos=PRO
 56	seonner	seoner	VERB	_	VerbForm=Inf	43	conj	_	prpos=Vvn|uppos=VX
@@ -3628,7 +3640,7 @@
 43	devoit	devoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	44	aux	_	prpos=Vvc|uppos=MDJ
 44	fere	faire	VERB	_	VerbForm=Inf	38	acl:relcl	_	prpos=Vvn|SpaceAfter=No|uppos=VX
 45	,	,	PUNCT	_	_	31	punct	_	join=left|prpos=Fw|uppos=PON
-46	ne	ne	ADV	_	PronType=Neg	49	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+46	ne	ne	ADV	_	Polarity=Neg	49	advmod	_	prpos=Rp|uppos=NEG
 47	devroit	devoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	49	aux	_	prpos=Vvc|uppos=MDJ
 48	estre	être	AUX	_	VerbForm=Inf	49	aux:pass	_	prpos=Vun|uppos=EX
 49	oïs	ouïr	VERB	_	Tense=Past|VerbForm=Part	0	root	_	prpos=Ge|uppos=VPP
@@ -3638,9 +3650,9 @@
 53	a	à	ADP	_	_	55	case	_	prpos=S|uppos=P
 54	la	le	DET	_	Definite=Def|PronType=Art	55	det	_	prpos=Da|uppos=D
 55	preuve	preuve	NOUN	_	Number=Sing	57	obl	_	prpos=Nc|uppos=NCS
-56	ne	ne	ADV	_	PronType=Neg	57	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+56	ne	ne	ADV	_	Polarity=Neg	57	advmod	_	prpos=Rp|uppos=NEG
 57	pendist	pendre	VERB	_	Number=Sing|Person=3|VerbForm=Fin	49	advcl	_	prpos=Vvc|uppos=VJ
-58	point	point	ADV	_	PronType=Neg	57	advmod	_	prpos=Rg|uppos=ADVNEG
+58	point	point	ADV	_	Polarity=Neg	57	advmod	_	prpos=Rg|uppos=ADVNEG
 59	de	de	DET	_	Definite=Ind	60	det	_	prpos=Dn|uppos=D
 60	heritage	héritage	NOUN	_	Number=Sing	57	obl	_	prpos=Nc|SpaceAfter=No|uppos=NCS
 61	.	.	PUNCT	_	_	49	punct	_	join=left|prpos=Fs|uppos=PONFP
@@ -3750,7 +3762,7 @@
 18	,	,	PUNCT	_	_	11	punct	_	join=left|prpos=Fw|uppos=PON
 19	que	que	SCONJ	_	_	23	mark	_	prpos=Cs|uppos=CONJS
 20	il	il	PRON	_	PronType=Prs	23	nsubj	_	prpos=Pp|uppos=PRO
-21	ne	ne	ADV	_	PronType=Neg	23	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+21	ne	ne	ADV	_	Polarity=Neg	23	advmod	_	prpos=Rp|uppos=NEG
 22	puet	pouvoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	23	aux	_	prpos=Vvc|uppos=MDJ
 23	fere	faire	VERB	_	VerbForm=Inf	11	ccomp	_	prpos=Vvn|uppos=VX
 24	pes	paix	NOUN	_	Number=Sing	23	obj	_	prpos=Nc|uppos=NCS
@@ -3760,7 +3772,7 @@
 28	se	si	SCONJ	_	_	33	mark	_	prpos=Cs|uppos=CONJS
 29	l'	le	DET	_	Definite=Def|PronType=Art	30	det	_	prpos=Da|uppos=D
 30	eritage	héritage	NOUN	_	Number=Sing	33	nsubj	_	prpos=Nc|uppos=NCS
-31	ne	ne	ADV	_	PronType=Neg	33	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+31	ne	ne	ADV	_	Polarity=Neg	33	advmod	_	prpos=Rp|uppos=NEG
 32	li	il	PRON	_	PronType=Prs	33	iobj	_	prpos=Pp|uppos=PRO
 33	demore	demeurer	VERB	_	Number=Sing|Person=3|VerbForm=Fin	23	advcl	_	prpos=Vvc|uppos=VJ
 34	ou	ou	CCONJ	_	_	42	cc	_	prpos=Cc|uppos=CONJO
@@ -3769,7 +3781,7 @@
 37	de	de	ADP	_	_	39	case	_	prpos=S|uppos=P
 38	ses	son	DET	_	Poss=Yes	39	det	_	prpos=Ds|uppos=DZ
 39	amis	ami	NOUN	_	Number=Plur	36	nmod	_	prpos=Nc|uppos=NCPL
-40	ne	ne	ADV	_	PronType=Neg	42	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+40	ne	ne	ADV	_	Polarity=Neg	42	advmod	_	prpos=Rp|uppos=NEG
 41	se	se	PRON	_	PronType=Prs	42	expl	_	prpos=Pp|uppos=PRO
 42	lient	lier	VERB	_	Number=Plur|Person=3|VerbForm=Fin	33	conj	_	prpos=Vvc|uppos=VJ
 43	par	par	ADP	_	_	44	case	_	prpos=S|uppos=P
@@ -3860,7 +3872,7 @@
 50	espousa[i]lles	épousailles	NOUN	_	Number=Plur	47	obl	_	prpos=Nc|SpaceAfter=No|uppos=NCPL
 51	,	,	PUNCT	_	_	43	punct	_	join=left|prpos=Fw|uppos=PON
 52	et	et	CCONJ	_	_	56	cc	_	prpos=Cc|uppos=CONJO
-53	ne	ne	ADV	_	PronType=Neg	56	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+53	ne	ne	ADV	_	Polarity=Neg	56	advmod	_	prpos=Rp|uppos=NEG
 54	puet	pouvoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	56	aux	_	prpos=Vvc|uppos=MDJ
 55	on	on	PRON	_	PronType=Prs	56	nsubj	_	prpos=Pp|uppos=PRO
 56	seonner	saonner	VERB	_	VerbForm=Inf	43	conj	_	prpos=Vvn|uppos=VX
@@ -3904,7 +3916,7 @@
 3	ij.	deux	NUM	_	NumType=Card	4	nummod	_	prpos=Mc|uppos=ADJNUM
 4	personnes	personne	NOUN	_	Number=Plur	7	nsubj	_	prpos=Nc|uppos=NCPL
 5	estranges	étrange	ADJ	_	_	4	amod	_	prpos=Ag|uppos=ADJ
-6	se	se	PRON	_	PronType=Prs	8	expl	_	prpos=Pp|uppos=PRO
+6	se	se	PRON	_	_	8	expl	_	prpos=Pp|uppos=PRO
 7	vouloient	vouloir	VERB	_	Number=Plur|Person=3|VerbForm=Fin	48	advcl	_	prpos=Vvc|uppos=MDJ
 8	aidier	aider	VERB	_	VerbForm=Inf	7	xcomp	_	prpos=Vvn|uppos=VX
 9	l'	le	DET	_	Definite=Def|PronType=Art	10	det	_	prpos=Da|uppos=D
@@ -3945,7 +3957,7 @@
 42	devoit	devoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	43	aux	_	prpos=Vvc|uppos=MDJ
 43	fere	faire	VERB	_	VerbForm=Inf	37	acl:relcl	_	prpos=Vvn|SpaceAfter=No|uppos=VX
 44	,	,	PUNCT	_	_	31	punct	_	join=left|prpos=Fw|uppos=PON
-45	ne	ne	ADV	_	PronType=Neg	48	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+45	ne	ne	ADV	_	Polarity=Neg	48	advmod	_	prpos=Rp|uppos=NEG
 46	devroit	devoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	48	aux	_	prpos=Vvc|uppos=MDJ
 47	estre	être	AUX	_	VerbForm=Inf	48	aux:pass	_	prpos=Vun|uppos=EX
 48	oïs	ouïr	VERB	_	Tense=Past|VerbForm=Part	0	root	_	prpos=Ge|uppos=VPP
@@ -3954,9 +3966,9 @@
 51	que	que	SCONJ	_	_	49	fixed	_	prpos=Cs|uppos=CONJS
 52	la	le	DET	_	Definite=Def|PronType=Art	53	det	_	prpos=Da|uppos=D
 53	preuve	preuve	NOUN	_	Number=Sing	55	nsubj	_	prpos=Nc|uppos=NCS
-54	ne	ne	ADV	_	PronType=Neg	55	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+54	ne	ne	ADV	_	Polarity=Neg	55	advmod	_	prpos=Rp|uppos=NEG
 55	pendist	pendre	VERB	_	Number=Sing|Person=3|VerbForm=Fin	48	advcl	_	prpos=Vvc|uppos=VJ
-56	point	point	ADV	_	PronType=Neg	55	advmod	_	prpos=Rg|uppos=ADVNEG
+56	point	point	ADV	_	Polarity=Neg	55	advmod	_	prpos=Rg|uppos=ADVNEG
 57	de	de	ADP	_	_	58	case	_	prpos=S|uppos=P
 58	heritage	héritage	NOUN	_	Number=Sing	55	obl	_	prpos=Nc|SpaceAfter=No|uppos=NCS
 59	.	.	PUNCT	_	_	48	punct	_	join=left|prpos=Fs|uppos=PONFP
@@ -4321,7 +4333,7 @@
 39	,	,	PUNCT	_	_	31	punct	_	join=left|prpos=Fw|uppos=PON
 40	se	si	SCONJ	_	_	43	mark	_	prpos=Cs|uppos=CONJS
 41	ainsi	ainsi	ADV	_	_	43	advmod	_	prpos=Rg|uppos=ADV
-42	n'	ne	ADV	_	PronType=Neg	43	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+42	n'	ne	ADV	_	Polarity=Neg	43	advmod	_	prpos=Rp|uppos=NEG
 43	est	être	VERB	_	Number=Sing|Person=3|VerbForm=Fin	31	advcl	_	prpos=Vuc|uppos=EJ
 44	que	que	SCONJ	_	_	49	mark	_	prpos=Cs|uppos=CONJS
 45	le	le	DET	_	Definite=Def|PronType=Art	46	det	_	prpos=Da|uppos=D
@@ -4401,7 +4413,7 @@
 28	,	,	PUNCT	_	_	12	punct	_	join=left|prpos=Fw|uppos=PON
 29	l'	le	DET	_	Definite=Def|PronType=Art	30	det	_	prpos=Da|uppos=D
 30	ainsné	aîné	NOUN	_	Number=Sing	32	nsubj	_	prpos=Nc|uppos=NCS
-31	ne	ne	ADV	_	PronType=Neg	32	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+31	ne	ne	ADV	_	Polarity=Neg	32	advmod	_	prpos=Rp|uppos=NEG
 32	prendra	prendre	VERB	_	Number=Sing|Person=3|VerbForm=Fin	6	ccomp	_	prpos=Vvc|uppos=VJ
 33	riens	rien	PRON	_	PronType=Ind	32	obj	_	prpos=Pi|uppos=PRO
 34	en	en	ADP	_	_	36	case	_	prpos=S|uppos=P
@@ -4442,9 +4454,9 @@
 25	rendre	rendre	VERB	_	VerbForm=Inf	19	advcl	_	prpos=Vvn|uppos=VX
 26	et	et	CCONJ	_	_	29	cc	_	prpos=Cc|uppos=CONJO
 27	si	si	ADV	_	_	29	advmod	_	prpos=Rg|uppos=ADV
-28	ne	ne	ADV	_	PronType=Neg	29	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+28	ne	ne	ADV	_	Polarity=Neg	29	advmod	_	prpos=Rp|uppos=NEG
 29	gaaingnera	gagner	VERB	_	Number=Sing|Person=3|VerbForm=Fin	19	conj	_	prpos=Vvc|uppos=VJ
-30	pas	pas	ADV	_	PronType=Neg	29	advmod	_	prpos=Rg|uppos=ADVNEG
+30	pas	pas	ADV	_	Polarity=Neg	29	advmod	_	prpos=Rg|uppos=ADVNEG
 31	des	un	DET	_	Definite=Ind|PronType=Art	32	det	_	prpos=Dn|uppos=D
 32	ajornement	ajournement	NOUN	_	Number=Plur	29	obl	_	prpos=Nc|uppos=NCPL
 33	par	par	ADP	_	_	35	case	_	prpos=S|uppos=P
@@ -4470,7 +4482,7 @@
 5	jugié	juger	VERB	_	Tense=Past|VerbForm=Part	0	root	_	prpos=Ge|uppos=VPP
 6	que	que	SCONJ	_	_	10	mark	_	prpos=Cs|uppos=CONJS
 7	nus	nul	PRON	_	PronType=Ind	10	nsubj	_	prpos=Pi|uppos=PRO
-8	n'	ne	ADV	_	PronType=Neg	10	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+8	n'	ne	ADV	_	Polarity=Neg	10	advmod	_	prpos=Rp|uppos=NEG
 9	est	être	AUX	_	Number=Sing|Person=3|VerbForm=Fin	10	aux:pass	_	prpos=Vuc|uppos=EJ
 10	tenu	tenir	VERB	_	Tense=Past|VerbForm=Part	5	ccomp	_	prpos=Ge|uppos=VPP
 11	connoistre	connaître	VERB	_	VerbForm=Inf	10	xcomp	_	prpos=Vvn|uppos=VX
@@ -4569,9 +4581,9 @@
 49	mes	mais	CCONJ	_	_	56	cc	_	prpos=Cc|uppos=CONJO
 50	la	le	DET	_	Definite=Def|PronType=Art	51	det	_	prpos=Da|uppos=D
 51	cause	cause	NOUN	_	Number=Sing	56	nsubj	_	prpos=Nc|uppos=NCS
-52	ne	ne	ADV	_	PronType=Neg	56	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+52	ne	ne	ADV	_	Polarity=Neg	56	advmod	_	prpos=Rp|uppos=NEG
 53	doit	devoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	56	aux	_	prpos=Vvc|uppos=MDJ
-54	pas	pas	ADV	_	PronType=Neg	56	advmod	_	prpos=Rg|uppos=ADVNEG
+54	pas	pas	ADV	_	Polarity=Neg	56	advmod	_	prpos=Rg|uppos=ADVNEG
 55	avant	avant	ADV	_	_	56	advmod	_	prpos=Rg|uppos=ADV
 56	aler	aller	VERB	_	VerbForm=Inf	27	conj	_	prpos=Vvn|uppos=VX
 57	en	en	ADP	_	_	58	case	_	prpos=S|uppos=P
@@ -4582,7 +4594,7 @@
 62	,	,	PUNCT	_	_	56	punct	_	join=left|prpos=Fw|uppos=PON
 63	se	si	SCONJ	_	_	68	mark	_	prpos=Cs|uppos=CONJS
 64	il	il	PRON	_	PronType=Prs	68	nsubj	_	prpos=Pp|uppos=PRO
-65	n'	ne	ADV	_	PronType=Neg	68	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+65	n'	ne	ADV	_	Polarity=Neg	68	advmod	_	prpos=Rp|uppos=NEG
 66	est	être	AUX	_	Number=Sing|Person=3|VerbForm=Fin	68	aux:pass	_	prpos=Vuc|uppos=EJ
 67	avant	avant	ADV	_	_	68	advmod	_	prpos=Rg|uppos=ADV
 68	sui	suivre	VERB	_	Tense=Past|VerbForm=Part	56	advcl	_	prpos=Ge|uppos=VPP
@@ -4604,7 +4616,7 @@
 9	par	par	ADP	_	_	10	case	_	prpos=S|uppos=P
 10	mariage	mariage	NOUN	_	Number=Sing	7	obl	_	prpos=Nc|SpaceAfter=No|uppos=NCS
 11	,	,	PUNCT	_	_	2	punct	_	join=left|prpos=Fw|uppos=PON
-12	ne	ne	ADV	_	PronType=Neg	15	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+12	ne	ne	ADV	_	Polarity=Neg	15	advmod	_	prpos=Rp|uppos=NEG
 13	puet	pouvoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	15	aux	_	prpos=Vvc|uppos=MDJ
 14	[on]	on	PRON	_	PronType=Prs	15	nsubj	_	prpos=Pp|uppos=PRO
 15	respetier	répiter	VERB	_	VerbForm=Inf	0	root	_	prpos=Vvn|uppos=VX
@@ -4670,9 +4682,9 @@
 27	part	part	NOUN	_	Number=Sing	24	nmod	_	prpos=Nc|SpaceAfter=No|uppos=NCS
 28	,	,	PUNCT	_	_	12	punct	_	join=left|prpos=Fw|uppos=PON
 29	il	il	PRON	_	PronType=Prs	31	nsubj	_	prpos=Pp|uppos=PRO
-30	ne	ne	ADV	_	PronType=Neg	31	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+30	ne	ne	ADV	_	Polarity=Neg	31	advmod	_	prpos=Rp|uppos=NEG
 31	convient	convenir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	6	ccomp	_	prpos=Vvc|uppos=VJ
-32	pas	pas	ADV	_	PronType=Neg	31	advmod	_	prpos=Rg|uppos=ADVNEG
+32	pas	pas	ADV	_	Polarity=Neg	31	advmod	_	prpos=Rg|uppos=ADVNEG
 33	prendre	prendre	VERB	_	VerbForm=Inf	31	xcomp	_	prpos=Vvn|uppos=VX
 34	brief	bref	NOUN	_	Number=Sing	33	obj	_	prpos=Nc|uppos=NCS
 35	vers	vers	ADP	_	_	37	case	_	prpos=S|uppos=P
@@ -4731,7 +4743,7 @@
 7	soi	soi	PRON	_	PronType=Prs	5	nmod	_	prpos=Pp|uppos=PRO
 8	meïsmes	même	ADJ	_	_	7	amod	_	prpos=Ag|uppos=ADJ
 9	et	et	CCONJ	_	_	11	cc	_	prpos=Cc|uppos=CONJO
-10	ne	ne	ADV	_	PronType=Neg	11	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+10	ne	ne	ADV	_	Polarity=Neg	11	advmod	_	prpos=Rp|uppos=NEG
 11	veut	vouloir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	5	conj	_	prpos=Vvc|uppos=MDJ
 12	fere	faire	VERB	_	VerbForm=Inf	11	xcomp	_	prpos=Vvn|uppos=VX
 13	tort	tort	NOUN	_	Number=Sing	12	obj	_	prpos=Nc|uppos=NCS
@@ -4756,9 +4768,9 @@
 11	de	de	ADP	_	_	13	case	_	prpos=S|uppos=P
 12	xx.	vingt	NUM	_	NumType=Card	13	nummod	_	prpos=Mc|uppos=ADJNUM
 13	ans	an	NOUN	_	Number=Plur	10	nmod	_	prpos=Nc|uppos=NCPL
-14	n'	ne	ADV	_	PronType=Neg	17	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+14	n'	ne	ADV	_	Polarity=Neg	17	advmod	_	prpos=Rp|uppos=NEG
 15	est	être	AUX	_	Number=Sing|Person=3|VerbForm=Fin	17	aux:pass	_	prpos=Vuc|uppos=EJ
-16	pas	pas	ADV	_	PronType=Neg	17	advmod	_	prpos=Rg|uppos=ADVNEG
+16	pas	pas	ADV	_	Polarity=Neg	17	advmod	_	prpos=Rg|uppos=ADVNEG
 17	tenu	tenir	VERB	_	Tense=Past|VerbForm=Part	6	ccomp	_	prpos=Ge|uppos=VPP
 18	connoistre	connaître	VERB	_	VerbForm=Inf	17	xcomp	_	prpos=Vvn|uppos=VX
 19	le	le	DET	_	Definite=Def|PronType=Art	20	det	_	prpos=Da|uppos=D
@@ -4872,7 +4884,7 @@
 1	et	et	CCONJ	_	_	22	cc	_	prpos=Cc|uppos=CONJO
 2	se	si	SCONJ	_	_	5	mark	_	prpos=Cs|uppos=CONJS
 3	nus	nul	PRON	_	PronType=Ind	5	nsubj	_	prpos=Pi|uppos=PRO
-4	ne	ne	ADV	_	PronType=Neg	5	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+4	ne	ne	ADV	_	Polarity=Neg	5	advmod	_	prpos=Rp|uppos=NEG
 5	vient	venir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	22	advcl	_	prpos=Vvc|uppos=VJ
 6	avant	avant	ADV	_	_	5	advmod	_	prpos=Rg|uppos=ADV
 7	qui	qui	PRON	_	PronType=Rel	10	nsubj	_	prpos=Pr|uppos=WPRO
@@ -4912,7 +4924,7 @@
 15	et	et	CCONJ	_	_	20	cc	_	prpos=Cc|uppos=CONJO
 16	que	que	SCONJ	_	_	20	mark	_	prpos=Cs|uppos=CONJS
 17	rente	rente	NOUN	_	Number=Sing	20	nsubj	_	prpos=Nc|uppos=NCS
-18	l'	il	PRON	_	Definite=Def	20	iobj	_	prpos=Da|uppos=D
+18	l'	il	PRON	_	PronType=Prs	20	iobj	_	prpos=Da|uppos=D
 19	en	en	PRON	_	PronType=Prs	20	obl	_	prpos=Pp|uppos=PRO
 20	demorast	demeurer	VERB	_	Number=Sing|Person=3|VerbForm=Fin	10	conj	_	prpos=Vvc|uppos=VJ
 21	en	en	ADP	_	_	23	case	_	prpos=S|uppos=P
@@ -5009,7 +5021,7 @@
 2	quant	quand	SCONJ	_	_	6	mark	_	prpos=Cs|uppos=CONJS
 3	l'	le	DET	_	Definite=Def|PronType=Art	4	det	_	prpos=Da|uppos=D
 4	enfant	enfant	NOUN	_	Number=Sing	6	nsubj	_	prpos=Nc|uppos=NCS
-5	premier	premier	ADV	_	NumType=Ord	6	advmod	_	prpos=Mo|uppos=ADJNUM
+5	premier	premier	ADV	_	_	6	advmod	_	prpos=Rg|uppos=ADV
 6	out	avoir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	11	advcl	_	prpos=Vuc|uppos=AJ
 7	xx.	vingt	NUM	_	NumType=Card	8	nummod	_	prpos=Mc|uppos=ADJNUM
 8	ans	an	NOUN	_	Number=Plur	6	obl	_	prpos=Nc|SpaceAfter=No|uppos=NCPL
@@ -5112,7 +5124,7 @@
 7	Si	si	ADV	_	ExtPos=SCONJ	11	mark	_	prpos=Rg|uppos=ADV
 8	comme	comme	SCONJ	_	_	7	fixed	_	prpos=Cs|uppos=CONJS
 9	je	je	PRON	_	PronType=Prs	11	nsubj	_	prpos=Pp|uppos=PRO
-10	ne	ne	ADV	_	PronType=Neg	11	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+10	ne	ne	ADV	_	Polarity=Neg	11	advmod	_	prpos=Rp|uppos=NEG
 11	sui	être	VERB	_	Number=Sing|Person=1|VerbForm=Fin	78	advcl	_	prpos=Vuc|uppos=EJ
 12	en	en	ADP	_	_	14	case	_	prpos=S|uppos=P
 13	la	le	DET	_	Definite=Def|PronType=Art	14	det	_	prpos=Da|uppos=D
@@ -5144,7 +5156,7 @@
 39	nul	nul	PRON	_	PronType=Ind	43	nsubj	_	prpos=Pi|uppos=PRO
 40	en	en	ADP	_	_	41	case	_	prpos=S|uppos=P
 41	Normendie	Normandie	PROPN	_	Number=Sing	43	obl	_	prpos=Np|uppos=NPRS
-42	n'	ne	ADV	_	PronType=Neg	43	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+42	n'	ne	ADV	_	Polarity=Neg	43	advmod	_	prpos=Rp|uppos=NEG
 43	a	avoir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	11	conj	_	prpos=Vuc|uppos=AJ
 44	plaine	plain	ADJ	_	_	45	amod	_	prpos=Ag|uppos=ADJ
 45	garde	garde	NOUN	_	Number=Sing	43	obj	_	prpos=Nc|uppos=NCS
@@ -5158,7 +5170,7 @@
 53	garde	garde	NOUN	_	Number=Sing	51	obj	_	prpos=Nc|uppos=NCS
 54	de	de	ADP	_	_	56	case	_	prpos=S|uppos=P
 55	xxj.	vingt-et-un	NUM	_	NumType=Card	56	nummod	_	prpos=Mc|uppos=ADJNUM
-56	an	an	NOUN	_	Number=Plur	53	obl	_	prpos=Nc|SpaceAfter=No|uppos=NCPL
+56	an	an	NOUN	_	Number=Plur	53	nmod	_	prpos=Nc|SpaceAfter=No|uppos=NCPL
 57	,	,	PUNCT	_	_	43	punct	_	join=left|prpos=Fw|uppos=PON
 58	por	pour	ADP	_	ExtPos=SCONJ	62	mark	_	prpos=S|uppos=P
 59	ce	ce	PRON	_	PronType=Dem	58	fixed	_	prpos=Pd|uppos=PRO
@@ -5257,7 +5269,7 @@
 # text = l' omme ne vouloit paier disme que de la premiere tonture,
 1	l'	le	DET	_	Definite=Def|PronType=Art	2	det	_	prpos=Da|uppos=D
 2	omme	homme	NOUN	_	Number=Sing	3	nsubj	_	prpos=Nc|uppos=NCS
-3	ne	ne	ADV	_	PronType=Neg	4	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+3	ne	ne	ADV	_	Polarity=Neg	4	advmod	_	prpos=Rp|uppos=NEG
 4	vouloit	vouloir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	0	root	_	prpos=Vvc|uppos=MDJ
 5	paier	payer	VERB	_	VerbForm=Inf	4	xcomp	_	prpos=Vvn|uppos=VX
 6	disme	dîme	NOUN	_	Number=Sing	5	obj	_	prpos=Nc|uppos=NCS
@@ -5324,7 +5336,7 @@
 7	si	si	ADV	_	ExtPos=SCONJ	11	mark	_	prpos=Rg|uppos=ADV
 8	comme	comme	SCONJ	_	_	7	fixed	_	prpos=Cs|uppos=CONJS
 9	il	il	PRON	_	PronType=Prs	11	nsubj	_	prpos=Pp|uppos=PRO
-10	ne	ne	ADV	_	PronType=Neg	11	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+10	ne	ne	ADV	_	Polarity=Neg	11	advmod	_	prpos=Rp|uppos=NEG
 11	demandoit	demander	VERB	_	Number=Sing|Person=3|VerbForm=Fin	35	advcl	_	prpos=Vvc|uppos=VJ
 12	riens	rien	PRON	_	PronType=Ind	11	obj	_	prpos=Pi|uppos=PRO
 13-14	du	_	_	_	_	_	_	_	_
@@ -5354,9 +5366,9 @@
 36	contre	contre	ADP	_	_	37	case	_	prpos=S|uppos=P
 37	coustume	coutume	NOUN	_	Number=Sing	35	obl	_	prpos=Nc|uppos=NCS
 38	et	et	CCONJ	_	_	42	cc	_	prpos=Cc|uppos=CONJO
-39	ne	ne	ADV	_	PronType=Neg	42	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+39	ne	ne	ADV	_	Polarity=Neg	42	advmod	_	prpos=Rp|uppos=NEG
 40	devoit	devoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	42	aux	_	prpos=Vvc|uppos=MDJ
-41	pas	pas	ADV	_	PronType=Neg	42	advmod	_	prpos=Rg|uppos=ADVNEG
+41	pas	pas	ADV	_	Polarity=Neg	42	advmod	_	prpos=Rg|uppos=ADVNEG
 42	corre	courir	VERB	_	VerbForm=Inf	35	conj	_	prpos=Vvn|SpaceAfter=No|uppos=VX
 43	.	.	PUNCT	_	_	2	punct	_	join=left|prpos=Fs|uppos=PONFP
 
@@ -5492,9 +5504,9 @@
 40	pere	père	NOUN	_	Number=Sing	37	obl	_	prpos=Nc|SpaceAfter=No|uppos=NCS
 41	,	,	PUNCT	_	_	31	punct	_	join=left|prpos=Fw|uppos=PON
 42	et	et	CCONJ	_	_	44	cc	_	prpos=Cc|uppos=CONJO
-43	ne	ne	ADV	_	PronType=Neg	44	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+43	ne	ne	ADV	_	Polarity=Neg	44	advmod	_	prpos=Rp|uppos=NEG
 44	respondra	répondre	VERB	_	Number=Sing|Person=3|VerbForm=Fin	31	conj	_	prpos=Vvc|uppos=VJ
-45	pas	pas	ADV	_	PronType=Neg	44	advmod	_	prpos=Rg|uppos=ADVNEG
+45	pas	pas	ADV	_	Polarity=Neg	44	advmod	_	prpos=Rg|uppos=ADVNEG
 46	devant	devant	ADP	_	ExtPos=SCONJ	49	mark	_	prpos=S|uppos=P
 47	que	que	SCONJ	_	_	46	fixed	_	prpos=Cs|uppos=CONJS
 48	il	il	PRON	_	PronType=Prs	49	nsubj	_	prpos=Pp|uppos=PRO
@@ -5607,11 +5619,11 @@
 15	en	en	ADP	_	_	16	case	_	prpos=S|uppos=P
 16	cort	cour	NOUN	_	Number=Sing	12	obl	_	prpos=Nc|SpaceAfter=No|uppos=NCS
 17	,	,	PUNCT	_	_	8	punct	_	join=left|prpos=Fw|uppos=PON
-18	ne	ne	ADV	_	PronType=Neg	19	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+18	ne	ne	ADV	_	Polarity=Neg	19	advmod	_	prpos=Rp|uppos=NEG
 19	sauveroit	sauver	VERB	_	Number=Sing|Person=3|VerbForm=Fin	5	ccomp	_	prpos=Vvc|uppos=VJ
 20	ne	ni	CCONJ	_	_	21	cc	_	prpos=Cc|uppos=CONJO
 21	excuseroit	excuser	VERB	_	Number=Sing|Person=3|VerbForm=Fin	19	conj	_	prpos=Vvc|uppos=VJ
-22	pas	pas	ADV	_	PronType=Neg	19	advmod	_	prpos=Rg|uppos=ADVNEG
+22	pas	pas	ADV	_	Polarity=Neg	19	advmod	_	prpos=Rg|uppos=ADVNEG
 23	sa	son	DET	_	Poss=Yes	24	det	_	prpos=Ds|uppos=DZ
 24	maladie	maladie	NOUN	_	Number=Sing	19	obj	_	prpos=Nc|uppos=NCS
 25	par	par	ADP	_	_	27	case	_	prpos=S|uppos=P
@@ -5766,9 +5778,9 @@
 45	li	il	PRON	_	PronType=Prs	46	iobj	_	prpos=Pp|uppos=PRO
 46	fet	faire	VERB	_	Number=Sing|Person=3|VerbForm=Fin	42	acl:relcl	_	prpos=Vvc|uppos=VJ
 47	et	et	CCONJ	_	_	49	cc	_	prpos=Cc|uppos=CONJO
-48	n'	ne	ADV	_	PronType=Neg	49	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+48	n'	ne	ADV	_	Polarity=Neg	49	advmod	_	prpos=Rp|uppos=NEG
 49	offre	offrir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	24	conj	_	prpos=Vvc|uppos=VJ
-50	pas	pas	ADV	_	PronType=Neg	49	advmod	_	prpos=Rg|uppos=ADVNEG
+50	pas	pas	ADV	_	Polarity=Neg	49	advmod	_	prpos=Rg|uppos=ADVNEG
 51	son	son	DET	_	Poss=Yes	52	det	_	prpos=Ds|uppos=DZ
 52	serement	serment	NOUN	_	Number=Sing	49	obj	_	prpos=Nc|uppos=NCS
 53	comme	comme	ADP	_	_	55	case	_	prpos=S|uppos=P
@@ -5778,7 +5790,7 @@
 57	que	que	SCONJ	_	_	61	mark	_	prpos=Cs|uppos=CONJS
 58	le	le	DET	_	Definite=Def|PronType=Art	59	det	_	prpos=Da|uppos=D
 59	demandeor	demandeur	NOUN	_	Number=Sing	61	nsubj	_	prpos=Nc|uppos=NCS
-60	n'	ne	ADV	_	PronType=Neg	61	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+60	n'	ne	ADV	_	Polarity=Neg	61	advmod	_	prpos=Rp|uppos=NEG
 61	aroit	avoir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	5	ccomp	_	prpos=Vuc|uppos=AJ
 62	riens	rien	PRON	_	PronType=Ind	61	obj	_	prpos=Pi|uppos=PRO
 63	en	en	ADP	_	_	65	case	_	prpos=S|uppos=P
@@ -5786,7 +5798,7 @@
 65	demande	demande	NOUN	_	Number=Sing	61	obl	_	prpos=Nc|uppos=NCS
 66	se	si	SCONJ	_	_	69	mark	_	prpos=Cs|uppos=CONJS
 67	il	il	PRON	_	PronType=Prs	69	nsubj	_	prpos=Pp|uppos=PRO
-68	ne	ne	ADV	_	PronType=Neg	69	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+68	ne	ne	ADV	_	Polarity=Neg	69	advmod	_	prpos=Rp|uppos=NEG
 69	vouloit	vouloir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	61	advcl	_	prpos=Vvc|uppos=MDJ
 70	jurer	jurer	VERB	_	VerbForm=Inf	69	xcomp	_	prpos=Vvn|uppos=VX
 71	quant	quand	SCONJ	_	_	75	mark	_	prpos=Cs|uppos=CONJS
@@ -5826,7 +5838,7 @@
 20	,	,	PUNCT	_	_	11	punct	_	join=left|prpos=Fw|uppos=PON
 21	que	que	SCONJ	_	_	24	mark	_	prpos=Cs|uppos=CONJS
 22	il	il	PRON	_	PronType=Prs	24	nsubj	_	prpos=Pp|uppos=PRO
-23	ne	ne	ADV	_	PronType=Neg	24	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+23	ne	ne	ADV	_	Polarity=Neg	24	advmod	_	prpos=Rp|uppos=NEG
 24	conviengne	convenir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	5	ccomp	_	prpos=Vvc|uppos=VJ
 25	que	que	SCONJ	_	_	28	mark	_	prpos=Cs|uppos=CONJS
 26	l'	le	DET	_	Definite=Def|PronType=Art	27	det	_	prpos=Da|uppos=D
@@ -5860,9 +5872,9 @@
 7	tort	tort	NOUN	_	Number=Sing	6	obj	_	prpos=Nc|SpaceAfter=No|uppos=NCS
 8	,	,	PUNCT	_	_	6	punct	_	join=left|prpos=Fw|uppos=PON
 9	il	il	PRON	_	PronType=Prs	11	nsubj	_	prpos=Pp|uppos=PRO
-10	ne	ne	ADV	_	PronType=Neg	11	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+10	ne	ne	ADV	_	Polarity=Neg	11	advmod	_	prpos=Rp|uppos=NEG
 11	lera	laisser	VERB	_	Number=Sing|Person=3|VerbForm=Fin	0	root	_	prpos=Vvc|uppos=VJ
-12	pas	pas	ADV	_	PronType=Neg	11	advmod	_	prpos=Rg|uppos=ADVNEG
+12	pas	pas	ADV	_	Polarity=Neg	11	advmod	_	prpos=Rg|uppos=ADVNEG
 13	por	pour	ADP	_	_	14	case	_	prpos=S|uppos=P
 14	ce	ce	PRON	_	PronType=Dem	11	obl	_	prpos=Pd|uppos=PRO
 15	a	à	ADP	_	_	16	mark	_	prpos=S|uppos=P
@@ -5873,7 +5885,7 @@
 20	court	cour	NOUN	_	Number=Sing	16	obl	_	prpos=Nc|SpaceAfter=No|uppos=NCS
 21	,	,	PUNCT	_	_	11	punct	_	join=left|prpos=Fw|uppos=PON
 22	et	et	CCONJ	_	_	27	cc	_	prpos=Cc|uppos=CONJO
-23	ne	ne	ADV	_	PronType=Neg	27	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+23	ne	ne	ADV	_	Polarity=Neg	27	advmod	_	prpos=Rp|uppos=NEG
 24	s'	se	PRON	_	PronType=Prs	27	expl	_	prpos=Pp|uppos=PRO
 25	en	en	PRON	_	PronType=Prs	27	obl	_	prpos=Pp|uppos=PRO
 26	puet	pouvoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	27	aux	_	prpos=Vvc|uppos=MDJ
@@ -5938,7 +5950,7 @@
 5	jugié	juger	VERB	_	Tense=Past|VerbForm=Part	0	root	_	prpos=Ge|uppos=VPP
 6	que	que	SCONJ	_	_	10	mark	_	prpos=Cs|uppos=CONJS
 7	nul	nul	PRON	_	PronType=Ind	10	nsubj	_	prpos=Pi|uppos=PRO
-8	n'	ne	ADV	_	PronType=Neg	10	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+8	n'	ne	ADV	_	Polarity=Neg	10	advmod	_	prpos=Rp|uppos=NEG
 9	est	être	AUX	_	Number=Sing|Person=3|VerbForm=Fin	10	aux:pass	_	prpos=Vuc|uppos=EJ
 10	tenu	tenir	VERB	_	Tense=Past|VerbForm=Part	5	ccomp	_	prpos=Ge|uppos=VPP
 11	a	à	ADP	_	_	12	mark	_	prpos=S|uppos=P
@@ -5981,14 +5993,14 @@
 48	se	si	SCONJ	_	_	52	mark	_	prpos=Cs|uppos=CONJS
 49	l'	le	DET	_	Definite=Def|PronType=Art	50	det	_	prpos=Dn|uppos=D
 50	en	on	PRON	_	PronType=Prs	52	nsubj	_	prpos=Pp|uppos=PRO
-51	ne	ne	ADV	_	PronType=Neg	52	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+51	ne	ne	ADV	_	Polarity=Neg	52	advmod	_	prpos=Rp|uppos=NEG
 52	maine	mener	VERB	_	Number=Sing|Person=3|VerbForm=Fin	10	advcl	_	prpos=Vvc|uppos=VJ
 53	garant	garant	NOUN	_	Number=Sing	52	obj	_	prpos=Nc|uppos=NCS
 54	ou	ou	CCONJ	_	_	59	cc	_	prpos=Cc|uppos=CONJO
 55	se	si	SCONJ	_	_	59	mark	_	prpos=Cs|uppos=CONJS
 56	l'	le	DET	_	Definite=Def|PronType=Art	57	det	_	prpos=Dn|uppos=D
 57	en	on	PRON	_	PronType=Prs	59	nsubj	_	prpos=Pp|uppos=PRO
-58	n'	ne	ADV	_	PronType=Neg	59	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+58	n'	ne	ADV	_	Polarity=Neg	59	advmod	_	prpos=Rp|uppos=NEG
 59	offre	offrir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	52	conj	_	prpos=Vvc|uppos=VJ
 60	a	à	ADP	_	_	63	mark	_	prpos=S|uppos=P
 61	la	le	DET	_	Definite=Def|PronType=Art	62	det	_	prpos=Da|uppos=D
@@ -6062,7 +6074,7 @@
 9	loz	lot	NOUN	_	Number=Plur	6	obl	_	prpos=Nc|uppos=NCPL
 10	chose	chose	NOUN	_	Number=Sing	6	obj	_	prpos=Nc|uppos=NCS
 11	qui	qui	PRON	_	PronType=Rel	15	nsubj	_	prpos=Pr|uppos=WPRO
-12	n'	ne	ADV	_	PronType=Neg	15	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+12	n'	ne	ADV	_	Polarity=Neg	15	advmod	_	prpos=Rp|uppos=NEG
 13	i	y	PRON	_	PronType=Prs	15	obl	_	prpos=Pp|uppos=PRO
 14	doie	devoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	15	aux	_	prpos=Vvc|uppos=MDJ
 15	estre	être	VERB	_	VerbForm=Inf	10	acl:relcl	_	prpos=Vun|uppos=EX
@@ -6094,7 +6106,7 @@
 2	devant	devant	ADV	_	_	8	advmod	_	prpos=Rg|uppos=ADV
 3	l'	le	DET	_	Definite=Def|PronType=Art	4	det	_	prpos=Dn|uppos=D
 4	en	on	PRON	_	PronType=Prs	8	nsubj	_	prpos=Pp|uppos=PRO
-5	ne	ne	ADV	_	PronType=Neg	8	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+5	ne	ne	ADV	_	Polarity=Neg	8	advmod	_	prpos=Rp|uppos=NEG
 6	puet	pouvoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	8	aux	_	prpos=Vvc|uppos=MDJ
 7	vue	vue	NOUN	_	Number=Sing	8	obj	_	prpos=Nc|uppos=NCS
 8	asseer	asseoir	VERB	_	VerbForm=Inf	0	root	_	prpos=Vvn|SpaceAfter=No|uppos=VX
@@ -6102,7 +6114,7 @@
 10	se	si	SCONJ	_	_	14	mark	_	prpos=Cs|uppos=CONJS
 11	le	le	DET	_	Definite=Def|PronType=Art	12	det	_	prpos=Da|uppos=D
 12	tenant	tenant	NOUN	_	Number=Sing	14	nsubj	_	prpos=Nc|uppos=NCS
-13	ne	ne	ADV	_	PronType=Neg	14	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+13	ne	ne	ADV	_	Polarity=Neg	14	advmod	_	prpos=Rp|uppos=NEG
 14	met	mettre	VERB	_	Number=Sing|Person=3|VerbForm=Fin	8	advcl	_	prpos=Vvc|uppos=VJ
 15	sus	sus	ADV	_	_	14	advmod	_	prpos=S|uppos=P
 16	tout	tout	ADV	_	_	18	advmod	_	prpos=Rg|uppos=Q
@@ -6110,9 +6122,9 @@
 18	plain	plain	NOUN	_	Number=Sing	14	obl	_	prpos=Nc|uppos=NCS
 19	que	que	SCONJ	_	_	22	mark	_	prpos=Cs|uppos=CONJS
 20	il	il	PRON	_	PronType=Prs	22	nsubj	_	prpos=Pp|uppos=PRO
-21	ne	ne	ADV	_	PronType=Neg	22	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+21	ne	ne	ADV	_	Polarity=Neg	22	advmod	_	prpos=Rp|uppos=NEG
 22	tient	tenir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	14	ccomp	_	prpos=Vvc|uppos=VJ
-23	point	point	ADV	_	PronType=Neg	22	advmod	_	prpos=Rg|uppos=ADVNEG
+23	point	point	ADV	_	Polarity=Neg	22	advmod	_	prpos=Rg|uppos=ADVNEG
 24	de	de	DET	_	Definite=Ind	25	det	_	prpos=Dn|uppos=D
 25	heritage	héritage	NOUN	_	Number=Sing	22	obj	_	prpos=Nc|uppos=NCS
 26	qui	qui	PRON	_	PronType=Rel	28	nsubj	_	prpos=Pr|uppos=WPRO
@@ -6185,7 +6197,7 @@
 # len = 24
 # text = le segont est en ville de loy ou en bourgage, la ou fame aquiert en la compaignie de son mari la moitié;
 1	le	le	DET	_	Definite=Def|PronType=Art	2	det	_	prpos=Da|uppos=D
-2	segont	second	ADJ	_	Number=Sing|NumType=Ord	3	nsubj	_	prpos=Nc|uppos=NCS
+2	segont	second	ADJ	_	NumType=Ord	3	nsubj	_	prpos=Mo|uppos=ADJ
 3	est	être	VERB	_	Number=Sing|Person=3|VerbForm=Fin	0	root	_	prpos=Vuc|uppos=EJ
 4	en	en	ADP	_	_	5	case	_	prpos=S|uppos=P
 5	ville	ville	NOUN	_	Number=Sing	3	obl	_	prpos=Nc|uppos=NCS
@@ -6314,9 +6326,9 @@
 6	en	en	ADP	_	_	7	case	_	prpos=S|uppos=P
 7	quoi	quoi	PRON	_	PronType=Rel	10	obl	_	prpos=Pr|uppos=WPRO
 8	il	il	PRON	_	PronType=Prs	10	expl	_	prpos=Pp|uppos=PRO
-9	n'	ne	ADV	_	PronType=Neg	10	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+9	n'	ne	ADV	_	Polarity=Neg	10	advmod	_	prpos=Rp|uppos=NEG
 10	a	avoir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	5	acl:relcl	_	prpos=Vuc|uppos=AJ
-11	point	point	ADV	_	PronType=Neg	10	advmod	_	prpos=Rg|uppos=ADVNEG
+11	point	point	ADV	_	Polarity=Neg	10	advmod	_	prpos=Rg|uppos=ADVNEG
 12	de	de	DET	_	Definite=Ind	13	det	_	prpos=Dn|uppos=D
 13	respit	répit	NOUN	_	Number=Sing	10	obj	_	prpos=Nc|SpaceAfter=No|uppos=NCS
 14	,	,	PUNCT	_	_	4	punct	_	join=left|prpos=Fw|uppos=PON
@@ -6383,9 +6395,9 @@
 5	especials	espécial	ADJ	_	_	4	amod	_	prpos=Ag|uppos=ADJ
 6	ou	où	PRON	_	PronType=Rel	9	obl	_	prpos=Pr|uppos=WPRO
 7	il	il	PRON	_	PronType=Prs	9	expl	_	prpos=Pp|uppos=PRO
-8	n'	ne	ADV	_	PronType=Neg	9	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+8	n'	ne	ADV	_	Polarity=Neg	9	advmod	_	prpos=Rp|uppos=NEG
 9	a	avoir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	4	acl:relcl	_	prpos=Vuc|uppos=AJ
-10	point	point	ADV	_	PronType=Neg	9	advmod	_	prpos=Rg|uppos=ADVNEG
+10	point	point	ADV	_	Polarity=Neg	9	advmod	_	prpos=Rg|uppos=ADVNEG
 11	de	de	DET	_	Definite=Ind	12	det	_	prpos=Dn|uppos=D
 12	respit	répit	NOUN	_	Number=Sing	9	obj	_	prpos=Nc|SpaceAfter=No|uppos=NCS
 13	.	.	PUNCT	_	_	4	punct	_	join=left|prpos=Fs|uppos=PONFP
@@ -6499,9 +6511,9 @@
 98	quar	car	CCONJ	_	_	104	cc	_	prpos=Cc|uppos=CONJO
 99	l'	le	DET	_	Definite=Def|PronType=Art	100	det	_	prpos=Da|uppos=D
 100	escheance	échéance	NOUN	_	Number=Sing	104	nsubj	_	prpos=Nc|uppos=NCS
-101	n'	ne	ADV	_	PronType=Neg	104	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+101	n'	ne	ADV	_	Polarity=Neg	104	advmod	_	prpos=Rp|uppos=NEG
 102	est	être	AUX	_	Number=Sing|Person=3|VerbForm=Fin	104	aux	_	prpos=Vuc|uppos=EJ
-103	pas	pas	ADV	_	PronType=Neg	104	advmod	_	prpos=Rg|uppos=ADVNEG
+103	pas	pas	ADV	_	Polarity=Neg	104	advmod	_	prpos=Rg|uppos=ADVNEG
 104	venue	venir	VERB	_	Tense=Past|VerbForm=Part	71	conj	_	prpos=Ge|uppos=VPP
 105-106	du	_	_	_	_	_	_	_	_
 105	de	de	ADP	_	_	107	case	_	prpos=S|uppos=P
@@ -6520,10 +6532,10 @@
 117	donneor	donneur	NOUN	_	Number=Sing	114	obl	_	prpos=Nc|SpaceAfter=No|uppos=NCS
 118	,	,	PUNCT	_	_	114	punct	_	join=left|prpos=Fw|uppos=PON
 119	ele	il	PRON	_	PronType=Prs	122	nsubj	_	prpos=Pp|uppos=PRO
-120	n'	ne	ADV	_	PronType=Neg	122	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+120	n'	ne	ADV	_	Polarity=Neg	122	advmod	_	prpos=Rp|uppos=NEG
 121	i	y	PRON	_	PronType=Prs	122	obl	_	prpos=Pp|uppos=PRO
 122	partist	partir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	71	conj	_	prpos=Vvc|uppos=VJ
-123	mie	mie	ADV	_	PronType=Neg	122	advmod	_	prpos=Rg|SpaceAfter=No|uppos=ADV
+123	mie	mie	ADV	_	Polarity=Neg	122	advmod	_	prpos=Rg|SpaceAfter=No|uppos=ADV
 124	.	.	PUNCT	_	_	5	punct	_	join=left|prpos=Fs|uppos=PONFP
 
 # sent_id = 1314_Atir_1_1_65_1_1
@@ -6571,9 +6583,9 @@
 40	l'	le	DET	_	Definite=Def|PronType=Art	42	det	_	prpos=Da|uppos=D
 41	autre	autre	ADJ	_	_	42	amod	_	prpos=Ag|uppos=ADJ
 42	partie	partie	NOUN	_	Number=Sing	46	nsubj	_	prpos=Nc|uppos=NCS
-43	ne	ne	ADV	_	PronType=Neg	46	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+43	ne	ne	ADV	_	Polarity=Neg	46	advmod	_	prpos=Rp|uppos=NEG
 44	puet	pouvoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	46	aux	_	prpos=Vvc|uppos=MDJ
-45	pas	pas	ADV	_	PronType=Neg	46	advmod	_	prpos=Rg|uppos=ADVNEG
+45	pas	pas	ADV	_	Polarity=Neg	46	advmod	_	prpos=Rg|uppos=ADVNEG
 46	metre	mettre	VERB	_	VerbForm=Inf	5	ccomp	_	prpos=Vvn|uppos=VX
 47	le	le	DET	_	Definite=Def|PronType=Art	48	det	_	prpos=Da|uppos=D
 48	gage	gage	NOUN	_	Number=Sing	46	obj	_	prpos=Nc|uppos=NCS
@@ -6588,7 +6600,7 @@
 # len = 65
 1	quar	car	CCONJ	_	_	8	cc	_	prpos=Cc|uppos=CONJO
 2	il	il	PRON	_	PronType=Prs	8	nsubj	_	prpos=Pp|uppos=PRO
-3	n'	ne	ADV	_	PronType=Neg	8	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+3	n'	ne	ADV	_	Polarity=Neg	8	advmod	_	prpos=Rp|uppos=NEG
 4	en	en	PRON	_	PronType=Prs	8	obl	_	prpos=Pp|uppos=PRO
 5	seroit	être	AUX	_	Number=Sing|Person=3|VerbForm=Fin	8	aux:pass	_	prpos=Vuc|uppos=EJ
 6	de	de	ADP	_	_	7	case	_	prpos=S|uppos=P
@@ -6630,9 +6642,9 @@
 24	,	,	PUNCT	_	_	12	punct	_	join=left|prpos=Fw|uppos=PON
 25	les	le	DET	_	Definite=Def|PronType=Art	26	det	_	prpos=Da|uppos=D
 26	tesmoins	témoin	NOUN	_	Number=Plur	31	nsubj	_	prpos=Nc|uppos=NCPL
-27	ne	ne	ADV	_	PronType=Neg	31	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+27	ne	ne	ADV	_	Polarity=Neg	31	advmod	_	prpos=Rp|uppos=NEG
 28	doivent	devoir	AUX	_	Number=Plur|Person=3|VerbForm=Fin	31	aux	_	prpos=Vvc|uppos=MDJ
-29	pas	pas	ADV	_	PronType=Neg	31	advmod	_	prpos=Rg|uppos=ADVNEG
+29	pas	pas	ADV	_	Polarity=Neg	31	advmod	_	prpos=Rg|uppos=ADVNEG
 30	estre	être	AUX	_	VerbForm=Inf	31	aux:pass	_	prpos=Vun|uppos=EX
 31	oïz	ouïr	VERB	_	Tense=Past|VerbForm=Part	5	ccomp	_	prpos=Ge|uppos=VPP
 32	en	en	ADP	_	_	33	case	_	prpos=S|uppos=P
@@ -6733,7 +6745,7 @@
 68	sus	sus	ADP	_	_	70	case	_	prpos=S|uppos=P
 69	les	le	DET	_	Definite=Def|PronType=Art	70	det	_	prpos=Da|uppos=D
 70	hommes	homme	NOUN	_	Number=Plur	67	obl	_	prpos=Nc|uppos=NCPL
-71	n'	ne	ADV	_	PronType=Neg	72	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+71	n'	ne	ADV	_	Polarity=Neg	72	advmod	_	prpos=Rp|uppos=NEG
 72	est	être	VERB	_	Number=Sing|Person=3|VerbForm=Fin	11	conj	_	prpos=Vuc|uppos=EJ
 73	de	de	ADP	_	_	74	case	_	prpos=S|uppos=P
 74	value	value	NOUN	_	Number=Sing	72	obl	_	prpos=Nc|uppos=NCS
@@ -6743,7 +6755,7 @@
 78	depecier	dépécer	VERB	_	VerbForm=Inf	74	acl	_	prpos=Vvn|SpaceAfter=No|uppos=VX
 79	,	,	PUNCT	_	_	72	punct	_	join=left|prpos=Fw|uppos=PON
 80	il	il	PRON	_	PronType=Prs	84	nsubj	_	prpos=Pp|uppos=PRO
-81	ne	ne	ADV	_	PronType=Neg	84	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+81	ne	ne	ADV	_	Polarity=Neg	84	advmod	_	prpos=Rp|uppos=NEG
 82	porra	pouvoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	84	aux	_	prpos=Vvc|uppos=MDJ
 83	puis	puis	ADV	_	_	84	advmod	_	prpos=Rg|uppos=ADV
 84	retorner	retourner	VERB	_	VerbForm=Inf	5	ccomp	_	prpos=Vvn|uppos=VX
@@ -6755,7 +6767,7 @@
 90	serjant	sergent	NOUN	_	Number=Sing	86	obl	_	prpos=Nc|uppos=NCS
 91	quant	quand	SCONJ	_	_	95	mark	_	prpos=Cs|uppos=CONJS
 92	il	il	PRON	_	PronType=Prs	95	nsubj	_	prpos=Pp|uppos=PRO
-93	ne	ne	ADV	_	PronType=Neg	95	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+93	ne	ne	ADV	_	Polarity=Neg	95	advmod	_	prpos=Rp|uppos=NEG
 94	li	il	PRON	_	PronType=Prs	95	iobj	_	prpos=Pp|uppos=PRO
 95	mist	mettre	VERB	_	Number=Sing|Person=3|VerbForm=Fin	84	advcl	_	prpos=Vvc|uppos=VJ
 96	de	de	ADP	_	_	97	case	_	prpos=S|uppos=P
@@ -6789,9 +6801,9 @@
 10	seon	seon	NOUN	_	Number=Sing	6	obl	_	prpos=Nc|SpaceAfter=No|uppos=NCS
 11	,	,	PUNCT	_	_	6	punct	_	join=left|prpos=Fw|uppos=PON
 12	il	il	PRON	_	PronType=Prs	18	nsubj	_	prpos=Pp|uppos=PRO
-13	ne	ne	ADV	_	PronType=Neg	18	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+13	ne	ne	ADV	_	Polarity=Neg	18	advmod	_	prpos=Rp|uppos=NEG
 14	doit	devoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	18	aux	_	prpos=Vvc|uppos=MDJ
-15	pas	pas	ADV	_	PronType=Neg	18	advmod	_	prpos=Rg|uppos=ADVNEG
+15	pas	pas	ADV	_	Polarity=Neg	18	advmod	_	prpos=Rg|uppos=ADVNEG
 16	puis	puis	ADV	_	_	18	advmod	_	prpos=Rg|uppos=ADV
 17	estre	être	AUX	_	VerbForm=Inf	18	aux:pass	_	prpos=Vun|uppos=EX
 18	oïz	ouïr	VERB	_	Tense=Past|VerbForm=Part	0	root	_	prpos=Ge|uppos=VPP
@@ -6833,7 +6845,7 @@
 # len = 10
 # text = et n' out nul enfant le puisné des iij.;
 1	et	et	CCONJ	_	_	3	cc	_	prpos=Cc|uppos=CONJO
-2	n'	ne	ADV	_	PronType=Neg	3	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+2	n'	ne	ADV	_	Polarity=Neg	3	advmod	_	prpos=Rp|uppos=NEG
 3	out	avoir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	0	root	_	prpos=Vuc|uppos=AJ
 4	nul	nul	DET	_	Definite=Ind	5	det	_	prpos=Di|uppos=D
 5	enfant	enfant	NOUN	_	Number=Sing	3	obj	_	prpos=Nc|uppos=NCS
@@ -6995,7 +7007,7 @@
 16	les	le	DET	_	Definite=Def|PronType=Art	17	det	_	prpos=Da|uppos=D
 17	plez	plaid	NOUN	_	Number=Plur	21	obl	_	prpos=Nc|uppos=NCPL
 18	il	il	PRON	_	PronType=Prs	21	nsubj	_	prpos=Pp|uppos=PRO
-19	n'	ne	ADV	_	PronType=Neg	21	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+19	n'	ne	ADV	_	Polarity=Neg	21	advmod	_	prpos=Rp|uppos=NEG
 20	estoit	être	AUX	_	Number=Sing|Person=3|VerbForm=Fin	21	aux:pass	_	prpos=Vuc|uppos=EJ
 21	tenu	tenir	VERB	_	Tense=Past|VerbForm=Part	7	advcl	_	prpos=Ge|uppos=VPP
 22	a	à	ADP	_	_	23	mark	_	prpos=S|uppos=P
@@ -7027,10 +7039,10 @@
 3	jugié	juger	VERB	_	Tense=Past|VerbForm=Part	0	root	_	prpos=Ge|uppos=VPP
 4	que	que	SCONJ	_	_	7	mark	_	prpos=Cs|uppos=CONJS
 5	il	il	PRON	_	PronType=Prs	7	nsubj	_	prpos=Pp|uppos=PRO
-6	ne	ne	ADV	_	PronType=Neg	7	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+6	ne	ne	ADV	_	Polarity=Neg	7	advmod	_	prpos=Rp|uppos=NEG
 7	connoistroit	connaître	VERB	_	Number=Sing|Person=3|VerbForm=Fin	3	ccomp	_	prpos=Vvc|uppos=VJ
 8	ne	ni	CCONJ	_	_	10	cc	_	prpos=Cc|uppos=CONJO
-9	ne	ne	ADV	_	PronType=Neg	10	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+9	ne	ne	ADV	_	Polarity=Neg	10	advmod	_	prpos=Rp|uppos=NEG
 10	neeroit	nier	VERB	_	Number=Sing|Person=3|VerbForm=Fin	7	conj	_	prpos=Vvc|SpaceAfter=No|uppos=VJ
 11	;	;	PUNCT	_	_	3	punct	_	join=left|prpos=Fw|uppos=PON
 
@@ -7216,10 +7228,10 @@
 15	la	là	ADV	_	_	14	advmod	_	prpos=Rg|uppos=ADV
 16	ou	où	PRON	_	PronType=Rel	19	obl	_	prpos=Pr|uppos=WPRO
 17	il	il	PRON	_	PronType=Prs	19	nsubj	_	prpos=Pp|uppos=PRO
-18	ne	ne	ADV	_	PronType=Neg	19	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+18	ne	ne	ADV	_	Polarity=Neg	19	advmod	_	prpos=Rp|uppos=NEG
 19	pouait	pouvoir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	15	acl:relcl	_	prpos=Vvc|uppos=VJ
 20	ne	ni	CCONJ	_	_	22	cc	_	prpos=Cc|uppos=CONJO
-21	ne	ne	ADV	_	PronType=Neg	22	advmod	_	prpos=Rg|uppos=NEG
+21	ne	ne	ADV	_	Polarity=Neg	22	advmod	_	prpos=Rg|uppos=NEG
 22	devoit	devoir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	19	conj	_	prpos=Vvc|SpaceAfter=No|uppos=VJ
 23	.	.	PUNCT	_	_	5	punct	_	join=left|prpos=Fs|uppos=PONFP
 
@@ -7321,7 +7333,7 @@
 4	jugement	jugement	NOUN	_	Number=Sing	3	obj	_	prpos=Nc|uppos=NCS
 5	que	que	SCONJ	_	_	9	mark	_	prpos=Cs|uppos=CONJS
 6	il	il	PRON	_	PronType=Prs	9	nsubj	_	prpos=Pp|uppos=PRO
-7	n'	ne	ADV	_	PronType=Neg	9	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+7	n'	ne	ADV	_	Polarity=Neg	9	advmod	_	prpos=Rp|uppos=NEG
 8	aroit	avoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	9	aux	_	prpos=Vuc|uppos=AJ
 9	ataint	atteindre	VERB	_	Tense=Past|VerbForm=Part	4	acl	_	prpos=Ge|uppos=VPP
 10	fors	fors	ADP	_	_	11	case	_	prpos=S|uppos=P
@@ -7421,7 +7433,7 @@
 7	il	il	PRON	_	PronType=Prs	10	nsubj	_	prpos=Pp|uppos=PRO
 8	l'	il	PRON	_	PronType=Prs	10	obl	_	prpos=Pp|uppos=PRO
 9	avoit	avoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	10	aux	_	prpos=Vuc|uppos=AJ
-10	tret	traire	VERB	_	Tense=Past|VerbForm=Part	0	_	_	prpos=Ge|uppos=VPP
+10	tret	traire	VERB	_	Tense=Past|VerbForm=Part	22	advcl	_	prpos=Ge|uppos=VPP
 11	a	à	ADP	_	_	12	case	_	prpos=S|uppos=P
 12	amende	amende	NOUN	_	Number=Sing	10	obl	_	prpos=Nc|uppos=NCS
 13	après	après	ADP	_	_	15	case	_	prpos=S|uppos=P
@@ -7433,7 +7445,7 @@
 19	il	il	PRON	_	PronType=Prs	22	nsubj	_	prpos=Pp|uppos=PRO
 20	s'	se	PRON	_	PronType=Prs	23	expl	_	prpos=Pp|uppos=PRO
 21	en	en	PRON	_	PronType=Prs	23	obl	_	prpos=Pp|uppos=PRO
-22	vouloit	vouloir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	10	advcl	_	prpos=Vvc|uppos=MDJ
+22	vouloit	vouloir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	3	ccomp	_	prpos=Vvc|uppos=MDJ
 23	aler	aller	VERB	_	VerbForm=Inf	22	xcomp	_	prpos=Vvn|uppos=VX
 24	quite	quitte	ADJ	_	_	23	xcomp	_	prpos=Ag|uppos=ADJ
 25	et	et	CCONJ	_	_	26	cc	_	prpos=Cc|uppos=CONJO
@@ -7453,7 +7465,7 @@
 4	,	,	PUNCT	_	_	3	punct	_	join=left|prpos=Fw|uppos=PON
 5	quant	quand	SCONJ	_	_	11	mark	_	prpos=Cs|uppos=CONJS
 6	il	il	PRON	_	PronType=Prs	11	nsubj	_	prpos=Pp|uppos=PRO
-7	ne	ne	ADV	_	PronType=Neg	11	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+7	ne	ne	ADV	_	Polarity=Neg	11	advmod	_	prpos=Rp|uppos=NEG
 8	s'	se	PRON	_	PronType=Prs	11	expl	_	prpos=Pp|uppos=PRO
 9	estoit	être	AUX	_	Number=Sing|Person=3|VerbForm=Fin	11	aux	_	prpos=Vuc|uppos=EJ
 10	tant	tant	ADV	_	_	11	advmod	_	prpos=Rg|uppos=ADV
@@ -7468,7 +7480,7 @@
 19	,	,	PUNCT	_	_	11	punct	_	join=left|prpos=Fw|uppos=PON
 20	ne	ni	CCONJ	_	_	25	cc	_	prpos=Cc|uppos=CONJO
 21	il	il	PRON	_	PronType=Prs	25	nsubj	_	prpos=Pp|uppos=PRO
-22	n'	ne	ADV	_	PronType=Neg	25	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+22	n'	ne	ADV	_	Polarity=Neg	25	advmod	_	prpos=Rp|uppos=NEG
 23	avoit	avoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	25	aux	_	prpos=Vuc|uppos=AJ
 24	esté	être	AUX	_	Tense=Past|VerbForm=Part	25	aux:pass	_	prpos=Ge|uppos=EPP
 25	mis	mettre	VERB	_	Tense=Past|VerbForm=Part	11	conj	_	prpos=Ge|uppos=VPP
@@ -7479,11 +7491,11 @@
 30	,	,	PUNCT	_	_	11	punct	_	join=left|prpos=Fw|uppos=PON
 31	que	que	SCONJ	_	_	38	mark	_	prpos=Cs|uppos=CONJS
 32	il	il	PRON	_	PronType=Prs	38	nsubj	_	prpos=Pp|uppos=PRO
-33	ne	ne	ADV	_	PronType=Neg	38	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+33	ne	ne	ADV	_	Polarity=Neg	38	advmod	_	prpos=Rp|uppos=NEG
 34	s'	se	PRON	_	PronType=Prs	38	expl	_	prpos=Pp|uppos=PRO
 35	en	en	PRON	_	PronType=Prs	38	obl	_	prpos=Pp|uppos=PRO
 36	devoit	devoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	38	aux	_	prpos=Vvc|uppos=MDJ
-37	pas	pas	ADV	_	PronType=Neg	38	advmod	_	prpos=Rg|uppos=ADVNEG
+37	pas	pas	ADV	_	Polarity=Neg	38	advmod	_	prpos=Rg|uppos=ADVNEG
 38	aler	aller	VERB	_	VerbForm=Inf	3	ccomp	_	prpos=Vvn|uppos=VX
 39	quite	quitte	ADJ	_	_	38	xcomp	_	prpos=Ag|uppos=ADJ
 40	ne	ni	CCONJ	_	_	42	cc	_	prpos=Cc|uppos=CONJO
@@ -7505,9 +7517,9 @@
 6	de	de	ADP	_	_	8	case	_	prpos=S|uppos=P
 7	nouvele	nouveau	ADJ	_	_	8	amod	_	prpos=Ag|uppos=ADJ
 8	dessaisine	dessaisine	NOUN	_	Number=Sing	5	nmod	_	prpos=Nc|uppos=NCS
-9	ne	ne	ADV	_	PronType=Neg	13	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+9	ne	ne	ADV	_	Polarity=Neg	13	advmod	_	prpos=Rp|uppos=NEG
 10	devoit	devoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	13	aux	_	prpos=Vvc|uppos=MDJ
-11	pas	pas	ADV	_	PronType=Neg	13	advmod	_	prpos=Rg|uppos=ADVNEG
+11	pas	pas	ADV	_	Polarity=Neg	13	advmod	_	prpos=Rg|uppos=ADVNEG
 12	estre	être	AUX	_	VerbForm=Inf	13	aux:pass	_	prpos=Vun|uppos=EX
 13	abatu	abattre	VERB	_	Tense=Past|VerbForm=Part	1	ccomp	_	prpos=Ge|uppos=VPP
 14	fors	fors	ADP	_	_	16	case	_	prpos=S|uppos=P
@@ -7520,14 +7532,14 @@
 21	jugié	juger	VERB	_	Tense=Past|VerbForm=Part	20	acl	_	prpos=Ge|SpaceAfter=No|uppos=VPP
 22	,	,	PUNCT	_	_	16	punct	_	join=left|prpos=Fw|uppos=PON
 23	[et]	et	CCONJ	_	_	27	cc	_	prpos=Cc|uppos=CONJO
-24	pas	pas	ADV	_	PronType=Neg	27	advmod	_	prpos=Rg|uppos=ADVNEG
+24	pas	pas	ADV	_	Polarity=Neg	27	advmod	_	prpos=Rg|uppos=ADVNEG
 25	par	par	ADP	_	_	27	case	_	prpos=S|uppos=P
 26	une	un	DET	_	Definite=Ind|PronType=Art	27	det	_	prpos=Dn|uppos=D
 27	deffaute	défaute	NOUN	_	Number=Sing	16	conj	_	prpos=Nc|SpaceAfter=No|uppos=NCS
 28	,	,	PUNCT	_	_	13	punct	_	join=left|prpos=Fw|uppos=PON
 29	se	si	SCONJ	_	_	33	mark	_	prpos=Cs|uppos=CONJS
 30	tant	tant	ADV	_	_	35	advmod	_	prpos=Rg|uppos=ADV
-31	n'	ne	ADV	_	PronType=Neg	33	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+31	n'	ne	ADV	_	Polarity=Neg	33	advmod	_	prpos=Rp|uppos=NEG
 32	i	y	PRON	_	PronType=Prs	33	obl	_	prpos=Pp|uppos=PRO
 33	avoit	avoir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	13	advcl	_	prpos=Vuc|uppos=AJ
 34	de	de	ADP	_	_	35	case	_	prpos=S|uppos=P
@@ -7636,9 +7648,9 @@
 31	,	,	PUNCT	_	_	14	punct	_	join=left|prpos=Fw|uppos=PON
 32	que	que	SCONJ	_	_	37	mark	_	prpos=Cs|uppos=CONJS
 33	il	il	PRON	_	PronType=Prs	37	nsubj	_	prpos=Pp|uppos=PRO
-34	n'	ne	ADV	_	PronType=Neg	37	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+34	n'	ne	ADV	_	Polarity=Neg	37	advmod	_	prpos=Rp|uppos=NEG
 35	estoit	être	AUX	_	Number=Sing|Person=3|VerbForm=Fin	37	aux:pass	_	prpos=Vuc|uppos=EJ
-36	pas	pas	ADV	_	PronType=Neg	37	advmod	_	prpos=Rg|uppos=ADVNEG
+36	pas	pas	ADV	_	Polarity=Neg	37	advmod	_	uppos=ADVNEG
 37	tenu	tenir	VERB	_	Tense=Past|VerbForm=Part	3	ccomp	_	prpos=Ge|uppos=VPP
 38	a	à	ADP	_	_	40	mark	_	prpos=S|uppos=P
 39	li	il	PRON	_	PronType=Prs	40	iobj	_	prpos=Pp|uppos=PRO
@@ -7656,9 +7668,9 @@
 6	si	si	ADV	_	ExtPos=SCONJ	12	mark	_	prpos=Rg|uppos=ADV
 7	comme	comme	SCONJ	_	_	6	fixed	_	prpos=Cs|uppos=CONJS
 8	il	il	PRON	_	PronType=Prs	12	nsubj	_	prpos=Pp|uppos=PRO
-9	n'	ne	ADV	_	PronType=Neg	12	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+9	n'	ne	ADV	_	Polarity=Neg	12	advmod	_	prpos=Rp|uppos=NEG
 10	estoit	être	AUX	_	Number=Sing|Person=3|VerbForm=Fin	12	cop	_	prpos=Vuc|uppos=EJ
-11	pas	pas	ADV	_	PronType=Neg	12	advmod	_	prpos=Rg|uppos=ADVNEG
+11	pas	pas	ADV	_	Polarity=Neg	12	advmod	_	prpos=Rg|uppos=ADVNEG
 12	proprietaire	propriétaire	NOUN	_	Number=Sing	28	advcl	_	prpos=Nc|uppos=NCS
 13-14	du	_	_	_	_	_	_	_	_
 13	de	de	ADP	_	_	15	case	_	prpos=S|uppos=P
@@ -7734,10 +7746,10 @@
 15	la	là	ADV	_	_	14	advmod	_	prpos=Rg|uppos=ADV
 16	ou	où	PRON	_	PronType=Rel	19	obl	_	prpos=Pr|uppos=WPRO
 17	il	il	PRON	_	PronType=Prs	19	nsubj	_	prpos=Pp|uppos=PRO
-18	ne	ne	ADV	_	PronType=Neg	19	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+18	ne	ne	ADV	_	Polarity=Neg	19	advmod	_	prpos=Rp|uppos=NEG
 19	poait	pouvoir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	15	acl:relcl	_	prpos=Vvc|uppos=VJ
 20	ne	ni	CCONJ	_	_	22	cc	_	prpos=Cc|uppos=CONJO
-21	ne	ne	ADV	_	PronType=Neg	22	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+21	ne	ne	ADV	_	Polarity=Neg	22	advmod	_	prpos=Rp|uppos=NEG
 22	devoit	devoir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	19	conj	_	prpos=Vvc|SpaceAfter=No|uppos=VJ
 23	.	.	PUNCT	_	_	5	punct	_	join=left|prpos=Fs|uppos=PONFP
 
@@ -7861,10 +7873,10 @@
 42	que	que	SCONJ	_	_	49	mark	_	prpos=Cs|uppos=CONJS
 43	ses	son	DET	_	Poss=Yes	44	det	_	prpos=Ds|uppos=DZ
 44	nans	nant	NOUN	_	Number=Plur	49	obj	_	prpos=Nc|uppos=NCPL
-45	ne	ne	ADV	_	PronType=Neg	49	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+45	ne	ne	ADV	_	Polarity=Neg	49	advmod	_	prpos=Rp|uppos=NEG
 46	devoit	devoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	49	aux	_	prpos=Vvc|uppos=MDJ
 47	il	il	PRON	_	PronType=Prs	49	nsubj	_	prpos=Pp|uppos=PRO
-48	mie	mie	ADV	_	PronType=Neg	49	advmod	_	prpos=Rg|uppos=ADV
+48	mie	mie	ADV	_	Polarity=Neg	49	advmod	_	prpos=Rg|uppos=ADV
 49	avoir	avoir	VERB	_	VerbForm=Inf	41	ccomp	_	prpos=Vun|uppos=AX
 50	comme	comme	ADP	_	_	51	mark	_	prpos=S|uppos=P
 51	forfez	forfaire	VERB	_	Tense=Past|VerbForm=Part	49	xcomp	_	prpos=Ge|uppos=VPP
@@ -7881,7 +7893,7 @@
 2	fu	être	AUX	_	Number=Sing|Person=3|VerbForm=Fin	1	aux:pass	_	prpos=Vuc|uppos=EJ
 3	que	que	SCONJ	_	_	6	mark	_	prpos=Cs|uppos=CONJS
 4	il	il	PRON	_	PronType=Prs	6	nsubj	_	prpos=Pp|uppos=PRO
-5	n'	ne	ADV	_	PronType=Neg	6	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+5	n'	ne	ADV	_	Polarity=Neg	6	advmod	_	prpos=Rp|uppos=NEG
 6	avroit	avoir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	1	ccomp	_	prpos=Vuc|uppos=AJ
 7	tant	tant	ADV	_	_	8	advmod	_	prpos=Rg|uppos=ADV
 8	seulement	seulement	ADV	_	_	6	advmod	_	prpos=Rg|uppos=ADV
@@ -8055,7 +8067,7 @@
 14	anciés	ainçois	ADV	_	ExtPos=SCONJ	18	mark	_	prpos=Rg|uppos=ADV
 15	que	que	SCONJ	_	_	14	fixed	_	prpos=Cs|uppos=CONJS
 16	il	il	PRON	_	PronType=Prs	18	nsubj	_	prpos=Pp|uppos=PRO
-17	ne	ne	ADV	_	PronType=Neg	18	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+17	ne	ne	ADV	_	Polarity=Neg	18	advmod	_	prpos=Rp|uppos=NEG
 18	fist	faire	VERB	_	Number=Sing|Person=3|VerbForm=Fin	13	advcl	_	prpos=Vvc|uppos=VJ
 19	moi	je	PRON	_	PronType=Prs	18	obj	_	prpos=Pp|SpaceAfter=No|uppos=PRO
 20	,	,	PUNCT	_	_	3	punct	_	join=left|prpos=Fw|uppos=PON
@@ -8082,7 +8094,7 @@
 7	mere	mère	NOUN	_	Number=Sing	4	obl	_	prpos=Nc|uppos=NCS
 8	que	que	SCONJ	_	_	11	mark	_	prpos=Cs|uppos=CONJS
 9	il	il	PRON	_	PronType=Prs	11	nsubj	_	prpos=Pp|uppos=PRO
-10	ne	ne	ADV	_	PronType=Neg	11	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+10	ne	ne	ADV	_	Polarity=Neg	11	advmod	_	prpos=Rp|uppos=NEG
 11	fist	faire	VERB	_	Number=Sing|Person=3|VerbForm=Fin	4	advcl	_	prpos=Vvc|uppos=VJ
 12	la	le	DET	_	Definite=Def|PronType=Art	13	det	_	prpos=Da|uppos=D
 13	vostre	vôtre	PRON	_	Poss=Yes	11	obj	_	prpos=Ps|SpaceAfter=No|uppos=PRO
@@ -8097,7 +8109,7 @@
 22	mariage	mariage	NOUN	_	Number=Sing	20	obl	_	prpos=Nc|uppos=NCS
 23	que	que	SCONJ	_	_	26	mark	_	prpos=Cs|uppos=CONJS
 24	vous	vous	PRON	_	PronType=Prs	26	nsubj	_	prpos=Pp|uppos=PRO
-25	n'	ne	ADV	_	PronType=Neg	26	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+25	n'	ne	ADV	_	Polarity=Neg	26	advmod	_	prpos=Rp|uppos=NEG
 26	estes	être	VERB	_	Number=Plur|Person=2|VerbForm=Fin	20	advcl	_	prpos=Vuc|SpaceAfter=No|uppos=EJ
 27	;	;	PUNCT	_	_	4	punct	_	join=left|prpos=Fw|uppos=PON
 
@@ -8268,10 +8280,10 @@
 26	de	de	ADP	_	_	28	case	_	prpos=S|uppos=P
 27	un	un	DET	_	Definite=Ind|PronType=Art	28	det	_	prpos=Dn|uppos=D
 28	meffet	méfait	NOUN	_	Number=Sing	33	obl	_	prpos=Nc|uppos=NCS
-29	ne	ne	ADV	_	PronType=Neg	33	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+29	ne	ne	ADV	_	Polarity=Neg	33	advmod	_	prpos=Rp|uppos=NEG
 30	devoit	devoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	33	aux	_	prpos=Vvc|uppos=MDJ
 31	il	il	PRON	_	PronType=Prs	33	nsubj	_	prpos=Pp|uppos=PRO
-32	pas	pas	ADV	_	PronType=Neg	33	advmod	_	prpos=Rg|uppos=ADVNEG
+32	pas	pas	ADV	_	Polarity=Neg	33	advmod	_	prpos=Rg|uppos=ADVNEG
 33	porter	porter	VERB	_	VerbForm=Inf	24	ccomp	_	prpos=Vvn|uppos=VX
 34	ij.	deux	NUM	_	NumType=Card	35	nummod	_	prpos=Mc|uppos=ADJNUM
 35	amendes	amende	NOUN	_	Number=Plur	33	obj	_	prpos=Nc|uppos=NCPL
@@ -8288,7 +8300,7 @@
 3	que	que	SCONJ	_	_	7	mark	_	prpos=Cs|uppos=CONJS
 4	le	le	DET	_	Definite=Def|PronType=Art	5	det	_	prpos=Da|uppos=D
 5	clerc	clerc	NOUN	_	Number=Sing	7	nsubj	_	prpos=Nc|uppos=NCS
-6	n'	ne	ADV	_	PronType=Neg	7	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+6	n'	ne	ADV	_	Polarity=Neg	7	advmod	_	prpos=Rp|uppos=NEG
 7	enporteroit	emporter	VERB	_	Number=Sing|Person=3|VerbForm=Fin	1	ccomp	_	prpos=Vvc|uppos=VJ
 8	que	que	ADV	_	_	11	advmod	_	prpos=Rg|uppos=ADV
 9	la	le	DET	_	Definite=Def|PronType=Art	11	det	_	prpos=Da|uppos=D
@@ -8420,11 +8432,11 @@
 6	:	:	PUNCT	_	_	3	punct	_	join=left|prpos=Fw|uppos=PON
 7	«	«	PUNCT	_	_	3	punct	_	prpos=Fo|uppos=PON
 8	Je	je	PRON	_	PronType=Prs	11	nsubj	_	prpos=Pp|uppos=PRO
-9	ne	ne	ADV	_	PronType=Neg	11	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+9	ne	ne	ADV	_	Polarity=Neg	11	advmod	_	prpos=Rp|uppos=NEG
 10	sui	être	AUX	_	Number=Sing|Person=1|VerbForm=Fin	11	cop	_	prpos=Vuc|uppos=EJ
 11	proprietaire	propriétaire	NOUN	_	Number=Sing	3	ccomp	_	prpos=Nc|uppos=NCS
 12	ne	ni	CCONJ	_	_	14	cc	_	prpos=Cc|uppos=CONJO
-13	ne	ne	ADV	_	PronType=Neg	14	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+13	ne	ne	ADV	_	Polarity=Neg	14	advmod	_	prpos=Rp|uppos=NEG
 14	tien	tenir	VERB	_	Number=Sing|Person=1|VerbForm=Fin	11	conj	_	prpos=Vvc|uppos=VJ
 15	fors	fors	ADP	_	_	18	case	_	prpos=S|uppos=P
 16	a	à	ADP	_	_	18	case	_	prpos=S|uppos=P
@@ -8455,7 +8467,7 @@
 1	et	et	CCONJ	_	_	6	cc	_	prpos=Cc|uppos=CONJO
 2	vostre	votre	DET	_	Poss=Yes	3	det	_	prpos=Ds|uppos=DZ
 3	mari	mari	NOUN	_	Number=Sing	6	nsubj	_	prpos=Nc|uppos=NCS
-4	n'	ne	ADV	_	PronType=Neg	6	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+4	n'	ne	ADV	_	Polarity=Neg	6	advmod	_	prpos=Rp|uppos=NEG
 5	en	en	PRON	_	PronType=Prs	6	obl	_	prpos=Pp|uppos=PRO
 6	fu	être	VERB	_	Number=Sing|Person=3|VerbForm=Fin	0	root	_	prpos=Vuc|uppos=EJ
 7	onques	onques	ADV	_	_	6	advmod	_	prpos=Rg|uppos=ADV
@@ -8534,9 +8546,9 @@
 10	vos	vôtre	PRON	_	Poss=Yes	2	obl	_	prpos=Ps|uppos=PRO
 11	que	que	SCONJ	_	_	16	mark	_	prpos=Cs|uppos=CONJS
 12	vous	vous	PRON	_	PronType=Prs	16	nsubj	_	prpos=Pp|uppos=PRO
-13	ne	ne	ADV	_	PronType=Neg	16	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+13	ne	ne	ADV	_	Polarity=Neg	16	advmod	_	prpos=Rp|uppos=NEG
 14	devez	devoir	AUX	_	Number=Plur|Person=2|VerbForm=Fin	16	aux	_	prpos=Vvc|uppos=MDJ
-15	pas	pas	ADV	_	PronType=Neg	16	advmod	_	prpos=Rg|uppos=ADVNEG
+15	pas	pas	ADV	_	Polarity=Neg	16	advmod	_	prpos=Rg|uppos=ADVNEG
 16	avoir	avoir	VERB	_	VerbForm=Inf	2	ccomp	_	prpos=Vun|uppos=AX
 17	douaire	douaire	NOUN	_	Number=Sing	16	obj	_	prpos=Nc|uppos=NCS
 18	sus	sus	ADP	_	_	19	case	_	prpos=S|uppos=P
@@ -8554,15 +8566,15 @@
 3	que	que	SCONJ	_	_	7	mark	_	prpos=Cs|uppos=CONJS
 4	la	le	DET	_	Definite=Def|PronType=Art	5	det	_	prpos=Da|uppos=D
 5	fame	femme	NOUN	_	Number=Sing	7	nsubj	_	prpos=Nc|uppos=NCS
-6	n'	ne	ADV	_	PronType=Neg	7	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+6	n'	ne	ADV	_	Polarity=Neg	7	advmod	_	prpos=Rp|uppos=NEG
 7	enporteroit	emporter	VERB	_	Number=Sing|Person=3|VerbForm=Fin	1	ccomp	_	prpos=Vvc|uppos=VJ
-8	point	point	ADV	_	PronType=Neg	7	advmod	_	prpos=Rg|uppos=ADVNEG
+8	point	point	ADV	_	Polarity=Neg	7	advmod	_	prpos=Rg|uppos=ADVNEG
 9	de	de	DET	_	Definite=Ind	10	det	_	prpos=Dn|uppos=D
 10	douaire	douaire	NOUN	_	Number=Sing	7	obj	_	prpos=Nc|uppos=NCS
 11	quant	quand	SCONJ	_	_	18	mark	_	prpos=Cs|uppos=CONJS
 12	son	son	DET	_	Poss=Yes	13	det	_	prpos=Ds|uppos=DZ
 13	mari	mari	NOUN	_	Number=Sing	18	nsubj	_	prpos=Nc|uppos=NCS
-14	n'	ne	ADV	_	PronType=Neg	18	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+14	n'	ne	ADV	_	Polarity=Neg	18	advmod	_	prpos=Rp|uppos=NEG
 15	en	en	PRON	_	PronType=Prs	18	obl	_	prpos=Pp|uppos=PRO
 16	fu	être	AUX	_	Number=Sing|Person=3|VerbForm=Fin	18	aux:pass	_	prpos=Vuc|uppos=EJ
 17	onques	onques	ADV	_	_	18	advmod	_	prpos=Rg|uppos=ADV
@@ -8614,7 +8626,7 @@
 14	que	que	SCONJ	_	_	20	mark	_	prpos=Cs|uppos=CONJS
 15	la	le	DET	_	Definite=Def|PronType=Art	16	det	_	prpos=Da|uppos=D
 16	veüe	vue	NOUN	_	Number=Sing	20	nsubj	_	prpos=Nc|uppos=NCS
-17	ne	ne	ADV	_	PronType=Neg	20	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+17	ne	ne	ADV	_	Polarity=Neg	20	advmod	_	prpos=Rp|uppos=NEG
 18	puet	pouvoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	20	aux	_	prpos=Vvc|uppos=MDJ
 19	estre	être	AUX	_	VerbForm=Inf	20	aux:pass	_	prpos=Vun|uppos=EX
 20	fete	faire	VERB	_	Tense=Past|VerbForm=Part	2	ccomp	_	prpos=Ge|uppos=VPP
@@ -8636,9 +8648,9 @@
 9	en	en	ADP	_	_	11	case	_	prpos=S|uppos=P
 10	ce	ce	DET	_	PronType=Dem	11	det	_	prpos=Dd|uppos=D
 11	cas	cas	NOUN	_	Number=Sing	13	obl	_	prpos=Nc|uppos=NCS
-12	ne	ne	ADV	_	PronType=Neg	13	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+12	ne	ne	ADV	_	Polarity=Neg	13	advmod	_	prpos=Rp|uppos=NEG
 13	convenoit	convenir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	4	ccomp	_	prpos=Vvc|uppos=VJ
-14	pas	pas	ADV	_	PronType=Neg	13	advmod	_	prpos=Rg|uppos=ADVNEG
+14	pas	pas	ADV	_	Polarity=Neg	13	advmod	_	prpos=Rg|uppos=ADVNEG
 15	chevaliers	chevalier	NOUN	_	Number=Plur	13	nsubj	_	prpos=Nc|uppos=NCPL
 16	et	et	CCONJ	_	_	18	cc	_	prpos=Cc|uppos=CONJO
 17	en	en	PRON	_	PronType=Prs	19	nmod	_	prpos=Pp|uppos=PRO
@@ -8739,11 +8751,11 @@
 4	que	que	SCONJ	_	_	8	mark	_	prpos=Cs|uppos=CONJS
 5	il	il	PRON	_	PronType=Prs	8	nsubj	_	prpos=Pp|uppos=PRO
 6	avoit	avoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	8	aux	_	prpos=Vuc|uppos=AJ
-7	point	point	ADV	_	PronType=Neg	8	advmod	_	prpos=Rg|uppos=ADVNEG
+7	point	point	ADV	_	Polarity=Neg	8	advmod	_	prpos=Rg|uppos=ADVNEG
 8	dit	dire	VERB	_	Tense=Past|VerbForm=Part	3	ccomp	_	prpos=Ge|uppos=VPP
 9	quant	quand	SCONJ	_	_	12	mark	_	prpos=Cs|uppos=CONJS
 10	il	il	PRON	_	PronType=Prs	12	nsubj	_	prpos=Pp|uppos=PRO
-11	ne	ne	ADV	_	PronType=Neg	12	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+11	ne	ne	ADV	_	Polarity=Neg	12	advmod	_	prpos=Rp|uppos=NEG
 12	disoit	dire	VERB	_	Number=Sing|Person=3|VerbForm=Fin	8	advcl	_	prpos=Vvc|SpaceAfter=No|uppos=VJ
 13	:	:	PUNCT	_	_	8	punct	_	join=left|prpos=Fw|uppos=PON
 14	«	«	PUNCT	_	_	8	punct	_	prpos=Fo|uppos=PON
@@ -8912,7 +8924,7 @@
 4	barre	barre	NOUN	_	Number=Sing	3	obj	_	prpos=Nc|uppos=NCS
 5	que	que	SCONJ	_	_	9	mark	_	prpos=Cs|uppos=CONJS
 6	il	il	PRON	_	PronType=Prs	9	nsubj	_	prpos=Pp|uppos=PRO
-7	n'	ne	ADV	_	PronType=Neg	9	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+7	n'	ne	ADV	_	Polarity=Neg	9	advmod	_	prpos=Rp|uppos=NEG
 8	estoit	être	AUX	_	Number=Sing|Person=3|VerbForm=Fin	9	aux:pass	_	prpos=Vuc|uppos=EJ
 9	tenu	tenir	VERB	_	Tense=Past|VerbForm=Part	4	acl	_	prpos=Ge|uppos=VPP
 10	a	à	ADP	_	_	11	mark	_	prpos=S|uppos=P
@@ -8931,13 +8943,13 @@
 3	dist	dire	VERB	_	Number=Sing|Person=3|VerbForm=Fin	0	root	_	prpos=Vvc|uppos=VJ
 4	que	que	SCONJ	_	_	7	mark	_	prpos=Cs|uppos=CONJS
 5	il	il	PRON	_	PronType=Prs	7	nsubj	_	prpos=Pp|uppos=PRO
-6	ne	ne	ADV	_	PronType=Neg	7	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+6	ne	ne	ADV	_	Polarity=Neg	7	advmod	_	prpos=Rp|uppos=NEG
 7	disoit	dire	VERB	_	Number=Sing|Person=3|VerbForm=Fin	3	ccomp	_	prpos=Vvc|uppos=VJ
 8	chose	chose	NOUN	_	Number=Sing	7	obj	_	prpos=Nc|uppos=NCS
 9	por	pour	ADP	_	_	10	case	_	prpos=S|uppos=P
 10	quoi	quoi	PRON	_	PronType=Rel	15	obl	_	prpos=Pr|uppos=WPRO
 11	il	il	PRON	_	PronType=Prs	15	nsubj	_	prpos=Pp|uppos=PRO
-12	n'	ne	ADV	_	PronType=Neg	15	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+12	n'	ne	ADV	_	Polarity=Neg	15	advmod	_	prpos=Rp|uppos=NEG
 13	en	en	PRON	_	PronType=Prs	15	obl	_	prpos=Pp|uppos=PRO
 14	deüst	devoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	15	aux	_	prpos=Vvc|uppos=MDJ
 15	respondre	répondre	VERB	_	VerbForm=Inf	8	acl:relcl	_	prpos=Vvn|uppos=VX
@@ -8994,7 +9006,7 @@
 20	disant	dire	VERB	_	Tense=Pres|VerbForm=Part	16	advcl	_	prpos=Ga|uppos=VG
 21	que	que	SCONJ	_	_	27	mark	_	prpos=Cs|uppos=CONJS
 22	vous	vous	PRON	_	PronType=Prs	27	nsubj	_	prpos=Pp|uppos=PRO
-23	n'	ne	ADV	_	PronType=Neg	27	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+23	n'	ne	ADV	_	Polarity=Neg	27	advmod	_	prpos=Rp|uppos=NEG
 24	estiez	être	AUX	_	Number=Plur|Person=2|VerbForm=Fin	27	aux:pass	_	prpos=Vuc|uppos=EJ
 25	de	de	ADP	_	_	26	case	_	prpos=S|uppos=P
 26	riens	rien	PRON	_	PronType=Ind	27	obl	_	prpos=Pi|uppos=PRO
@@ -9014,7 +9026,7 @@
 40	amende	amende	NOUN	_	Number=Sing	38	obl	_	prpos=Nc|SpaceAfter=No|uppos=NCS
 41	,	,	PUNCT	_	_	14	punct	_	join=left|prpos=Fw|uppos=PON
 42	jamès	jamais	ADV	_	_	45	advmod	_	prpos=Rg|uppos=ADV
-43	ne	ne	ADV	_	PronType=Neg	45	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+43	ne	ne	ADV	_	Polarity=Neg	45	advmod	_	prpos=Rp|uppos=NEG
 44	me	je	PRON	_	PronType=Prs	45	obj	_	prpos=Pp|uppos=PRO
 45	respondissiez	répondre	VERB	_	Number=Plur|Person=2|VerbForm=Fin	7	ccomp	_	prpos=Vvc|SpaceAfter=No|uppos=VJ
 46	,	,	PUNCT	_	_	7	punct	_	join=left|prpos=Fw|uppos=PON
@@ -9057,7 +9069,7 @@
 6	:	:	PUNCT	_	_	3	punct	_	join=left|prpos=Fw|uppos=PON
 7	«	«	PUNCT	_	_	3	punct	_	prpos=Fo|uppos=PON
 8	Je	je	PRON	_	PronType=Prs	10	nsubj	_	prpos=Pp|uppos=PRO
-9	ne	ne	ADV	_	PronType=Neg	10	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+9	ne	ne	ADV	_	Polarity=Neg	10	advmod	_	prpos=Rp|uppos=NEG
 10	fis	faire	VERB	_	Number=Sing|Person=1|VerbForm=Fin	3	ccomp	_	prpos=Vvc|uppos=VJ
 11	onques	onques	ADV	_	_	10	advmod	_	prpos=Rg|uppos=ADV
 12	connoissance	connaissance	NOUN	_	Number=Sing	10	obj	_	prpos=Nc|uppos=NCS
@@ -9073,7 +9085,7 @@
 22	que	que	PRON	_	PronType=Rel	24	obj	_	prpos=Pr|uppos=WPRO
 23	je	je	PRON	_	PronType=Prs	24	nsubj	_	prpos=Pp|uppos=PRO
 24	pris	prendre	VERB	_	Number=Sing|Person=1|VerbForm=Fin	21	acl:relcl	_	prpos=Vvc|uppos=VJ
-25	n'	ne	ADV	_	PronType=Neg	27	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+25	n'	ne	ADV	_	Polarity=Neg	27	advmod	_	prpos=Rp|uppos=NEG
 26	estoit	être	AUX	_	Number=Sing|Person=3|VerbForm=Fin	27	cop	_	prpos=Vuc|uppos=EJ
 27	peremptoire	péremptoire	ADJ	_	_	10	conj	_	prpos=Ag|SpaceAfter=No|uppos=ADJ
 28	,	,	PUNCT	_	_	27	punct	_	join=left|prpos=Fw|uppos=PON
@@ -9089,7 +9101,7 @@
 2	di	dire	VERB	_	Number=Sing|Person=1|VerbForm=Fin	0	root	_	prpos=Vvc|uppos=VJ
 3	que	que	SCONJ	_	_	8	mark	_	prpos=Cs|uppos=CONJS
 4	vous	vous	PRON	_	PronType=Prs	8	nsubj	_	prpos=Pp|uppos=PRO
-5	ne	ne	ADV	_	PronType=Neg	8	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+5	ne	ne	ADV	_	Polarity=Neg	8	advmod	_	prpos=Rp|uppos=NEG
 6	devez	devoir	AUX	_	Number=Plur|Person=2|VerbForm=Fin	8	aux	_	prpos=Vvc|uppos=MDJ
 7	avoir	avoir	AUX	_	VerbForm=Inf	8	aux	_	prpos=Vun|uppos=AX
 8	ataint	atteindre	VERB	_	Tense=Past|VerbForm=Part	2	ccomp	_	prpos=Ge|uppos=VPP
@@ -9237,10 +9249,10 @@
 30	demander	demander	VERB	_	VerbForm=Inf	38	advcl	_	prpos=Vvn|uppos=VX
 31	le	le	DET	_	Definite=Def|PronType=Art	32	det	_	prpos=Da|uppos=D
 32	marchié	marché	NOUN	_	Number=Sing	30	obj	_	prpos=Nc|uppos=NCS
-33	ne	ne	ADV	_	PronType=Neg	38	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+33	ne	ne	ADV	_	Polarity=Neg	38	advmod	_	prpos=Rp|uppos=NEG
 34	devoit	devoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	38	aux	_	prpos=Vvc|uppos=MDJ
 35	il	il	PRON	_	PronType=Prs	38	nsubj	_	prpos=Pp|uppos=PRO
-36	pas	pas	ADV	_	PronType=Neg	38	advmod	_	prpos=Rg|uppos=ADVNEG
+36	pas	pas	ADV	_	Polarity=Neg	38	advmod	_	prpos=Rg|uppos=ADVNEG
 37	estre	être	AUX	_	VerbForm=Inf	38	aux:pass	_	prpos=Vun|uppos=EX
 38	oïz	ouïr	VERB	_	Tense=Past|VerbForm=Part	26	ccomp	_	prpos=Ge|SpaceAfter=No|uppos=VPP
 39	,	,	PUNCT	_	_	38	punct	_	join=left|prpos=Fw|uppos=PON
@@ -9285,9 +9297,9 @@
 30	personnes	personne	NOUN	_	Number=Plur	26	obl	_	prpos=Nc|SpaceAfter=No|uppos=NCPL
 31	,	,	PUNCT	_	_	26	punct	_	join=left|prpos=Fw|uppos=PON
 32	et	et	CCONJ	_	_	36	cc	_	prpos=Cc|uppos=CONJO
-33	n'	ne	ADV	_	PronType=Neg	36	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+33	n'	ne	ADV	_	Polarity=Neg	36	advmod	_	prpos=Rp|uppos=NEG
 34	estoit	être	AUX	_	Number=Sing|Person=3|VerbForm=Fin	36	cop	_	prpos=Vuc|uppos=EJ
-35	pas	pas	ADV	_	PronType=Neg	36	advmod	_	prpos=Rg|uppos=ADVNEG
+35	pas	pas	ADV	_	Polarity=Neg	36	advmod	_	prpos=Rg|uppos=ADVNEG
 36	surcens	surcens	NOUN	_	Number=Sing	5	conj	_	prpos=Nc|SpaceAfter=No|uppos=NCS
 37	.	.	PUNCT	_	_	1	punct	_	join=left|prpos=Fs|uppos=PONFP
 
@@ -9437,9 +9449,9 @@
 15	si	si	ADV	_	ExtPos=SCONJ	19	mark	_	prpos=Rg|uppos=ADV
 16	que	que	SCONJ	_	_	15	fixed	_	prpos=Cs|uppos=CONJS
 17	il	il	PRON	_	PronType=Prs	19	nsubj	_	prpos=Pp|uppos=PRO
-18	ne	ne	ADV	_	PronType=Neg	19	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+18	ne	ne	ADV	_	Polarity=Neg	19	advmod	_	prpos=Rp|uppos=NEG
 19	vouloit	vouloir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	8	conj	_	prpos=Vvc|uppos=VJ
-20	mie	mie	ADV	_	PronType=Neg	19	advmod	_	prpos=Rg|uppos=ADV
+20	mie	mie	ADV	_	Polarity=Neg	19	advmod	_	prpos=Rg|uppos=ADV
 21	que	que	SCONJ	_	_	26	mark	_	prpos=Cs|uppos=CONJS
 22	il	il	PRON	_	PronType=Prs	26	nsubj	_	prpos=Pp|uppos=PRO
 23	li	il	PRON	_	PronType=Prs	26	iobj	_	prpos=Pp|uppos=PRO
@@ -9530,7 +9542,7 @@
 18	,	,	PUNCT	_	_	16	punct	_	join=left|prpos=Fw|uppos=PON
 19	que	que	SCONJ	_	_	25	mark	_	prpos=Cs|uppos=CONJS
 20	il	il	PRON	_	PronType=Prs	25	nsubj	_	prpos=Pp|uppos=PRO
-21	ne	ne	ADV	_	PronType=Neg	25	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+21	ne	ne	ADV	_	Polarity=Neg	25	advmod	_	prpos=Rp|uppos=NEG
 22	li	il	PRON	_	PronType=Prs	25	iobj	_	prpos=Pp|uppos=PRO
 23	seroit	être	AUX	_	Number=Sing|Person=3|VerbForm=Fin	25	aux:pass	_	prpos=Vuc|uppos=EJ
 24	plus	plus	ADV	_	_	25	advmod	_	prpos=Rg|uppos=ADV
@@ -9721,9 +9733,9 @@
 # len = 22
 # text = et ne vouloit pas le mere que le dit Robert feïst son information par ses hommes qui estoient manans sous li.
 1	et	et	CCONJ	_	_	3	cc	_	prpos=Cc|uppos=CONJO
-2	ne	ne	ADV	_	PronType=Neg	3	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+2	ne	ne	ADV	_	Polarity=Neg	3	advmod	_	prpos=Rp|uppos=NEG
 3	vouloit	vouloir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	0	root	_	prpos=Vvc|uppos=VJ
-4	pas	pas	ADV	_	PronType=Neg	3	advmod	_	prpos=Rg|uppos=ADVNEG
+4	pas	pas	ADV	_	Polarity=Neg	3	advmod	_	prpos=Rg|uppos=ADVNEG
 5	le	le	DET	_	Definite=Def|PronType=Art	6	det	_	prpos=Da|uppos=D
 6	mere	maire	NOUN	_	Number=Sing	3	nsubj	_	prpos=Nc|uppos=NCS
 7	que	que	SCONJ	_	_	11	mark	_	prpos=Cs|uppos=CONJS
@@ -9927,11 +9939,11 @@
 20	tele	tel	ADJ	_	_	3	ccomp	_	prpos=Ag|uppos=ADJ
 21	que	que	SCONJ	_	_	26	mark	_	prpos=Cs|uppos=CONJS
 22	ele	il	PRON	_	PronType=Prs	26	nsubj	_	prpos=Pp|uppos=PRO
-23	n'	ne	ADV	_	PronType=Neg	26	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+23	n'	ne	ADV	_	Polarity=Neg	26	advmod	_	prpos=Rp|uppos=NEG
 24	i	y	PRON	_	PronType=Prs	26	obl	_	prpos=Pp|uppos=PRO
 25	devoit	devoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	26	aux	_	prpos=Vvc|uppos=MDJ
 26	avoir	avoir	VERB	_	VerbForm=Inf	20	acl	_	prpos=Vun|uppos=AX
-27	point	point	ADV	_	PronType=Neg	26	advmod	_	prpos=Rg|uppos=ADVNEG
+27	point	point	ADV	_	Polarity=Neg	26	advmod	_	prpos=Rg|uppos=ADVNEG
 28	de	de	DET	_	Definite=Ind	29	det	_	prpos=Dn|uppos=D
 29	douaire	douaire	NOUN	_	Number=Sing	26	obj	_	prpos=Nc|uppos=NCS
 30	et	et	CCONJ	_	_	32	cc	_	prpos=Cc|uppos=CONJO
@@ -9955,9 +9967,9 @@
 10	quoi	quoi	PRON	_	PronType=Rel	12	obl	_	prpos=Pr|uppos=WPRO
 11	els	il	PRON	_	PronType=Ind	12	nsubj	_	prpos=Pi|uppos=PRO
 12	departirent	départir	VERB	_	Number=Plur|Person=3|VerbForm=Fin	8	acl:relcl	_	prpos=Vvc|uppos=VJ
-13	n'	ne	ADV	_	PronType=Neg	14	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+13	n'	ne	ADV	_	Polarity=Neg	14	advmod	_	prpos=Rp|uppos=NEG
 14	estoit	être	VERB	_	Number=Sing|Person=3|VerbForm=Fin	37	advcl	_	prpos=Vuc|uppos=EJ
-15	pas	pas	ADV	_	PronType=Neg	14	advmod	_	prpos=Rg|uppos=ADVNEG
+15	pas	pas	ADV	_	Polarity=Neg	14	advmod	_	prpos=Rg|uppos=ADVNEG
 16	de	de	ADP	_	_	18	case	_	prpos=S|uppos=P
 17	son	son	DET	_	Poss=Yes	18	det	_	prpos=Ds|uppos=DZ
 18	meffet	méfait	NOUN	_	Number=Sing	14	obl	_	prpos=Nc|uppos=NCS
@@ -9985,7 +9997,7 @@
 39	douaire	douaire	NOUN	_	Number=Sing	38	obj	_	prpos=Nc|uppos=NCS
 40	ou	ou	CCONJ	_	_	41	cc	_	prpos=Cc|uppos=CONJO
 41	droit	droit	NOUN	_	Number=Sing	39	conj	_	prpos=Nc|SpaceAfter=No|uppos=NCS
-42	.	.	PUNCT	_	_	34	punct	_	join=left|prpos=Fs|uppos=PONFP
+42	.	.	PUNCT	_	_	37	punct	_	join=left|prpos=Fs|uppos=PONFP
 
 # sent_id = 1314_Atir_1_1_85_1_6
 # len = 46
@@ -9995,10 +10007,10 @@
 3	disoient	dire	VERB	_	Number=Plur|Person=3|VerbForm=Fin	0	root	_	prpos=Vvc|uppos=VJ
 4	que	que	SCONJ	_	_	8	mark	_	prpos=Cs|uppos=CONJS
 5	ele	il	PRON	_	PronType=Prs	8	nsubj	_	prpos=Pp|uppos=PRO
-6	n'	ne	ADV	_	PronType=Neg	8	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+6	n'	ne	ADV	_	Polarity=Neg	8	advmod	_	prpos=Rp|uppos=NEG
 7	i	y	PRON	_	PronType=Prs	8	obl	_	prpos=Pp|uppos=PRO
 8	aroit	avoir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	3	ccomp	_	prpos=Vuc|uppos=AJ
-9	point	point	ADV	_	PronType=Neg	8	advmod	_	prpos=Rg|uppos=ADVNEG
+9	point	point	ADV	_	Polarity=Neg	8	advmod	_	prpos=Rg|uppos=ADVNEG
 10	de	de	DET	_	Definite=Ind	11	det	_	prpos=Dn|uppos=D
 11	douaire	douaire	NOUN	_	Number=Sing	8	obj	_	prpos=Nc|SpaceAfter=No|uppos=NCS
 12	,	,	PUNCT	_	_	3	punct	_	join=left|prpos=Fw|uppos=PON
@@ -10062,7 +10074,7 @@
 20	espousée	épouser	VERB	_	Tense=Past|VerbForm=Part	8	advcl	_	prpos=Ge|SpaceAfter=No|uppos=VPP
 21	,	,	PUNCT	_	_	20	punct	_	join=left|prpos=Fw|uppos=PON
 22	non	non	ADV	_	_	24	advmod	_	prpos=Rg|uppos=ADVNEG
-23	pas	pas	ADV	_	PronType=Neg	24	advmod	_	prpos=Rg|uppos=ADVNEG
+23	pas	pas	ADV	_	Polarity=Neg	24	advmod	_	prpos=Rg|uppos=ADVNEG
 24	ainceis	ainçois	ADV	_	_	20	advmod	_	prpos=Rg|SpaceAfter=No|uppos=ADV
 25	.	.	PUNCT	_	_	3	punct	_	join=left|prpos=Fs|uppos=PONFP
 
@@ -10167,10 +10179,10 @@
 19	de	de	ADP	_	_	21	case	_	_
 20	le	le	DET	_	Definite=Def|PronType=Art	21	det	_	_
 21	mariage	mariage	NOUN	_	_	18	nmod	_	SpaceAfter=No
-22	,	,	PUNCT	_	SpaceAfter=No	30	punct	_	join=left|prpos=Fs|uppos=PONFP
+22	,	,	PUNCT	_	_	30	punct	_	join=left|prpos=Fs|uppos=PONFP
 23	le	le	DET	_	Definite=Def|PronType=Art	24	det	_	_
 24	mariage	mariage	NOUN	_	_	30	nsubj	_	_
-25	n'	ne	ADV	_	PronType=Neg	30	advmod	_	_
+25	n'	ne	ADV	_	Polarity=Neg	30	advmod	_	_
 26	eüst	avoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	30	aux	_	_
 27	onques	onques	ADV	_	_	30	advmod	_	_
 28	esté	être	AUX	_	Tense=Past|VerbForm=Part	30	cop	_	_
@@ -10185,7 +10197,7 @@
 37	fame	femme	NOUN	_	_	41	nsubj	_	_
 38	ne	n'	ADV	_	_	41	advmod	_	_
 39	eüst	avoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	41	aux	_	_
-40	pas	pas	ADV	_	PronType=Neg	41	advmod	_	_
+40	pas	pas	ADV	_	Polarity=Neg	41	advmod	_	_
 41	eu	avoir	VERB	_	Tense=Past|VerbForm=Part	30	advcl	_	_
 42	douaire	douaire	NOUN	_	_	41	obj	_	_
 43	par	par	ADP	_	_	44	case	_	_
@@ -10265,7 +10277,7 @@
 17	si	si	ADV	_	ExtPos=SCONJ	23	mark	_	prpos=Rg|uppos=ADV
 18	comme	comme	SCONJ	_	_	17	fixed	_	prpos=Cs|uppos=CONJS
 19	ele	il	PRON	_	PronType=Prs	23	nsubj	_	prpos=Pp|uppos=PRO
-20	n'	ne	ADV	_	PronType=Neg	23	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+20	n'	ne	ADV	_	Polarity=Neg	23	advmod	_	prpos=Rp|uppos=NEG
 21	i	y	PRON	_	PronType=Prs	23	obl	_	prpos=Pp|uppos=PRO
 22	avoit	avoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	23	aux	_	prpos=Vuc|uppos=AJ
 23	esté	être	VERB	_	Tense=Past|VerbForm=Part	3	advcl	_	prpos=Ge|uppos=EPP
@@ -10340,7 +10352,7 @@
 56	de	de	ADP	_	_	58	case	_	prpos=S|uppos=P
 57	son	son	DET	_	Poss=Yes	58	det	_	prpos=Ds|uppos=DZ
 58	filz	fils	NOUN	_	Number=Sing	55	nmod	_	prpos=Nc|uppos=NCS
-59	n'	ne	ADV	_	PronType=Neg	62	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+59	n'	ne	ADV	_	Polarity=Neg	62	advmod	_	prpos=Rp|uppos=NEG
 60	en	en	PRON	_	PronType=Prs	62	obl	_	prpos=Pp|uppos=PRO
 61	devoit	devoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	62	aux	_	prpos=Vvc|uppos=MDJ
 62	porter	porter	VERB	_	VerbForm=Inf	52	ccomp	_	prpos=Vvn|uppos=VX
@@ -10492,7 +10504,7 @@
 20	une	un	DET	_	Definite=Ind|PronType=Art	21	det	_	prpos=Dn|uppos=D
 21	vile	ville	NOUN	_	Number=Sing	18	nmod	_	prpos=Nc|uppos=NCS
 22	prochaine	prochain	ADJ	_	_	21	amod	_	prpos=Ag|uppos=ADJ
-23	ne	ne	ADV	_	PronType=Neg	24	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+23	ne	ne	ADV	_	Polarity=Neg	24	advmod	_	Polarity=Negprpos=Rp|uppos=NEG
 24	fussent	être	VERB	_	Number=Plur|Person=3|VerbForm=Fin	15	ccomp	_	prpos=Vuc|uppos=EJ
 25	en	en	ADP	_	_	27	case	_	prpos=S|uppos=P
 26	l'	le	DET	_	Definite=Def|PronType=Art	27	det	_	prpos=Da|uppos=D
@@ -10535,7 +10547,7 @@
 31	vile	ville	NOUN	_	_	28	obl	_	_
 32	que	que	SCONJ	_	_	35	mark	_	_
 33	eus	il	PRON	_	PronType=Prs	35	nsubj	_	_
-34	n'	ne	ADV	_	PronType=Neg	35	advmod	_	_
+34	n'	ne	ADV	_	Polarity=Neg	35	advmod	_	_
 35	aroient	avoir	VERB	_	Number=Plur|Person=3|VerbForm=Fin	22	advcl	_	_
 36	par	par	ADP	_	_	39	case	_	_
 37	nul	nul	DET	_	Definite=Ind	39	det	_	_
@@ -10548,7 +10560,7 @@
 44	disoit	dire	VERB	_	Number=Sing|Person=3|VerbForm=Fin	3	advcl	_	_
 45	que	que	SCONJ	_	_	49	mark	_	_
 46	eus	il	PRON	_	PronType=Prs	49	nsubj	_	_
-47	ne	ne	ADV	_	PronType=Neg	49	advmod	_	_
+47	ne	ne	ADV	_	Polarity=Neg	49	advmod	_	_
 48	devoient	devoir	AUX	_	Number=Plur|Person=3|VerbForm=Fin	49	aux	_	_
 49	estre	être	VERB	_	VerbForm=Inf	44	ccomp	_	_
 50	en	en	ADP	_	_	52	case	_	_
@@ -10602,7 +10614,7 @@
 9	seul	seul	ADJ	_	_	7	amod	_	prpos=Ag|uppos=ADJ
 10	et	et	CCONJ	_	_	16	cc	_	prpos=Cc|uppos=CONJO
 11	cels	cil	PRON	_	PronType=Dem	16	nsubj	_	prpos=Pd|uppos=PRO
-12	n'	ne	ADV	_	PronType=Neg	16	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+12	n'	ne	ADV	_	Polarity=Neg	16	advmod	_	prpos=Rp|uppos=NEG
 13	estoient	être	AUX	_	Number=Plur|Person=3|VerbForm=Fin	16	cop	_	prpos=Vuc|uppos=EJ
 14	de	de	ADP	_	_	15	case	_	prpos=S|uppos=P
 15	riens	rien	PRON	_	PronType=Ind	16	nmod	_	prpos=Pi|uppos=PRO
@@ -10621,9 +10633,9 @@
 28	que	que	SCONJ	_	_	32	mark	_	prpos=Cs|uppos=CONJS
 29	le	le	DET	_	Definite=Def|PronType=Art	30	det	_	prpos=Da|uppos=D
 30	saon	seon	NOUN	_	Number=Sing	32	nsubj	_	prpos=Nc|uppos=NCS
-31	n'	ne	ADV	_	PronType=Neg	32	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+31	n'	ne	ADV	_	Polarity=Neg	32	advmod	_	prpos=Rp|uppos=NEG
 32	estoit	être	VERB	_	Number=Sing|Person=3|VerbForm=Fin	27	ccomp	_	prpos=Vuc|uppos=EJ
-33	pas	pas	ADV	_	PronType=Neg	32	advmod	_	prpos=Rg|uppos=ADVNEG
+33	pas	pas	ADV	_	Polarity=Neg	32	advmod	_	prpos=Rg|uppos=ADVNEG
 34	de	de	ADP	_	_	35	case	_	prpos=S|uppos=P
 35	valour	valeur	NOUN	_	Number=Sing	32	obl	_	prpos=Nc|SpaceAfter=No|uppos=NCS
 36	,	,	PUNCT	_	_	32	punct	_	join=left|prpos=Fw|uppos=PON
@@ -10649,9 +10661,9 @@
 2	fu	être	AUX	_	Number=Sing|Person=3|VerbForm=Fin	1	aux:pass	_	prpos=Vuc|uppos=EJ
 3	que	que	SCONJ	_	_	8	mark	_	prpos=Cs|uppos=CONJS
 4	els	il	PRON	_	PronType=Ind	8	nsubj	_	prpos=Pi|uppos=PRO
-5	ne	ne	ADV	_	PronType=Neg	8	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+5	ne	ne	ADV	_	Polarity=Neg	8	advmod	_	prpos=Rp|uppos=NEG
 6	seroient	être	AUX	_	Number=Plur|Person=3|VerbForm=Fin	8	aux:pass	_	prpos=Vuc|uppos=EJ
-7	pas	pas	ADV	_	PronType=Neg	8	advmod	_	prpos=Rg|uppos=ADVNEG
+7	pas	pas	ADV	_	Polarity=Neg	8	advmod	_	prpos=Rg|uppos=ADVNEG
 8	receüs	recevoir	VERB	_	Tense=Past|VerbForm=Part	1	ccomp	_	prpos=Ge|uppos=VPP
 9	en	en	ADP	_	_	11	case	_	prpos=S|uppos=P
 10	l'	le	DET	_	Definite=Def|PronType=Art	11	det	_	prpos=Da|uppos=D
@@ -10773,7 +10785,7 @@
 30	vj.	six	NUM	_	NumType=Card	31	nummod	_	prpos=Mc|uppos=ADJNUM
 31	ans	an	NOUN	_	Number=Plur	28	nmod	_	prpos=Nc|uppos=NCPL
 32	et	et	CCONJ	_	_	36	cc	_	prpos=Cc|uppos=CONJO
-33	ne	ne	ADV	_	PronType=Neg	36	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+33	ne	ne	ADV	_	Polarity=Neg	36	advmod	_	prpos=Rp|uppos=NEG
 34	pouoient	pouvoir	AUX	_	Number=Plur|Person=3|VerbForm=Fin	36	aux	_	prpos=Vvc|uppos=MDJ
 35	riens	rien	PRON	_	PronType=Ind	36	obj	_	prpos=Pi|uppos=PRO
 36	reclamer	réclamer	VERB	_	VerbForm=Inf	12	conj	_	prpos=Vvn|uppos=VX
@@ -10793,7 +10805,7 @@
 49	son	son	DET	_	Poss=Yes	51	det	_	prpos=Ds|uppos=DZ
 50	puisné	puîné	ADJ	_	_	51	amod	_	prpos=Ag|uppos=ADJ
 51	frere	frère	NOUN	_	Number=Sing	55	nsubj	_	prpos=Nc|uppos=NCS
-52	ne	ne	ADV	_	PronType=Neg	55	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+52	ne	ne	ADV	_	Polarity=Neg	55	advmod	_	prpos=Rp|uppos=NEG
 53	li	il	PRON	_	PronType=Prs	55	iobj	_	prpos=Pp|uppos=PRO
 54	pouoit	pouvoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	55	aux	_	prpos=Vvc|uppos=MDJ
 55	demander	demander	VERB	_	VerbForm=Inf	44	ccomp	_	prpos=Vvn|uppos=VX
@@ -10820,9 +10832,9 @@
 10	que	que	SCONJ	_	_	14	mark	_	prpos=Cs|uppos=CONJS
 11	le	le	DET	_	Definite=Def|PronType=Art	12	det	_	prpos=Da|uppos=D
 12	puisné	puîné	NOUN	_	Number=Sing	14	nsubj	_	prpos=Nc|uppos=NCS
-13	n'	ne	ADV	_	PronType=Neg	14	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+13	n'	ne	ADV	_	Polarity=Neg	14	advmod	_	prpos=Rp|uppos=NEG
 14	aroit	avoir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	8	ccomp	_	prpos=Vuc|uppos=AJ
-15	point	point	ADV	_	PronType=Neg	14	advmod	_	prpos=Rg|uppos=ADVNEG
+15	point	point	ADV	_	Polarity=Neg	14	advmod	_	prpos=Rg|uppos=ADVNEG
 16	de	de	DET	_	Definite=Ind	17	det	_	prpos=Dn|uppos=D
 17	partie	partie	NOUN	_	Number=Sing	14	obl	_	prpos=Nc|uppos=NCS
 18	a	à	ADP	_	_	20	case	_	prpos=S|uppos=P
@@ -10850,7 +10862,7 @@
 15	,	,	PUNCT	_	_	13	punct	_	join=left|prpos=Fw|uppos=PON
 16	que	que	SCONJ	_	_	20	mark	_	prpos=Cs|uppos=CONJS
 17	il	il	PRON	_	PronType=Prs	20	nsubj	_	prpos=Pp|uppos=PRO
-18	ne	ne	ADV	_	PronType=Neg	20	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+18	ne	ne	ADV	_	Polarity=Neg	20	advmod	_	prpos=Rp|uppos=NEG
 19	puet	pouvoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	20	aux	_	prpos=Vvc|uppos=MDJ
 20	envoier	envoyer	VERB	_	VerbForm=Inf	5	ccomp	_	prpos=Vvn|uppos=VX
 21	respit	répit	NOUN	_	Number=Sing	20	obj	_	prpos=Nc|uppos=NCS
@@ -10876,7 +10888,7 @@
 41	ne	ni	CCONJ	_	_	46	cc	_	prpos=Cc|uppos=CONJO
 42	le	le	DET	_	Definite=Def|PronType=Art	43	det	_	prpos=Da|uppos=D
 43	demandeor	demandeur	NOUN	_	Number=Sing	46	nsubj	_	prpos=Nc|uppos=NCS
-44	ne	ne	ADV	_	PronType=Neg	46	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+44	ne	ne	ADV	_	Polarity=Neg	46	advmod	_	prpos=Rp|uppos=NEG
 45	puet	pouvoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	46	aux	_	prpos=Vvc|uppos=MDJ
 46	avoir	avoir	VERB	_	VerbForm=Inf	20	conj	_	prpos=Vun|uppos=AX
 47	respit	répit	NOUN	_	Number=Sing	46	obj	_	prpos=Nc|uppos=NCS
@@ -11058,7 +11070,7 @@
 34	donc	dont	PRON	_	PronType=Rel	38	obl	_	prpos=Pr|uppos=WPRO
 35	vostre	votre	DET	_	Poss=Yes	36	det	_	prpos=Ds|uppos=DZ
 36	brief	bref	NOUN	_	Number=Sing	38	nsubj	_	prpos=Nc|uppos=NCS
-37	ne	ne	ADV	_	PronType=Neg	38	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+37	ne	ne	ADV	_	Polarity=Neg	38	advmod	_	prpos=Rp|uppos=NEG
 38	fet	faire	VERB	_	Number=Sing|Person=3|VerbForm=Fin	32	acl:relcl	_	prpos=Vvc|uppos=VJ
 39	nule	nul	DET	_	Definite=Ind	40	det	_	prpos=Di|uppos=D
 40	mencion	mention	NOUN	_	Number=Sing	38	obj	_	prpos=Nc|SpaceAfter=No|uppos=NCS
@@ -11067,7 +11079,7 @@
 43	di	dire	VERB	_	Number=Sing|Person=1|VerbForm=Fin	3	ccomp	_	prpos=Vvc|uppos=VJ
 44	que	que	SCONJ	_	_	48	mark	_	prpos=Cs|uppos=CONJS
 45	je	je	PRON	_	PronType=Prs	48	nsubj	_	prpos=Pp|uppos=PRO
-46	ne	ne	ADV	_	PronType=Neg	48	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+46	ne	ne	ADV	_	Polarity=Neg	48	advmod	_	prpos=Rp|uppos=NEG
 47	sui	être	AUX	_	Number=Sing|Person=1|VerbForm=Fin	48	aux:pass	_	prpos=Vuc|uppos=EJ
 48	tenu	tenir	VERB	_	Tense=Past|VerbForm=Part	43	ccomp	_	prpos=Ge|uppos=VPP
 49	respondre	répondre	VERB	_	VerbForm=Inf	48	xcomp	_	prpos=Vvn|uppos=VX
@@ -11133,10 +11145,10 @@
 26	amende	amende	NOUN	_	Number=Sing	22	obl	_	prpos=Nc|uppos=NCS
 27	et	et	CCONJ	_	_	31	cc	_	prpos=Cc|uppos=CONJO
 28	brief	bref	NOUN	_	Number=Sing	31	nsubj	_	prpos=Nc|uppos=NCS
-29	ne	ne	ADV	_	PronType=Neg	31	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+29	ne	ne	ADV	_	Polarity=Neg	31	advmod	_	prpos=Rp|uppos=NEG
 30	se	se	PRON	_	PronType=Prs	31	expl	_	prpos=Pp|uppos=PRO
 31	termine	terminer	VERB	_	Number=Sing|Person=3|VerbForm=Fin	13	conj	_	prpos=Vvc|uppos=VJ
-32	pas	pas	ADV	_	PronType=Neg	31	advmod	_	prpos=Rg|uppos=ADVNEG
+32	pas	pas	ADV	_	Polarity=Neg	31	advmod	_	prpos=Rg|uppos=ADVNEG
 33	par	par	ADP	_	_	34	case	_	prpos=S|uppos=P
 34	pieces	pièce	NOUN	_	Number=Plur	31	obl	_	prpos=Nc|SpaceAfter=No|uppos=NCPL
 35	,	,	PUNCT	_	_	31	punct	_	join=left|prpos=Fw|uppos=PON
@@ -11245,7 +11257,7 @@
 4	vit	voir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	13	advcl	_	prpos=Vvc|uppos=VJ
 5	que	que	SCONJ	_	_	10	mark	_	prpos=Cs|uppos=CONJS
 6	il	il	PRON	_	PronType=Prs	10	nsubj	_	prpos=Pp|uppos=PRO
-7	ne	ne	ADV	_	PronType=Neg	10	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+7	ne	ne	ADV	_	Polarity=Neg	10	advmod	_	prpos=Rp|uppos=NEG
 8	la	il	PRON	_	PronType=Prs	10	obj	_	prpos=Pp|uppos=PRO
 9	porroit	pouvoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	10	aux	_	prpos=Vvc|uppos=MDJ
 10	deffendre	défendre	VERB	_	VerbForm=Inf	4	ccomp	_	prpos=Vvn|SpaceAfter=No|uppos=VX
@@ -11272,7 +11284,7 @@
 29	le	le	DET	_	Definite=Def|PronType=Art	30	det	_	prpos=Da|uppos=D
 30	vendeor	vendeur	NOUN	_	Number=Sing	27	nmod	_	prpos=Nc|uppos=NCS
 31	que	que	SCONJ	_	_	33	mark	_	prpos=Cs|uppos=CONJS
-32	n'	ne	ADV	_	PronType=Neg	33	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+32	n'	ne	ADV	_	Polarity=Neg	33	advmod	_	prpos=Rp|uppos=NEG
 33	estoit	être	VERB	_	Number=Sing|Person=3|VerbForm=Fin	23	advcl	_	prpos=Vuc|uppos=EJ
 34	cil	cil	PRON	_	PronType=Dem	33	nsubj	_	prpos=Pd|uppos=PRO
 35	qui	qui	PRON	_	PronType=Rel	38	nsubj	_	prpos=Pr|uppos=WPRO
@@ -11344,7 +11356,7 @@
 7	«	«	PUNCT	_	_	6	punct	_	prpos=Fo|uppos=PON
 8	la	le	DET	_	Definite=Def|PronType=Art	9	det	_	prpos=Da|uppos=D
 9	fame	femme	NOUN	_	Number=Sing	11	nsubj	_	prpos=Nc|uppos=NCS
-10	n'	ne	ADV	_	PronType=Neg	11	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+10	n'	ne	ADV	_	Polarity=Neg	11	advmod	_	prpos=Rp|uppos=NEG
 11	avoit	avoir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	5	ccomp	_	prpos=Vuc|uppos=AJ
 12	riens	rien	PRON	_	PronType=Ind	11	obj	_	prpos=Pi|uppos=PRO
 13-14	es	_	_	_	_	_	_	_	_
@@ -11384,18 +11396,18 @@
 45	et	et	CCONJ	_	_	50	cc	_	prpos=Cc|uppos=CONJO
 46	la	le	DET	_	Definite=Def|PronType=Art	47	det	_	prpos=Da|uppos=D
 47	fame	femme	NOUN	_	Number=Sing	50	nsubj	_	prpos=Nc|uppos=NCS
-48	n'	ne	ADV	_	PronType=Neg	50	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+48	n'	ne	ADV	_	Polarity=Neg	50	advmod	_	prpos=Rp|uppos=NEG
 49	a	avoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	50	aux	_	prpos=Vuc|uppos=AJ
 50	fet	faire	VERB	_	Tense=Past|VerbForm=Part	11	conj	_	prpos=Ge|uppos=VPP
-51	point	point	ADV	_	PronType=Neg	50	advmod	_	prpos=Rg|uppos=ADVNEG
+51	point	point	ADV	_	Polarity=Neg	50	advmod	_	prpos=Rg|uppos=ADVNEG
 52	de	de	DET	_	Definite=Ind	53	det	_	prpos=Dn|uppos=D
 53	claim	claim	NOUN	_	Number=Sing	50	obj	_	prpos=Nc|uppos=NCS
 54	et	et	CCONJ	_	_	58	cc	_	prpos=Cc|uppos=CONJO
 55	nul	nul	PRON	_	PronType=Ind	58	nsubj	_	prpos=Pi|uppos=PRO
-56	ne	ne	ADV	_	PronType=Neg	58	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+56	ne	ne	ADV	_	Polarity=Neg	58	advmod	_	prpos=Rp|uppos=NEG
 57	doit	devoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	58	aux	_	prpos=Vvc|uppos=MDJ
 58	venir	venir	VERB	_	VerbForm=Inf	11	conj	_	prpos=Vvn|uppos=VX
-59	a	à	ADP	_	Number=Sing	60	case	_	prpos=Nc|uppos=NCS
+59	a	à	ADP	_	_	60	case	_	prpos=Nc|uppos=NCS
 60	marchié	marché	NOUN	_	Number=Sing	58	obl	_	prpos=Nc|uppos=NCS
 61	de	de	ADP	_	_	62	case	_	prpos=S|uppos=P
 62	bourse	bourse	NOUN	_	Number=Sing	60	nmod	_	prpos=Nc|uppos=NCS
@@ -11419,12 +11431,12 @@
 11	que	que	SCONJ	_	_	16	mark	_	prpos=Cs|uppos=CONJS
 12	la	le	DET	_	Definite=Def|PronType=Art	13	det	_	prpos=Da|uppos=D
 13	fame	femme	NOUN	_	Number=Sing	16	nsubj	_	prpos=Nc|uppos=NCS
-14	ne	ne	ADV	_	PronType=Neg	16	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+14	ne	ne	ADV	_	Polarity=Neg	16	advmod	_	prpos=Rp|uppos=NEG
 15	puet	pouvoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	16	aux	_	prpos=Vvc|uppos=MDJ
 16	destorber	détourber	VERB	_	VerbForm=Inf	2	ccomp	_	prpos=Vvc|uppos=VJ
 17	que	que	SCONJ	_	_	20	mark	_	prpos=Cs|uppos=CONJS
 18	je	je	PRON	_	PronType=Prs	20	nsubj	_	prpos=Pp|uppos=PRO
-19	n'	ne	ADV	_	PronType=Neg	20	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+19	n'	ne	ADV	_	Polarity=Neg	20	advmod	_	prpos=Rp|uppos=NEG
 20	enporte	emporter	VERB	_	Number=Sing|Person=1|VerbForm=Fin	16	ccomp	_	prpos=Vvc|uppos=VJ
 21	le	le	DET	_	Definite=Def|PronType=Art	22	det	_	prpos=Da|uppos=D
 22	marchié	marché	NOUN	_	Number=Sing	20	obj	_	prpos=Nc|uppos=NCS
@@ -11510,7 +11522,7 @@
 9	de	de	ADP	_	_	11	case	_	prpos=S|uppos=P
 10	nouvele	nouveau	ADJ	_	_	11	amod	_	prpos=Ag|uppos=ADJ
 11	dessesine	dessaisine	NOUN	_	Number=Sing	8	nmod	_	prpos=Nc|uppos=NCS
-12	ne	ne	ADV	_	PronType=Neg	15	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+12	ne	ne	ADV	_	Polarity=Neg	15	advmod	_	prpos=Rp|uppos=NEG
 13	puet	pouvoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	15	aux	_	prpos=Vvc|uppos=MDJ
 14	estre	être	AUX	_	VerbForm=Inf	15	aux:pass	_	prpos=Vun|uppos=EX
 15	abatu	abattre	VERB	_	Tense=Past|VerbForm=Part	6	ccomp	_	prpos=Ge|uppos=VPP
@@ -11591,7 +11603,7 @@
 35	dessaisi	dessaisir	VERB	_	Tense=Past|VerbForm=Part	28	acl:relcl	_	prpos=Ge|uppos=VPP
 36	ou	où	PRON	_	PronType=Rel	43	obl	_	prpos=Pr|uppos=WPRO
 37	il	il	PRON	_	PronType=Prs	43	nsubj	_	prpos=Pp|uppos=PRO
-38	n'	ne	ADV	_	PronType=Neg	43	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+38	n'	ne	ADV	_	Polarity=Neg	43	advmod	_	prpos=Rp|uppos=NEG
 39	en	en	PRON	_	PronType=Prs	43	obl	_	prpos=Pp|uppos=PRO
 40	sera	être	AUX	_	Number=Sing|Person=3|VerbForm=Fin	43	aux:pass	_	prpos=Vuc|uppos=EJ
 41	ja	jà	ADV	_	_	43	advmod	_	prpos=Rg|uppos=ADV
@@ -11679,9 +11691,9 @@
 22	que	que	SCONJ	_	_	26	mark	_	prpos=Cs|uppos=CONJS
 23	ses	son	DET	_	Poss=Yes	24	det	_	prpos=Ds|uppos=DZ
 24	enfans	enfant	NOUN	_	Number=Sing	26	nsubj	_	prpos=Nc|uppos=NCS
-25	ne	ne	ADV	_	PronType=Neg	26	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+25	ne	ne	ADV	_	Polarity=Neg	26	advmod	_	prpos=Rp|uppos=NEG
 26	perdront	perdre	VERB	_	Number=Plur|Person=3|VerbForm=Fin	5	ccomp	_	prpos=Vvc|uppos=VJ
-27	pas	pas	ADV	_	PronType=Neg	26	advmod	_	prpos=Rg|uppos=ADVNEG
+27	pas	pas	ADV	_	Polarity=Neg	26	advmod	_	prpos=Rg|uppos=ADVNEG
 28	por	pour	ADP	_	_	29	case	_	prpos=S|uppos=P
 29	ce	ce	PRON	_	PronType=Dem	26	obl	_	prpos=Pd|uppos=PRO
 30	l'	le	DET	_	Definite=Def|PronType=Art	31	det	_	prpos=Da|uppos=D
@@ -11732,7 +11744,7 @@
 75	comme	comme	SCONJ	_	_	82	mark	_	prpos=Cs|uppos=CONJS
 76	se	si	SCONJ	_	_	82	mark	_	prpos=Cs|uppos=CONJS
 77	els	il	PRON	_	PronType=Ind	82	nsubj	_	prpos=Pi|uppos=PRO
-78	n'	ne	ADV	_	PronType=Neg	82	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+78	n'	ne	ADV	_	Polarity=Neg	82	advmod	_	prpos=Rp|uppos=NEG
 79	eussent	avoir	AUX	_	Number=Plur|Person=3|VerbForm=Fin	82	aux	_	prpos=Vuc|uppos=AJ
 80	onques	onques	ADV	_	_	82	advmod	_	prpos=Rg|uppos=ADV
 81	esté	être	AUX	_	Tense=Past|VerbForm=Part	82	aux	_	prpos=Ge|uppos=EPP
@@ -11783,9 +11795,9 @@
 23	qui	qui	PRON	_	PronType=Rel	25	nsubj	_	prpos=Pr|uppos=WPRO
 24	est	être	AUX	_	Number=Sing|Person=3|VerbForm=Fin	25	aux:pass	_	prpos=Vuc|uppos=EJ
 25	semons	semondre	VERB	_	Tense=Past|VerbForm=Part	22	acl:relcl	_	prpos=Ge|uppos=VPP
-26	ne	ne	ADV	_	PronType=Neg	29	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+26	ne	ne	ADV	_	Polarity=Neg	29	advmod	_	prpos=Rp|uppos=NEG
 27	puet	pouvoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	29	aux	_	prpos=Vvc|uppos=MDJ
-28	pas	pas	ADV	_	PronType=Neg	29	advmod	_	prpos=Rg|uppos=ADVNEG
+28	pas	pas	ADV	_	Polarity=Neg	29	advmod	_	prpos=Rg|uppos=ADVNEG
 29	gagier	gager	VERB	_	VerbForm=Inf	6	ccomp	_	prpos=Vvn|uppos=VX
 30	loy	loi	NOUN	_	Number=Sing	29	obj	_	prpos=Nc|uppos=NCS
 31	vers	vers	ADP	_	_	33	case	_	prpos=S|uppos=P
@@ -11817,7 +11829,7 @@
 57	aucun	aucun	PRON	_	PronType=Ind	55	obl	_	prpos=Pi|SpaceAfter=No|uppos=PRO
 58	,	,	PUNCT	_	_	45	punct	_	join=left|prpos=Fw|uppos=PON
 59	il	il	PRON	_	PronType=Prs	62	nsubj	_	prpos=Pp|uppos=PRO
-60	ne	ne	ADV	_	PronType=Neg	62	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+60	ne	ne	ADV	_	Polarity=Neg	62	advmod	_	prpos=Rp|uppos=NEG
 61	puet	pouvoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	62	aux	_	prpos=Vvc|uppos=MDJ
 62	metre	mettre	VERB	_	VerbForm=Inf	29	conj	_	prpos=Vvn|uppos=VX
 63	gage	gage	NOUN	_	Number=Sing	62	obj	_	prpos=Nc|uppos=NCS
@@ -11984,7 +11996,7 @@
 14	et	et	CCONJ	_	_	21	cc	_	prpos=Cc|uppos=CONJO
 15	la	le	DET	_	Definite=Def|PronType=Art	16	det	_	prpos=Da|uppos=D
 16	veüe	vue	NOUN	_	Number=Sing	21	nsubj	_	prpos=Nc|uppos=NCS
-17	n'	ne	ADV	_	PronType=Neg	21	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+17	n'	ne	ADV	_	Polarity=Neg	21	advmod	_	prpos=Rp|uppos=NEG
 18	avoit	avoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	21	aux	_	prpos=Vuc|uppos=AJ
 19	onques	onques	ADV	_	_	21	advmod	_	prpos=Rg|uppos=ADV
 20	esté	être	AUX	_	Tense=Past|VerbForm=Part	21	aux:pass	_	prpos=Ge|uppos=EPP
@@ -11997,7 +12009,7 @@
 27	dist	dire	VERB	_	Number=Sing|Person=3|VerbForm=Fin	0	root	_	prpos=Vvc|uppos=VJ
 28	que	que	SCONJ	_	_	31	mark	_	prpos=Cs|uppos=CONJS
 29	il	il	PRON	_	PronType=Prs	31	nsubj	_	prpos=Pp|uppos=PRO
-30	ne	ne	ADV	_	PronType=Neg	31	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+30	ne	ne	ADV	_	Polarity=Neg	31	advmod	_	prpos=Rp|uppos=NEG
 31	vouloit	vouloir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	27	ccomp	_	prpos=Vvc|uppos=VJ
 32	que	que	SCONJ	_	_	36	mark	_	prpos=Cs|uppos=CONJS
 33	il	il	PRON	_	PronType=Prs	36	nsubj	_	prpos=Pp|uppos=PRO
@@ -12136,10 +12148,10 @@
 19	la	là	ADV	_	_	18	advmod	_	prpos=Rg|uppos=ADV
 20	ou	où	PRON	_	PronType=Rel	23	obl	_	prpos=Pr|uppos=WPRO
 21	il	il	PRON	_	PronType=Prs	23	nsubj	_	prpos=Pp|uppos=PRO
-22	ne	ne	ADV	_	PronType=Neg	23	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+22	ne	ne	ADV	_	Polarity=Neg	23	advmod	_	prpos=Rp|uppos=NEG
 23	pouoit	pouvoir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	19	acl:relcl	_	prpos=Vvc|uppos=VJ
 24	ne	ni	CCONJ	_	_	26	cc	_	prpos=Cc|uppos=CONJO
-25	ne	ne	ADV	_	PronType=Neg	26	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+25	ne	ne	ADV	_	Polarity=Neg	26	advmod	_	prpos=Rp|uppos=NEG
 26	devoit	devoir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	23	conj	_	prpos=Vvc|SpaceAfter=No|uppos=VJ
 27	.	.	PUNCT	_	_	2	punct	_	join=left|prpos=Fs|uppos=PONFP
 
@@ -12243,7 +12255,7 @@
 4	barre	barre	NOUN	_	Number=Sing	10	obl	_	prpos=Nc|uppos=NCS
 5	sus	sus	ADP	_	_	6	case	_	prpos=S|uppos=P
 6	barre	barre	NOUN	_	Number=Sing	4	nmod	_	prpos=Nc|uppos=NCS
-7	ne	ne	ADV	_	PronType=Neg	10	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+7	ne	ne	ADV	_	Polarity=Neg	10	advmod	_	prpos=Rp|uppos=NEG
 8	puet	pouvoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	10	aux	_	prpos=Vvc|uppos=MDJ
 9	cil	cil	PRON	_	PronType=Dem	10	nsubj	_	prpos=Pd|uppos=PRO
 10	avoir	avoir	VERB	_	VerbForm=Inf	2	ccomp	_	prpos=Vun|uppos=AX
@@ -12263,7 +12275,7 @@
 24	gage	gage	NOUN	_	Number=Sing	29	nsubj	_	prpos=Nc|uppos=NCS
 25	et	et	CCONJ	_	_	26	cc	_	prpos=Cc|uppos=CONJO
 26	plege	pleige	NOUN	_	Number=Sing	24	conj	_	prpos=Nc|uppos=NCS
-27	ne	ne	ADV	_	PronType=Neg	29	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+27	ne	ne	ADV	_	Polarity=Neg	29	advmod	_	prpos=Rp|uppos=NEG
 28	devoit	devoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	29	aux	_	prpos=Vvc|uppos=MDJ
 29	courre	courir	VERB	_	VerbForm=Inf	33	advcl	_	prpos=Vvn|SpaceAfter=No|uppos=VX
 30	,	,	PUNCT	_	_	29	punct	_	join=left|prpos=Fw|uppos=PON
@@ -12298,7 +12310,7 @@
 8	si	si	ADV	_	ExtPos=SCONJ	12	mark	_	prpos=Rg|uppos=ADV
 9	comme	comme	SCONJ	_	_	8	fixed	_	prpos=Cs|uppos=CONJS
 10	il	il	PRON	_	PronType=Prs	12	nsubj	_	prpos=Pp|uppos=PRO
-11	n'	ne	ADV	_	PronType=Neg	12	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+11	n'	ne	ADV	_	Polarity=Neg	12	advmod	_	prpos=Rp|uppos=NEG
 12	avoit	avoir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	27	advcl	_	prpos=Vuc|uppos=AJ
 13	onques	onques	ADV	_	_	12	advmod	_	prpos=Rg|uppos=ADV
 14	mes	mais	ADV	_	_	12	advmod	_	prpos=Rg|uppos=ADV
@@ -12318,10 +12330,10 @@
 28	la	là	ADV	_	_	27	advmod	_	prpos=Rg|uppos=ADV
 29	ou	où	PRON	_	PronType=Rel	32	obl	_	prpos=Pr|uppos=WPRO
 30	il	il	PRON	_	PronType=Prs	32	nsubj	_	prpos=Pp|uppos=PRO
-31	ne	ne	ADV	_	PronType=Neg	32	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+31	ne	ne	ADV	_	Polarity=Neg	32	advmod	_	prpos=Rp|uppos=NEG
 32	pouait	pouvoir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	28	acl:relcl	_	prpos=Vvc|uppos=VJ
 33	ne	ni	CCONJ	_	_	35	cc	_	prpos=Cc|uppos=CONJO
-34	ne	ne	ADV	_	PronType=Neg	35	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+34	ne	ne	ADV	_	Polarity=Neg	35	advmod	_	prpos=Rp|uppos=NEG
 35	devoit	devoir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	32	conj	_	prpos=Vvc|SpaceAfter=No|uppos=VJ
 36	,	,	PUNCT	_	_	27	punct	_	join=left|prpos=Fw|uppos=PON
 37	tant	tant	ADV	_	_	40	advmod	_	prpos=Rg|uppos=ADV
@@ -12351,9 +12363,9 @@
 4	disoit	dire	VERB	_	Number=Sing|Person=3|VerbForm=Fin	0	root	_	prpos=Vvc|uppos=VJ
 5	que	que	SCONJ	_	_	10	mark	_	prpos=Cs|uppos=CONJS
 6	cil	cil	PRON	_	PronType=Dem	10	nsubj	_	prpos=Pd|uppos=PRO
-7	ne	ne	ADV	_	PronType=Neg	10	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+7	ne	ne	ADV	_	Polarity=Neg	10	advmod	_	prpos=Rp|uppos=NEG
 8	devoit	devoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	10	aux	_	prpos=Vvc|uppos=MDJ
-9	pas	pas	ADV	_	PronType=Neg	10	advmod	_	prpos=Rg|uppos=ADVNEG
+9	pas	pas	ADV	_	Polarity=Neg	10	advmod	_	prpos=Rg|uppos=ADVNEG
 10	ravoir	ravoir	VERB	_	VerbForm=Inf	4	ccomp	_	prpos=Vvn|uppos=VX
 11	la	le	DET	_	Definite=Def|PronType=Art	12	det	_	prpos=Da|uppos=D
 12	ressaisine	ressaisine	NOUN	_	Number=Sing	10	obj	_	prpos=Nc|uppos=NCS
@@ -12394,9 +12406,9 @@
 22	que	que	SCONJ	_	_	26	mark	_	prpos=Cs|uppos=CONJS
 23	l'	le	DET	_	Definite=Def|PronType=Art	24	det	_	prpos=Da|uppos=D
 24	autre	autre	PRON	_	PronType=Ind	26	nsubj	_	prpos=Pi|uppos=PRO
-25	n'	ne	ADV	_	PronType=Neg	26	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+25	n'	ne	ADV	_	Polarity=Neg	26	advmod	_	prpos=Rp|uppos=NEG
 26	aroit	avoir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	15	conj	_	prpos=Vuc|uppos=AJ
-27	pas	pas	ADV	_	PronType=Neg	26	advmod	_	prpos=Rg|uppos=ADVNEG
+27	pas	pas	ADV	_	Polarity=Neg	26	advmod	_	prpos=Rg|uppos=ADVNEG
 28	deus	deux	NUM	_	NumType=Card	29	nummod	_	prpos=Mc|uppos=ADJNUM
 29	voies	voie	NOUN	_	Number=Plur	26	obj	_	prpos=Nc|uppos=NCPL
 30	l'	le	DET	_	Definite=Def|PronType=Art	32	det	_	prpos=Da|uppos=D
@@ -12506,26 +12518,27 @@
 10	de	de	ADP	_	_	12	case	_	prpos=S|uppos=P
 11	haute	haut	ADJ	_	_	12	amod	_	prpos=Ag|uppos=ADJ
 12	establie	établie	NOUN	_	Number=Sing	9	nmod	_	prpos=Nc|uppos=NCS
-13-14	u quel	_	_	_	_	_	_	_	_
-13	a	à	ADP	_	_	14	case	_	prpos=S|uppos=P
-14	lequel	lequel	PRON	_	PronType=Rel	17	obl	_	prpos=Pr|uppos=WPRO
-15	il	il	PRON	_	PronType=Prs	17	expl	_	prpos=Pp|uppos=PRO
-16	estoit	être	AUX	_	Number=Sing|Person=3|VerbForm=Fin	17	aux:pass	_	prpos=Vuc|uppos=EJ
-17	contenu	contenir	VERB	_	Tense=Past|VerbForm=Part	9	acl:relcl	_	prpos=Ge|uppos=VPP
-18	que	que	SCONJ	_	_	19	mark	_	prpos=Cs|uppos=CONJS
-19	miex	mieux	ADV	_	_	17	advmod	_	prpos=Rg|uppos=ADV
-20	estoit	être	AUX	_	Number=Sing|Person=3|VerbForm=Fin	19	cop	_	prpos=Vuc|uppos=EJ
-21	son	son	DET	_	Poss=Yes	22	det	_	prpos=Ds|uppos=DZ
-22	droit	droit	NOUN	_	Number=Sing	24	obj	_	prpos=Nc|uppos=NCS
-23	a	à	ADP	_	_	24	mark	_	prpos=S|uppos=P
-24	tenir	tenir	VERB	_	VerbForm=Inf	19	xcomp	_	prpos=Vvn|uppos=VX
-25	que	que	SCONJ	_	_	28	mark	_	prpos=Cs|uppos=CONJS
-26	cil	cil	PRON	_	PronType=Dem	28	obj	_	prpos=Pd|uppos=PRO
-27	a	à	ADP	_	_	28	mark	_	prpos=S|uppos=P
-28	avoir	avoir	VERB	_	VerbForm=Inf	24	advcl	_	prpos=Vun|uppos=AX
-29	qui	qui	PRON	_	PronType=Rel	30	nsubj	_	prpos=Pr|uppos=WPRO
-30	demandoit	demander	VERB	_	Number=Sing|Person=3|VerbForm=Fin	26	acl:relcl	_	prpos=Vvc|SpaceAfter=No|uppos=VJ
-31	.	.	PUNCT	_	_	7	punct	_	join=left|prpos=Fs|uppos=PONFP
+13-14	u	_	_	_	_	_	_	_	_
+13	a	à	ADP	_	_	15	case	_	prpos=S|uppos=P
+14	le	le	DET	_	Definite=Def|PronType=Art	15	det	_	prpos=S|uppos=P
+15	quel	quel	PRON	_	PronType=Rel	18	obl	_	prpos=Pr|uppos=WPRO
+16	il	il	PRON	_	PronType=Prs	18	expl	_	prpos=Pp|uppos=PRO
+17	estoit	être	AUX	_	Number=Sing|Person=3|VerbForm=Fin	18	aux:pass	_	prpos=Vuc|uppos=EJ
+18	contenu	contenir	VERB	_	Tense=Past|VerbForm=Part	9	acl:relcl	_	prpos=Ge|uppos=VPP
+19	que	que	SCONJ	_	_	20	mark	_	prpos=Cs|uppos=CONJS
+20	miex	mieux	ADV	_	_	18	advmod	_	prpos=Rg|uppos=ADV
+21	estoit	être	AUX	_	Number=Sing|Person=3|VerbForm=Fin	20	cop	_	prpos=Vuc|uppos=EJ
+22	son	son	DET	_	Poss=Yes	23	det	_	prpos=Ds|uppos=DZ
+23	droit	droit	NOUN	_	Number=Sing	25	obj	_	prpos=Nc|uppos=NCS
+24	a	à	ADP	_	_	25	mark	_	prpos=S|uppos=P
+25	tenir	tenir	VERB	_	VerbForm=Inf	20	xcomp	_	prpos=Vvn|uppos=VX
+26	que	que	SCONJ	_	_	29	mark	_	prpos=Cs|uppos=CONJS
+27	cil	cil	PRON	_	PronType=Dem	29	obj	_	prpos=Pd|uppos=PRO
+28	a	à	ADP	_	_	29	mark	_	prpos=S|uppos=P
+29	avoir	avoir	VERB	_	VerbForm=Inf	25	advcl	_	prpos=Vun|uppos=AX
+30	qui	qui	PRON	_	PronType=Rel	31	nsubj	_	prpos=Pr|uppos=WPRO
+31	demandoit	demander	VERB	_	Number=Sing|Person=3|VerbForm=Fin	27	acl:relcl	_	prpos=Vvc|SpaceAfter=No|uppos=VJ
+32	.	.	PUNCT	_	_	7	punct	_	join=left|prpos=Fs|uppos=PONFP
 
 # sent_id = 1314_Atir_1_1_100_1_8
 # len = 24
@@ -12563,7 +12576,7 @@
 3	que	que	SCONJ	_	_	7	mark	_	prpos=Cs|uppos=CONJS
 4	«	«	PUNCT	_	_	3	punct	_	prpos=Fo|uppos=PON
 5	il	il	PRON	_	PronType=Prs	7	nsubj	_	prpos=Pp|uppos=PRO
-6	ne	ne	ADV	_	PronType=Neg	7	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+6	ne	ne	ADV	_	Polarity=Neg	7	advmod	_	prpos=Rp|uppos=NEG
 7	vouloit	vouloir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	2	ccomp	_	prpos=Vvc|uppos=MDJ
 8	aler	aller	VERB	_	VerbForm=Inf	7	xcomp	_	prpos=Vvn|uppos=VX
 9	avant	avant	ADV	_	_	8	advmod	_	prpos=Rg|uppos=ADV
@@ -12620,7 +12633,7 @@
 2	di	dire	VERB	_	Number=Sing|Person=1|VerbForm=Fin	0	root	_	prpos=Vvc|uppos=VJ
 3	que	que	SCONJ	_	_	7	mark	_	prpos=Cs|uppos=CONJS
 4	je	je	PRON	_	PronType=Prs	7	nsubj	_	prpos=Pp|uppos=PRO
-5	ne	ne	ADV	_	PronType=Neg	7	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+5	ne	ne	ADV	_	Polarity=Neg	7	advmod	_	prpos=Rp|uppos=NEG
 6	sui	être	AUX	_	Number=Sing|Person=1|VerbForm=Fin	7	aux:pass	_	prpos=Vuc|uppos=EJ
 7	tenu	tenir	VERB	_	Tense=Past|VerbForm=Part	2	ccomp	_	prpos=Ge|uppos=VPP
 8	aler	aller	VERB	_	VerbForm=Inf	7	xcomp	_	prpos=Vvn|uppos=VX
@@ -12726,7 +12739,7 @@
 3	,	,	PUNCT	_	_	2	punct	_	join=left|prpos=Fw|uppos=PON
 4	quant	quand	SCONJ	_	_	7	mark	_	prpos=Cs|uppos=CONJS
 5	vous	vous	PRON	_	PronType=Prs	7	nsubj	_	prpos=Pp|uppos=PRO
-6	n'	ne	ADV	_	PronType=Neg	7	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+6	n'	ne	ADV	_	Polarity=Neg	7	advmod	_	prpos=Rp|uppos=NEG
 7	aportastes	apporter	VERB	_	Number=Plur|Person=2|VerbForm=Fin	24	advcl	_	prpos=Vvc|uppos=VJ
 8	vostre	votre	DET	_	Poss=Yes	9	det	_	prpos=Ds|uppos=DZ
 9	brief	bref	NOUN	_	Number=Sing	7	obj	_	prpos=Nc|uppos=NCS
@@ -12752,13 +12765,13 @@
 28	que	que	SCONJ	_	_	33	mark	_	prpos=Cs|uppos=CONJS
 29	vostre	votre	DET	_	Poss=Yes	30	det	_	prpos=Ds|uppos=DZ
 30	brief	bref	NOUN	_	Number=Sing	33	nsubj	_	prpos=Nc|uppos=NCS
-31	ne	ne	ADV	_	PronType=Neg	33	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+31	ne	ne	ADV	_	Polarity=Neg	33	advmod	_	prpos=Rp|uppos=NEG
 32	puet	pouvoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	33	aux	_	prpos=Vvc|uppos=MDJ
 33	destorber	détourber	VERB	_	VerbForm=Inf	24	conj	_	prpos=Vvn|uppos=VX
 34	que	que	SCONJ	_	_	38	mark	_	prpos=Cs|uppos=CONJS
 35	l'	le	DET	_	Definite=Def|PronType=Art	36	det	_	prpos=Da|uppos=D
 36	en	on	PRON	_	PronType=Prs	38	nsubj	_	prpos=Pp|uppos=PRO
-37	ne	ne	ADV	_	PronType=Neg	38	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+37	ne	ne	ADV	_	Polarity=Neg	38	advmod	_	prpos=Rp|uppos=NEG
 38	voist	voir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	33	advcl	_	prpos=Vvc|uppos=VJ
 39	avant	avant	ADV	_	_	38	advmod	_	prpos=Rg|uppos=ADV
 40	en	en	ADP	_	_	41	case	_	prpos=S|uppos=P
@@ -12792,7 +12805,7 @@
 17	tart	tard	ADV	_	_	15	advmod	_	prpos=Rg|uppos=ADV
 18	quant	quand	SCONJ	_	_	22	mark	_	prpos=Cs|uppos=CONJS
 19	il	il	PRON	_	PronType=Prs	22	nsubj	_	prpos=Pp|uppos=PRO
-20	ne	ne	ADV	_	PronType=Neg	22	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+20	ne	ne	ADV	_	Polarity=Neg	22	advmod	_	prpos=Rp|uppos=NEG
 21	fu	être	AUX	_	Number=Sing|Person=3|VerbForm=Fin	22	aux:pass	_	prpos=Vuc|uppos=EJ
 22	aporté	apporter	VERB	_	Tense=Past|VerbForm=Part	15	advcl	_	prpos=Ge|uppos=VPP
 23-24	au	_	_	_	_	_	_	_	_
@@ -12806,9 +12819,9 @@
 30	et	et	CCONJ	_	_	34	cc	_	prpos=Cc|uppos=CONJO
 31	que	que	SCONJ	_	_	34	mark	_	prpos=Cs|uppos=CONJS
 32	il	il	PRON	_	PronType=Prs	34	nsubj	_	prpos=Pp|uppos=PRO
-33	ne	ne	ADV	_	PronType=Neg	34	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+33	ne	ne	ADV	_	Polarity=Neg	34	advmod	_	prpos=Rp|uppos=NEG
 34	corroit	courir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	15	conj	_	prpos=Vvc|uppos=VJ
-35	pas	pas	ADV	_	PronType=Neg	34	advmod	_	prpos=Rg|SpaceAfter=No|uppos=ADVNEG
+35	pas	pas	ADV	_	Polarity=Neg	34	advmod	_	prpos=Rg|SpaceAfter=No|uppos=ADVNEG
 36	.	.	PUNCT	_	_	8	punct	_	join=left|prpos=Fs|uppos=PONFP
 
 # sent_id = 1314_Atir_1_1_101_1_1
@@ -12872,30 +12885,31 @@
 # sent_id = 1314_Atir_1_1_101_1_5
 # len = 35
 # text = au quel fet estoit contenu que lors pere avoit vendu le dit heritage et ses hoirs estoient tenus a garantir contre tous,
-1-2	au quel	_	_	_	_	_	_	_	_
-1	a	à	ADP	_	_	3	case	_	prpos=S|uppos=P
-2	lequel	lequel	DET	_	_	3	det	_	prpos=Dr|uppos=WD
-3	fet	fait	NOUN	_	Number=Sing	5	obl	_	prpos=Nc|uppos=NCS
-4	estoit	être	AUX	_	Number=Sing|Person=3|VerbForm=Fin	5	aux:pass	_	prpos=Vuc|uppos=EJ
-5	contenu	contenir	VERB	_	Tense=Past|VerbForm=Part	0	root	_	prpos=Ge|uppos=VPP
-6	que	que	SCONJ	_	_	10	mark	_	prpos=Cs|uppos=CONJS
-7	lors	lors	ADV	_	_	10	advmod	_	prpos=Rg|uppos=ADV
-8	pere	père	NOUN	_	Number=Sing	10	nsubj	_	prpos=Nc|uppos=NCS
-9	avoit	avoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	10	aux	_	prpos=Vuc|uppos=AJ
-10	vendu	vendre	VERB	_	Tense=Past|VerbForm=Part	5	ccomp	_	prpos=Ge|uppos=VPP
-11	le	le	DET	_	Definite=Def|PronType=Art	13	det	_	prpos=Da|uppos=D
-12	dit	dit	ADJ	_	_	13	amod	_	prpos=Ag|uppos=ADJ
-13	heritage	héritage	NOUN	_	Number=Sing	10	obj	_	prpos=Nc|uppos=NCS
-14	et	et	CCONJ	_	_	18	cc	_	prpos=Cc|uppos=CONJO
-15	ses	son	DET	_	Poss=Yes	16	det	_	prpos=Ds|uppos=DZ
-16	hoirs	hoir	NOUN	_	Number=Plur	18	nsubj	_	prpos=Nc|uppos=NCPL
-17	estoient	être	AUX	_	Number=Plur|Person=3|VerbForm=Fin	18	aux:pass	_	prpos=Vuc|uppos=EJ
-18	tenus	tenir	VERB	_	Tense=Past|VerbForm=Part	10	conj	_	prpos=Ge|uppos=VPP
-19	a	à	ADP	_	_	20	mark	_	prpos=S|uppos=P
-20	garantir	garantir	VERB	_	VerbForm=Inf	18	xcomp	_	prpos=Vvn|uppos=VX
-21	contre	contre	ADP	_	_	22	case	_	prpos=S|uppos=P
-22	tous	tout	PRON	_	PronType=Ind	20	obl	_	prpos=Pi|SpaceAfter=No|uppos=PRO
-23	,	,	PUNCT	_	_	5	punct	_	join=left|prpos=Fw|uppos=PON
+1-2	au	_	_	_	_	_	_	_	_
+1	a	à	ADP	_	_	4	case	_	prpos=S|uppos=P
+2	le	le	DET	_	Definite=Def|PronType=Art	4	det	_	_
+3	quel	quel	DET	_	_	4	det	_	prpos=Dr|uppos=WD
+4	fet	fait	NOUN	_	Number=Sing	6	obl	_	prpos=Nc|uppos=NCS
+5	estoit	être	AUX	_	Number=Sing|Person=3|VerbForm=Fin	6	aux:pass	_	prpos=Vuc|uppos=EJ
+6	contenu	contenir	VERB	_	Tense=Past|VerbForm=Part	0	root	_	prpos=Ge|uppos=VPP
+7	que	que	SCONJ	_	_	11	mark	_	prpos=Cs|uppos=CONJS
+8	lors	lors	ADV	_	_	11	advmod	_	prpos=Rg|uppos=ADV
+9	pere	père	NOUN	_	Number=Sing	11	nsubj	_	prpos=Nc|uppos=NCS
+10	avoit	avoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	11	aux	_	prpos=Vuc|uppos=AJ
+11	vendu	vendre	VERB	_	Tense=Past|VerbForm=Part	6	ccomp	_	prpos=Ge|uppos=VPP
+12	le	le	DET	_	Definite=Def|PronType=Art	14	det	_	prpos=Da|uppos=D
+13	dit	dit	ADJ	_	_	14	amod	_	prpos=Ag|uppos=ADJ
+14	heritage	héritage	NOUN	_	Number=Sing	11	obj	_	prpos=Nc|uppos=NCS
+15	et	et	CCONJ	_	_	19	cc	_	prpos=Cc|uppos=CONJO
+16	ses	son	DET	_	Poss=Yes	17	det	_	prpos=Ds|uppos=DZ
+17	hoirs	hoir	NOUN	_	Number=Plur	19	nsubj	_	prpos=Nc|uppos=NCPL
+18	estoient	être	AUX	_	Number=Plur|Person=3|VerbForm=Fin	19	aux:pass	_	prpos=Vuc|uppos=EJ
+19	tenus	tenir	VERB	_	Tense=Past|VerbForm=Part	11	conj	_	prpos=Ge|uppos=VPP
+20	a	à	ADP	_	_	21	mark	_	prpos=S|uppos=P
+21	garantir	garantir	VERB	_	VerbForm=Inf	19	xcomp	_	prpos=Vvn|uppos=VX
+22	contre	contre	ADP	_	_	23	case	_	prpos=S|uppos=P
+23	tous	tout	PRON	_	PronType=Ind	21	obl	_	prpos=Pi|SpaceAfter=No|uppos=PRO
+24	,	,	PUNCT	_	_	6	punct	_	join=left|prpos=Fw|uppos=PON
 
 # sent_id = 1314_Atir_1_1_101_1_6
 # len = 6 19 8
@@ -12941,7 +12955,7 @@
 2	di	dire	VERB	_	Number=Sing|Person=1|VerbForm=Fin	0	root	_	prpos=Vvc|uppos=VJ
 3	que	que	SCONJ	_	_	7	mark	_	prpos=Cs|uppos=CONJS
 4	vous	vous	PRON	_	PronType=Prs	7	nsubj	_	prpos=Pp|uppos=PRO
-5	ne	ne	ADV	_	PronType=Neg	7	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+5	ne	ne	ADV	_	Polarity=Neg	7	advmod	_	prpos=Rp|uppos=NEG
 6	poueiz	pouvoir	AUX	_	Number=Plur|Person=2|VerbForm=Fin	7	aux	_	prpos=Vvc|uppos=MDJ
 7	avoir	avoir	VERB	_	VerbForm=Inf	2	ccomp	_	prpos=Vun|uppos=AX
 8	l'	le	DET	_	Definite=Def|PronType=Art	9	det	_	prpos=Da|uppos=D
@@ -12992,10 +13006,10 @@
 # len = 30
 1	et	et	CCONJ	_	_	7	cc	_	prpos=Cc|uppos=CONJO
 2	vous	vous	PRON	_	PronType=Prs	7	nsubj	_	prpos=Pp|uppos=PRO
-3	ne	ne	ADV	_	PronType=Neg	7	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+3	ne	ne	ADV	_	Polarity=Neg	7	advmod	_	prpos=Rp|uppos=NEG
 4	nous	nous	PRON	_	PronType=Prs	7	obj	_	prpos=Pp|uppos=PRO
 5	avez	avoir	AUX	_	Number=Plur|Person=2|VerbForm=Fin	7	aux	_	prpos=Vuc|uppos=AJ
-6	pas	pas	ADV	_	PronType=Neg	7	advmod	_	prpos=Rg|uppos=ADVNEG
+6	pas	pas	ADV	_	Polarity=Neg	7	advmod	_	prpos=Rg|uppos=ADVNEG
 7	fet	faire	VERB	_	Tense=Past|VerbForm=Part	0	root	_	prpos=Ge|uppos=VPP
 8	venir	venir	VERB	_	VerbForm=Inf	7	xcomp	_	prpos=Vvn|uppos=VX
 9	en	en	ADP	_	_	10	case	_	prpos=S|uppos=P
@@ -13037,9 +13051,9 @@
 10	que	que	SCONJ	_	_	14	mark	_	prpos=Cs|uppos=CONJS
 11	le	le	DET	_	Definite=Def|PronType=Art	12	det	_	prpos=Da|uppos=D
 12	tenant	tenant	NOUN	_	Number=Sing	14	nsubj	_	prpos=Nc|uppos=NCS
-13	ne	ne	ADV	_	PronType=Neg	14	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+13	ne	ne	ADV	_	Polarity=Neg	14	advmod	_	prpos=Rp|uppos=NEG
 14	respondroit	répondre	VERB	_	Number=Sing|Person=3|VerbForm=Fin	8	ccomp	_	prpos=Vvc|uppos=VJ
-15	pas	pas	ADV	_	PronType=Neg	14	advmod	_	prpos=Rg|uppos=ADVNEG
+15	pas	pas	ADV	_	Polarity=Neg	14	advmod	_	prpos=Rg|uppos=ADVNEG
 16	a	à	ADP	_	_	18	case	_	prpos=S|uppos=P
 17	l'	l'	DET	_	Definite=Def	18	det	_	prpos=Da|uppos=D
 18	eir	hoir	NOUN	_	Number=Sing	14	obl	_	prpos=Nc|uppos=NCS
@@ -13171,7 +13185,7 @@
 23	,	,	PUNCT	_	_	12	punct	_	join=left|prpos=Fw|uppos=PON
 24	quant	quand	SCONJ	_	_	28	mark	_	prpos=Cs|uppos=CONJS
 25	il	il	PRON	_	PronType=Prs	28	nsubj	_	prpos=Pp|uppos=PRO
-26	n'	ne	ADV	_	PronType=Neg	28	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+26	n'	ne	ADV	_	Polarity=Neg	28	advmod	_	prpos=Rp|uppos=NEG
 27	estoient	être	AUX	_	Number=Plur|Person=3|VerbForm=Fin	28	cop	_	prpos=Vuc|uppos=EJ
 28	manans	manant	NOUN	_	Number=Sing	47	advcl	_	prpos=Nc|uppos=NCS
 29	en	en	ADP	_	_	30	case	_	prpos=S|uppos=P
@@ -13189,9 +13203,9 @@
 41	euls	il	PRON	_	PronType=Prs	42	nsubj	_	prpos=Pp|uppos=PRO
 42	estoient	être	VERB	_	Number=Plur|Person=3|VerbForm=Fin	30	acl:relcl	_	prpos=Vuc|SpaceAfter=No|uppos=EJ
 43	,	,	PUNCT	_	_	30	punct	_	join=left|prpos=Fw|uppos=PON
-44	n'	ne	ADV	_	PronType=Neg	47	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+44	n'	ne	ADV	_	Polarity=Neg	47	advmod	_	prpos=Rp|uppos=NEG
 45	estoit	être	AUX	_	Number=Sing|Person=3|VerbForm=Fin	47	cop	_	prpos=Vuc|uppos=EJ
-46	pas	pas	ADV	_	PronType=Neg	47	advmod	_	prpos=Rg|uppos=ADVNEG
+46	pas	pas	ADV	_	Polarity=Neg	47	advmod	_	prpos=Rg|uppos=ADVNEG
 47	quite	quitte	ADJ	_	_	5	ccomp	_	prpos=Ag|uppos=ADJ
 48	por	pour	ADP	_	_	50	case	_	prpos=S|uppos=P
 49	teile	tel	ADJ	_	_	50	amod	_	prpos=Di|uppos=D
@@ -13211,7 +13225,7 @@
 8	coustume	coutume	NOUN	_	Number=Sing	5	obl	_	prpos=Nc|uppos=NCS
 9	de	de	ADP	_	_	10	case	_	prpos=S|uppos=P
 10	Normendie	Normandie	PROPN	_	Number=Sing	8	nmod	_	prpos=Np|uppos=NPRS
-11	ne	ne	ADV	_	PronType=Neg	13	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+11	ne	ne	ADV	_	Polarity=Neg	13	advmod	_	prpos=Rp|uppos=NEG
 12	doit	devoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	13	aux	_	prpos=Vvc|uppos=MDJ
 13	aquerre	acquérir	VERB	_	VerbForm=Inf	0	root	_	prpos=Vvn|uppos=VX
 14	nul	nul	DET	_	Definite=Ind	15	det	_	prpos=Di|uppos=D
@@ -13278,9 +13292,9 @@
 9	et	et	CCONJ	_	_	15	cc	_	prpos=Cc|uppos=CONJO
 10	que	que	SCONJ	_	_	15	mark	_	prpos=Cs|uppos=CONJS
 11	il	il	PRON	_	PronType=Prs	15	nsubj	_	prpos=Pp|uppos=PRO
-12	ne	ne	ADV	_	PronType=Neg	15	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+12	ne	ne	ADV	_	Polarity=Neg	15	advmod	_	prpos=Rp|uppos=NEG
 13	doit	devoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	15	aux	_	prpos=Vvc|uppos=MDJ
-14	pas	pas	ADV	_	PronType=Neg	15	advmod	_	prpos=Rg|uppos=ADVNEG
+14	pas	pas	ADV	_	Polarity=Neg	15	advmod	_	prpos=Rg|uppos=ADVNEG
 15	courre	courir	VERB	_	VerbForm=Inf	6	conj	_	prpos=Vvn|uppos=VX
 16	et	et	CCONJ	_	_	18	cc	_	prpos=Cc|uppos=CONJO
 17	en	en	PRON	_	PronType=Prs	19	nmod	_	prpos=Pp|uppos=PRO
@@ -13423,9 +13437,9 @@
 4	que	que	SCONJ	_	_	10	mark	_	prpos=Cs|uppos=CONJS
 5	son	son	DET	_	Poss=Yes	6	det	_	prpos=Ds|uppos=DZ
 6	aiel	aïeul	NOUN	_	Number=Sing	10	nsubj	_	prpos=Nc|uppos=NCS
-7	n'	ne	ADV	_	PronType=Neg	10	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+7	n'	ne	ADV	_	Polarity=Neg	10	advmod	_	prpos=Rp|uppos=NEG
 8	estoit	être	AUX	_	Number=Sing|Person=3|VerbForm=Fin	10	aux:pass	_	prpos=Vuc|uppos=EJ
-9	pas	pas	ADV	_	PronType=Neg	10	advmod	_	prpos=Rg|uppos=ADVNEG
+9	pas	pas	ADV	_	Polarity=Neg	10	advmod	_	prpos=Rg|uppos=ADVNEG
 10	sesi	saisir	VERB	_	Tense=Past|VerbForm=Part	3	ccomp	_	prpos=Ge|uppos=VPP
 11	de	de	ADP	_	_	13	case	_	prpos=S|uppos=P
 12	la	le	DET	_	Definite=Def|PronType=Art	13	det	_	prpos=Da|uppos=D
@@ -13562,10 +13576,10 @@
 11	la	là	ADV	_	_	10	advmod	_	prpos=Rg|uppos=ADV
 12	ou	où	PRON	_	PronType=Rel	15	obl	_	prpos=Pr|uppos=WPRO
 13	il	il	PRON	_	PronType=Prs	15	nsubj	_	prpos=Pp|uppos=PRO
-14	ne	ne	ADV	_	PronType=Neg	15	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+14	ne	ne	ADV	_	Polarity=Neg	15	advmod	_	prpos=Rp|uppos=NEG
 15	pouaient	pouvoir	VERB	_	Number=Plur|Person=3|VerbForm=Fin	11	acl:relcl	_	prpos=Vvc|uppos=VJ
 16	ne	ni	CCONJ	_	_	18	cc	_	prpos=Cc|uppos=CONJO
-17	ne	ne	ADV	_	PronType=Neg	18	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+17	ne	ne	ADV	_	Polarity=Neg	18	advmod	_	prpos=Rp|uppos=NEG
 18	devoient	devoir	VERB	_	Number=Plur|Person=3|VerbForm=Fin	15	conj	_	prpos=Vvc|SpaceAfter=No|uppos=VJ
 19	;	;	PUNCT	_	_	3	punct	_	join=left|prpos=Fw|uppos=PON
 
@@ -13709,10 +13723,10 @@
 23	nans	nant	NOUN	_	Number=Plur	22	obj	_	prpos=Nc|uppos=NCPL
 24	la	là	ADV	_	_	22	advmod	_	prpos=Rg|uppos=ADV
 25	ou	où	PRON	_	PronType=Rel	27	obl	_	prpos=Pr|uppos=WPRO
-26	ne	ne	ADV	_	PronType=Neg	27	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+26	ne	ne	ADV	_	Polarity=Neg	27	advmod	_	prpos=Rp|uppos=NEG
 27	pouion	pouvoir	VERB	_	Number=Plur|Person=1|VerbForm=Fin	24	acl:relcl	_	prpos=Vvc|uppos=VJ
 28	ne	ni	CCONJ	_	_	30	cc	_	prpos=Cc|uppos=CONJO
-29	ne	ne	ADV	_	PronType=Neg	30	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+29	ne	ne	ADV	_	Polarity=Neg	30	advmod	_	prpos=Rp|uppos=NEG
 30	devion	devoir	VERB	_	Number=Plur|Person=1|VerbForm=Fin	27	conj	_	prpos=Vvc|SpaceAfter=No|uppos=VJ
 31	;	;	PUNCT	_	_	3	punct	_	join=left|prpos=Fw|uppos=PON
 
@@ -13755,7 +13769,7 @@
 24	hors	hors	ADV	_	ExtPos=ADP	27	case	_	prpos=Rg|uppos=ADV
 25-26	du	_	_	_	_	_	_	_	_
 25	de	de	ADP	_	_	24	fixed	_	prpos=S|uppos=P
-26	le	le	DET	_	Definite=Def|PronType=Art	24	det	_	prpos=Da|uppos=D
+26	le	le	DET	_	Definite=Def|PronType=Art	27	det	_	prpos=Da|uppos=D
 27	gage	gage	NOUN	_	Number=Sing	23	obl	_	prpos=Nc|uppos=NCS
 28	et	et	CCONJ	_	_	31	cc	_	prpos=Cc|uppos=CONJO
 29-30	du	_	_	_	_	_	_	_	_
@@ -13771,7 +13785,7 @@
 # len = 11 25
 # text = et ne seroit jamès le droit de nostre querele esclerié; por quoi nous dison que nous ne sommes tenus a dire vous riens plus que nous vous avon dit et en voulon droit ».
 1	et	et	CCONJ	_	_	10	cc	_	prpos=Cc|uppos=CONJO
-2	ne	ne	ADV	_	PronType=Neg	10	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+2	ne	ne	ADV	_	Polarity=Neg	10	advmod	_	prpos=Rp|uppos=NEG
 3	seroit	être	AUX	_	Number=Sing|Person=3|VerbForm=Fin	10	aux:pass	_	prpos=Vuc|uppos=EJ
 4	jamès	jamais	ADV	_	_	10	advmod	_	prpos=Rg|uppos=ADV
 5	le	le	DET	_	Definite=Def|PronType=Art	6	det	_	prpos=Da|uppos=D
@@ -13787,7 +13801,7 @@
 15	dison	dire	VERB	_	Number=Plur|Person=1|VerbForm=Fin	10	advcl	_	prpos=Vvc|uppos=VJ
 16	que	que	SCONJ	_	_	20	mark	_	prpos=Cs|uppos=CONJS
 17	nous	nous	PRON	_	PronType=Prs	20	nsubj	_	prpos=Pp|uppos=PRO
-18	ne	ne	ADV	_	PronType=Neg	20	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+18	ne	ne	ADV	_	Polarity=Neg	20	advmod	_	prpos=Rp|uppos=NEG
 19	sommes	être	AUX	_	Number=Plur|Person=1|VerbForm=Fin	20	aux:pass	_	prpos=Vuc|uppos=EJ
 20	tenus	tenir	VERB	_	Tense=Past|VerbForm=Part	15	ccomp	_	prpos=Ge|uppos=VPP
 21	a	à	ADP	_	_	22	mark	_	prpos=S|uppos=P
@@ -13814,9 +13828,9 @@
 2	fu	être	AUX	_	Number=Sing|Person=3|VerbForm=Fin	1	aux:pass	_	prpos=Vuc|uppos=EJ
 3	que	que	SCONJ	_	_	6	mark	_	prpos=Cs|uppos=CONJS
 4	eus	il	PRON	_	PronType=Prs	6	nsubj	_	prpos=Pp|uppos=PRO
-5	ne	ne	ADV	_	PronType=Neg	6	advmod	_	Polarity=Neg|prpos=Rp|uppos=ADVNEG
+5	ne	ne	ADV	_	Polarity=Neg	6	advmod	_	prpos=Rp|uppos=ADVNEG
 6	diroient	dire	VERB	_	Number=Plur|Person=3|VerbForm=Fin	1	ccomp	_	prpos=Vvc|uppos=VJ
-7	point	point	ADV	_	PronType=Neg	6	advmod	_	prpos=Rg|uppos=ADVNEG
+7	point	point	ADV	_	Polarity=Neg	6	advmod	_	prpos=Rg|uppos=ADVNEG
 8	le	le	DET	_	Definite=Def|PronType=Art	9	det	_	prpos=Da|uppos=D
 9	non	nom	NOUN	_	Number=Sing	6	obj	_	prpos=Nc|uppos=NCS
 10-11	du	_	_	_	_	_	_	_	_
@@ -13916,10 +13930,10 @@
 20	la	là	ADV	_	_	19	advmod	_	prpos=Rg|uppos=ADV
 21	ou	où	PRON	_	PronType=Rel	24	obl	_	prpos=Pr|uppos=WPRO
 22	vous	vous	PRON	_	PronType=Prs	24	nsubj	_	prpos=Pp|uppos=PRO
-23	ne	ne	ADV	_	PronType=Neg	24	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+23	ne	ne	ADV	_	Polarity=Neg	24	advmod	_	prpos=Rp|uppos=NEG
 24	pouez	pouvoir	VERB	_	Number=Plur|Person=2|VerbForm=Fin	20	acl:relcl	_	prpos=Vvc|uppos=VJ
 25	ne	ni	CCONJ	_	_	27	cc	_	prpos=Cc|uppos=CONJO
-26	ne	ne	ADV	_	PronType=Neg	27	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+26	ne	ne	ADV	_	Polarity=Neg	27	advmod	_	prpos=Rp|uppos=NEG
 27	devez	devoir	VERB	_	Number=Plur|Person=2|VerbForm=Fin	24	conj	_	prpos=Vvc|SpaceAfter=No|uppos=VJ
 28	,	,	PUNCT	_	_	12	punct	_	join=left|prpos=Fw|uppos=PON
 29	et	et	CCONJ	_	_	33	cc	_	prpos=Cc|uppos=CONJO
@@ -13936,7 +13950,7 @@
 40	di	dire	VERB	_	Number=Sing|Person=1|VerbForm=Fin	0	root	_	prpos=Vvc|uppos=VJ
 41	que	que	SCONJ	_	_	47	mark	_	prpos=Cs|uppos=CONJS
 42	vous	vous	PRON	_	PronType=Prs	47	nsubj	_	prpos=Pp|uppos=PRO
-43	ne	ne	ADV	_	PronType=Neg	47	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+43	ne	ne	ADV	_	Polarity=Neg	47	advmod	_	prpos=Rp|uppos=NEG
 44	devez	devoir	AUX	_	Number=Plur|Person=2|VerbForm=Fin	47	aux	_	prpos=Vvc|uppos=MDJ
 45	riens	rien	PRON	_	PronType=Ind	47	obj	_	prpos=Pi|uppos=PRO
 46	avoir	avoir	AUX	_	VerbForm=Inf	47	aux	_	prpos=Vun|uppos=AX
@@ -14001,10 +14015,10 @@
 29	justicié	justicier	VERB	_	Tense=Past|VerbForm=Part	22	acl:relcl	_	prpos=Ge|uppos=VPP
 30	la	là	ADV	_	_	14	advmod	_	prpos=Rg|uppos=ADV
 31	ou	où	PRON	_	PronType=Rel	33	obl	_	prpos=Pr|uppos=WPRO
-32	ne	ne	ADV	_	PronType=Neg	33	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+32	ne	ne	ADV	_	Polarity=Neg	33	advmod	_	prpos=Rp|uppos=NEG
 33	pouion	pouvoir	VERB	_	Number=Plur|Person=1|VerbForm=Fin	30	acl:relcl	_	prpos=Vvc|uppos=VJ
 34	ne	ni	CCONJ	_	_	36	cc	_	prpos=Cc|uppos=CONJO
-35	ne	ne	ADV	_	PronType=Neg	36	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+35	ne	ne	ADV	_	Polarity=Neg	36	advmod	_	prpos=Rp|uppos=NEG
 36	devion	devoir	VERB	_	Number=Plur|Person=1|VerbForm=Fin	33	conj	_	prpos=Vvc|SpaceAfter=No|uppos=VJ
 37	,	,	PUNCT	_	_	14	punct	_	join=left|prpos=Fw|uppos=PON
 38	la	le	DET	_	Definite=Def|PronType=Art	39	det	_	prpos=Da|uppos=D
@@ -14320,7 +14334,7 @@
 48	de	de	ADP	_	_	50	case	_	prpos=S|uppos=P
 49	l'	le	DET	_	Definite=Def|PronType=Art	50	det	_	prpos=Da|uppos=D
 50	ainsné	aîné	NOUN	_	Number=Sing	47	nmod	_	prpos=Nc|uppos=NCS
-51	n'	ne	ADV	_	PronType=Neg	52	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+51	n'	ne	ADV	_	Polarity=Neg	52	advmod	_	prpos=Rp|uppos=NEG
 52	enmportera	emporter	VERB	_	Number=Sing|Person=3|VerbForm=Fin	44	ccomp	_	prpos=Vvc|uppos=VJ
 53	riens	rien	PRON	_	PronType=Ind	52	obj	_	prpos=Pi|uppos=PRO
 54	de	de	ADP	_	_	55	case	_	prpos=S|uppos=P
@@ -14344,13 +14358,13 @@
 72	,	,	PUNCT	_	_	71	punct	_	join=left|prpos=Fw|uppos=PON
 73	se	si	SCONJ	_	_	78	mark	_	prpos=Cs|uppos=CONJS
 74	riens	rien	PRON	_	PronType=Ind	78	obj	_	prpos=Pi|uppos=PRO
-75	n'	ne	ADV	_	PronType=Neg	78	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+75	n'	ne	ADV	_	Polarity=Neg	78	advmod	_	prpos=Rp|uppos=NEG
 76	en	en	PRON	_	PronType=Prs	78	obl	_	prpos=Pp|uppos=PRO
 77	puet	pouvoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	78	aux	_	prpos=Vvc|uppos=MDJ
 78	moustrer	montrer	VERB	_	VerbForm=Inf	82	advcl	_	prpos=Vvn|SpaceAfter=No|uppos=VX
 79	,	,	PUNCT	_	_	78	punct	_	join=left|prpos=Fw|uppos=PON
 80	riens	rien	PRON	_	PronType=Ind	82	obj	_	prpos=Pi|uppos=PRO
-81	n'	ne	ADV	_	PronType=Neg	82	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+81	n'	ne	ADV	_	Polarity=Neg	82	advmod	_	prpos=Rp|uppos=NEG
 82	enportera	emporter	VERB	_	Number=Sing|Person=3|VerbForm=Fin	52	conj	_	prpos=Vvc|SpaceAfter=No|uppos=VJ
 83	,	,	PUNCT	_	_	44	punct	_	join=left|prpos=Fw|uppos=PON
 
@@ -14388,7 +14402,7 @@
 # text = et n' a riens la fame devant la mort [son mari].
 # len = 116
 1	et	et	CCONJ	_	_	3	cc	_	prpos=Cc|uppos=CONJO
-2	n'	ne	ADV	_	PronType=Neg	3	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+2	n'	ne	ADV	_	Polarity=Neg	3	advmod	_	prpos=Rp|uppos=NEG
 3	a	avoir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	0	root	_	prpos=Vuc|uppos=AJ
 4	riens	rien	PRON	_	PronType=Ind	3	obj	_	prpos=Pi|uppos=PRO
 5	la	le	DET	_	Definite=Def|PronType=Art	6	det	_	prpos=Da|uppos=D
@@ -14471,7 +14485,7 @@
 65	que	que	SCONJ	_	_	69	mark	_	prpos=Cs|uppos=CONJS
 66	cel	cil	DET	_	PronType=Dem	67	det	_	prpos=Dd|uppos=D
 67	don	don	NOUN	_	Number=Sing	69	nsubj	_	prpos=Nc|uppos=NCS
-68	ne	ne	ADV	_	PronType=Neg	69	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+68	ne	ne	ADV	_	Polarity=Neg	69	advmod	_	prpos=Rp|uppos=NEG
 69	vaut	valoir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	60	ccomp	_	prpos=Vvc|uppos=VJ
 70	riens	rien	PRON	_	PronType=Ind	69	obj	_	prpos=Pi|SpaceAfter=No|uppos=PRO
 71	,	,	PUNCT	_	_	69	punct	_	join=left|prpos=Fw|uppos=PON
@@ -14528,9 +14542,9 @@
 8	enfant	enfant	NOUN	_	Number=Sing	14	nsubj	_	prpos=Nc|uppos=NCS
 9	sous	sous	ADP	_	_	10	case	_	prpos=S|uppos=P
 10	aage	âge	NOUN	_	Number=Sing	8	nmod	_	prpos=Nc|uppos=NCS
-11	n'	ne	ADV	_	PronType=Neg	14	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+11	n'	ne	ADV	_	Polarity=Neg	14	advmod	_	prpos=Rp|uppos=NEG
 12	est	être	AUX	_	Number=Sing|Person=3|VerbForm=Fin	14	aux:pass	_	prpos=Vuc|uppos=EJ
-13	pas	pas	ADV	_	PronType=Neg	14	advmod	_	prpos=Rg|uppos=ADVNEG
+13	pas	pas	ADV	_	Polarity=Neg	14	advmod	_	prpos=Rg|uppos=ADVNEG
 14	tenu	tenir	VERB	_	Tense=Past|VerbForm=Part	6	ccomp	_	prpos=Ge|uppos=VPP
 15	aemplir	aemplir	VERB	_	VerbForm=Inf	14	xcomp	_	prpos=Vvn|uppos=VX
 16	le	le	DET	_	Definite=Def|PronType=Art	17	det	_	prpos=Da|uppos=D
@@ -14542,7 +14556,7 @@
 22	quant	quand	SCONJ	_	_	28	mark	_	prpos=Cs|uppos=CONJS
 23	le	le	DET	_	Definite=Def|PronType=Art	24	det	_	prpos=Da|uppos=D
 24	fet	fait	NOUN	_	Number=Sing	28	nsubj	_	prpos=Nc|uppos=NCS
-25	ne	ne	ADV	_	PronType=Neg	28	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+25	ne	ne	ADV	_	Polarity=Neg	28	advmod	_	prpos=Rp|uppos=NEG
 26	fut	être	AUX	_	Number=Sing|Person=3|VerbForm=Fin	28	aux:pass	_	prpos=Vuc|uppos=EJ
 27	onques	onques	ADV	_	_	28	advmod	_	prpos=Rg|uppos=ADV
 28	aempli	aemplir	VERB	_	Tense=Past|VerbForm=Part	14	advcl	_	prpos=Ge|uppos=VPP
@@ -14619,9 +14633,9 @@
 57	,	,	PUNCT	_	_	48	punct	_	join=left|prpos=Fw|uppos=PON
 58	mes	mais	CCONJ	_	_	61	cc	_	prpos=Cc|uppos=CONJO
 59	ce	ce	PRON	_	PronType=Dem	61	nsubj	_	prpos=Pd|uppos=PRO
-60	ne	ne	ADV	_	PronType=Neg	61	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+60	ne	ne	ADV	_	Polarity=Neg	61	advmod	_	prpos=Rp|uppos=NEG
 61	seroit	être	VERB	_	Number=Sing|Person=3|VerbForm=Fin	48	conj	_	prpos=Vuc|uppos=EJ
-62	pas	pas	ADV	_	PronType=Neg	61	advmod	_	prpos=Rg|uppos=ADVNEG
+62	pas	pas	ADV	_	Polarity=Neg	61	advmod	_	prpos=Rg|uppos=ADVNEG
 63-64	u	_	_	_	_	_	_	_	_
 63	a	à	ADP	_	_	65	case	_	prpos=S+Da|uppos=P
 64	le	le	DET	_	Definite=Def|PronType=Art	65	det	_	prpos=S+Da|uppos=P
@@ -14646,7 +14660,7 @@
 9	soit	être	VERB	_	Number=Sing|Person=3|VerbForm=Fin	7	acl:relcl	_	prpos=Vuc|uppos=EJ
 10	sous	sous	ADP	_	_	11	case	_	prpos=S|uppos=P
 11	aage	âge	NOUN	_	Number=Sing	9	obl	_	prpos=Nc|uppos=NCS
-12	ne	ne	ADV	_	PronType=Neg	15	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+12	ne	ne	ADV	_	Polarity=Neg	15	advmod	_	prpos=Rp|uppos=NEG
 13	doit	devoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	15	aux	_	prpos=Vvc|uppos=MDJ
 14	estre	être	AUX	_	VerbForm=Inf	15	aux:pass	_	prpos=Vun|uppos=EX
 15	receu	recevoir	VERB	_	Tense=Past|VerbForm=Part	5	ccomp	_	prpos=Ge|uppos=VPP
@@ -14672,10 +14686,10 @@
 7	cause	cause	NOUN	_	Number=Sing	4	obl	_	prpos=Nc|SpaceAfter=No|uppos=NCS
 8	,	,	PUNCT	_	_	4	punct	_	join=left|prpos=Fw|uppos=PON
 9	si	si	ADV	_	_	14	advmod	_	prpos=Rg|uppos=ADV
-10	ne	ne	ADV	_	PronType=Neg	14	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+10	ne	ne	ADV	_	Polarity=Neg	14	advmod	_	prpos=Rp|uppos=NEG
 11	seroit	être	AUX	_	Number=Sing|Person=3|VerbForm=Fin	14	aux:pass	_	prpos=Vuc|uppos=EJ
 12	il	il	PRON	_	PronType=Prs	14	nsubj	_	prpos=Pp|uppos=PRO
-13	pas	pas	ADV	_	PronType=Neg	14	advmod	_	prpos=Rg|uppos=ADVNEG
+13	pas	pas	ADV	_	Polarity=Neg	14	advmod	_	prpos=Rg|uppos=ADVNEG
 14	receu	recevoir	VERB	_	Tense=Past|VerbForm=Part	0	root	_	prpos=Ge|uppos=VPP
 15	sans	sans	ADP	_	_	16	case	_	prpos=S|uppos=P
 16	meneor	meneur	NOUN	_	Number=Sing	14	obl	_	prpos=Nc|uppos=NCS
@@ -14790,7 +14804,7 @@
 24	que	que	SCONJ	_	_	30	mark	_	prpos=Cs|uppos=CONJS
 25	nul	nul	DET	_	Definite=Ind	26	det	_	prpos=Di|uppos=D
 26	autre	autre	PRON	_	PronType=Ind	30	nsubj	_	prpos=Pi|uppos=PRO
-27	n'	ne	ADV	_	PronType=Neg	30	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+27	n'	ne	ADV	_	Polarity=Neg	30	advmod	_	prpos=Rp|uppos=NEG
 28	i	y	PRON	_	PronType=Prs	30	obl	_	prpos=Pp|uppos=PRO
 29	puet	pouvoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	30	aux	_	prpos=Vvc|uppos=MDJ
 30	reclamer	réclamer	VERB	_	VerbForm=Inf	0	root	_	prpos=Vvn|uppos=VX
@@ -14808,7 +14822,7 @@
 42	,	,	PUNCT	_	_	30	punct	_	join=left|prpos=Fw|uppos=PON
 43	se	si	SCONJ	_	_	46	mark	_	prpos=Cs|uppos=CONJS
 44	aucuns	aucun	PRON	_	PronType=Ind	46	nsubj	_	prpos=Pi|uppos=PRO
-45	ne	ne	ADV	_	PronType=Neg	46	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+45	ne	ne	ADV	_	Polarity=Neg	46	advmod	_	prpos=Rp|uppos=NEG
 46	dit	dire	VERB	_	Number=Sing|Person=3|VerbForm=Fin	30	advcl	_	prpos=Vvc|uppos=VJ
 47	que	que	SCONJ	_	_	50	mark	_	prpos=Cs|uppos=CONJS
 48	il	il	PRON	_	PronType=Prs	50	nsubj	_	prpos=Pp|uppos=PRO
@@ -14903,7 +14917,7 @@
 57	par	par	ADP	_	_	59	case	_	prpos=S|uppos=P
 58	lor	leur	DET	_	Poss=Yes	59	det	_	prpos=Ds|uppos=DZ
 59	mere	mère	NOUN	_	Number=Sing	55	nmod	_	prpos=Nc|uppos=NCS
-60	ne	ne	ADV	_	PronType=Neg	63	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+60	ne	ne	ADV	_	Polarity=Neg	63	advmod	_	prpos=Rp|uppos=NEG
 61	la	il	PRON	_	PronType=Prs	63	obj	_	prpos=Pp|uppos=PRO
 62	pueent	pouvoir	AUX	_	Number=Plur|Person=3|VerbForm=Fin	63	aux	_	prpos=Vvc|uppos=MDJ
 63	avoir	avoir	VERB	_	VerbForm=Inf	5	ccomp	_	prpos=Vun|uppos=AX
@@ -15069,9 +15083,9 @@
 32	est	être	AUX	_	Number=Sing|Person=3|VerbForm=Fin	33	aux	_	prpos=Vuc|uppos=EJ
 33	morte	mourir	VERB	_	Tense=Past|VerbForm=Part	5	ccomp	_	prpos=Ge|uppos=VPP
 34	et	et	CCONJ	_	_	38	cc	_	prpos=Cc|uppos=CONJO
-35	n'	ne	ADV	_	PronType=Neg	38	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+35	n'	ne	ADV	_	Polarity=Neg	38	advmod	_	prpos=Rp|uppos=NEG
 36	est	être	AUX	_	Number=Sing|Person=3|VerbForm=Fin	38	aux:pass	_	prpos=Vuc|uppos=EJ
-37	pas	pas	ADV	_	PronType=Neg	38	advmod	_	prpos=Rg|uppos=ADVNEG
+37	pas	pas	ADV	_	Polarity=Neg	38	advmod	_	prpos=Rg|uppos=ADVNEG
 38	tenu	tenir	VERB	_	Tense=Past|VerbForm=Part	33	conj	_	prpos=Ge|uppos=VPP
 39	son	son	DET	_	Poss=Yes	40	det	_	prpos=Ds|uppos=DZ
 40	hoir	hoir	NOUN	_	Number=Sing	38	nsubj	_	prpos=Nc|uppos=NCS
@@ -15093,9 +15107,9 @@
 1	quar	car	CCONJ	_	_	5	cc	_	prpos=Cc|uppos=CONJO
 2	simple	simple	ADJ	_	_	3	amod	_	prpos=Ag|uppos=ADJ
 3	plevine	plevine	NOUN	_	Number=Sing	5	nsubj	_	prpos=Nc|uppos=NCS
-4	ne	ne	ADV	_	PronType=Neg	5	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+4	ne	ne	ADV	_	Polarity=Neg	5	advmod	_	prpos=Rp|uppos=NEG
 5	descent	descendre	VERB	_	Number=Sing|Person=3|VerbForm=Fin	0	root	_	prpos=Vvc|uppos=VJ
-6	pas	pas	ADV	_	PronType=Neg	5	advmod	_	prpos=Rg|uppos=ADVNEG
+6	pas	pas	ADV	_	Polarity=Neg	5	advmod	_	prpos=Rg|uppos=ADVNEG
 7	jusques	jusque	ADP	_	ExtPos=ADP	10	case	_	prpos=S|uppos=P
 8	a	à	ADP	_	_	7	fixed	_	prpos=S|uppos=P
 9	l'	le	DET	_	Definite=Def|PronType=Art	10	det	_	prpos=Da|uppos=D
@@ -15112,7 +15126,7 @@
 5	jugié	juger	VERB	_	Tense=Past|VerbForm=Part	0	root	_	prpos=Ge|uppos=VPP
 6	que	que	SCONJ	_	_	9	mark	_	prpos=Cs|uppos=CONJS
 7	nus	nul	PRON	_	PronType=Ind	9	nsubj	_	prpos=Pi|uppos=PRO
-8	n'	ne	ADV	_	PronType=Neg	9	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+8	n'	ne	ADV	_	Polarity=Neg	9	advmod	_	prpos=Rp|uppos=NEG
 9	avra	avoir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	5	ccomp	_	prpos=Vuc|uppos=AJ
 10	preuve	preuve	NOUN	_	Number=Sing	9	obj	_	prpos=Nc|uppos=NCS
 11	de	de	ADP	_	_	12	case	_	prpos=S|uppos=P
@@ -15288,9 +15302,9 @@
 8	por	pour	ADP	_	_	9	case	_	prpos=S|uppos=P
 9	quoi	quoi	PRON	_	PronType=Rel	12	obl	_	prpos=Pr|uppos=WPRO
 10	il	il	PRON	_	PronType=Prs	12	nsubj	_	prpos=Pp|uppos=PRO
-11	ne	ne	ADV	_	PronType=Neg	12	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+11	ne	ne	ADV	_	Polarity=Neg	12	advmod	_	prpos=Rp|uppos=NEG
 12	vouloit	vouloir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	7	acl:relcl	_	prpos=Vvc|uppos=VJ
-13	pas	pas	ADV	_	PronType=Neg	12	advmod	_	prpos=Rg|uppos=ADVNEG
+13	pas	pas	ADV	_	Polarity=Neg	12	advmod	_	prpos=Rg|uppos=ADVNEG
 14	que	que	SCONJ	_	_	17	mark	_	prpos=Cs|uppos=CONJS
 15	cil	cil	PRON	_	PronType=Dem	17	nsubj	_	prpos=Pd|uppos=PRO
 16	eüst	avoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	17	aux	_	prpos=Vuc|uppos=AJ
@@ -15490,9 +15504,9 @@
 26	esté	être	AUX	_	Tense=Past|VerbForm=Part	27	aux:pass	_	prpos=Ge|uppos=EPP
 27	assise	asseoir	VERB	_	Tense=Past|VerbForm=Part	17	acl:relcl	_	prpos=Ge|uppos=VPP
 28	et	et	CCONJ	_	_	32	cc	_	prpos=Cc|uppos=CONJO
-29	n'	ne	ADV	_	PronType=Neg	32	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+29	n'	ne	ADV	_	Polarity=Neg	32	advmod	_	prpos=Rp|uppos=NEG
 30	estoit	être	AUX	_	Number=Sing|Person=3|VerbForm=Fin	32	aux:pass	_	prpos=Vuc|uppos=EJ
-31	pas	pas	ADV	_	PronType=Neg	32	advmod	_	prpos=Rg|uppos=ADVNEG
+31	pas	pas	ADV	_	Polarity=Neg	32	advmod	_	prpos=Rg|uppos=ADVNEG
 32	fete	faire	VERB	_	Tense=Past|VerbForm=Part	27	conj	_	prpos=Ge|SpaceAfter=No|uppos=VPP
 33	,	,	PUNCT	_	_	9	punct	_	join=left|prpos=Fw|uppos=PON
 34	que	que	SCONJ	_	_	46	mark	_	prpos=Cs|uppos=CONJS
@@ -15504,12 +15518,12 @@
 40	que	que	PRON	_	PronType=Rel	42	obj	_	prpos=Pr|uppos=WPRO
 41	il	il	PRON	_	PronType=Prs	42	nsubj	_	prpos=Pp|uppos=PRO
 42	portoit	porter	VERB	_	Number=Sing|Person=3|VerbForm=Fin	37	acl:relcl	_	prpos=Vvc|uppos=VJ
-43	ne	ne	ADV	_	PronType=Neg	46	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+43	ne	ne	ADV	_	Polarity=Neg	46	advmod	_	prpos=Rp|uppos=NEG
 44	s'	se	PRON	_	PronType=Prs	46	expl	_	prpos=Pp|uppos=PRO
 45	en	en	PRON	_	PronType=Prs	46	obl	_	prpos=Pp|uppos=PRO
 46	iroit	aller	VERB	_	Number=Sing|Person=3|VerbForm=Fin	3	ccomp	_	prpos=Vvc|uppos=VJ
 47	il	il	PRON	_	PronType=Prs	46	nsubj	_	prpos=Pp|uppos=PRO
-48	pas	pas	ADV	_	PronType=Neg	46	advmod	_	prpos=Rg|uppos=ADVNEG
+48	pas	pas	ADV	_	Polarity=Neg	46	advmod	_	prpos=Rg|uppos=ADVNEG
 49	sans	sans	ADP	_	_	50	case	_	prpos=S|uppos=P
 50	jour	jour	NOUN	_	Number=Sing	46	obl	_	prpos=Nc|SpaceAfter=No|uppos=NCS
 51	.	.	PUNCT	_	_	3	punct	_	join=left|prpos=Fs|uppos=PONFP
@@ -15526,11 +15540,11 @@
 7	que	que	SCONJ	_	_	13	mark	_	prpos=Cs|uppos=CONJS
 8	l'	le	DET	_	Definite=Def|PronType=Art	9	det	_	prpos=Da|uppos=D
 9	omme	homme	NOUN	_	Number=Sing	13	nsubj	_	prpos=Nc|uppos=NCS
-10	ne	ne	ADV	_	PronType=Neg	13	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+10	ne	ne	ADV	_	Polarity=Neg	13	advmod	_	prpos=Rp|uppos=NEG
 11	s'	se	PRON	_	PronType=Prs	13	expl	_	prpos=Pp|uppos=PRO
 12	en	en	PRON	_	PronType=Prs	13	obl	_	prpos=Pp|uppos=PRO
 13	iroit	aller	VERB	_	Number=Sing|Person=3|VerbForm=Fin	5	ccomp	_	prpos=Vvc|uppos=VJ
-14	pas	pas	ADV	_	PronType=Neg	13	advmod	_	prpos=Rg|uppos=ADVNEG
+14	pas	pas	ADV	_	Polarity=Neg	13	advmod	_	prpos=Rg|uppos=ADVNEG
 15	sans	sans	ADP	_	_	16	case	_	prpos=S|uppos=P
 16	jour	jour	NOUN	_	Number=Sing	13	obl	_	prpos=Nc|SpaceAfter=No|uppos=NCS
 17	.	.	PUNCT	_	_	5	punct	_	join=left|prpos=Fs|uppos=PONFP
@@ -15713,7 +15727,7 @@
 # len = 18
 # text = Cil ne vout respondre, ne gag[i]er loy, ains se lessa de rechief metre en deffaute.
 1	Cil	cil	PRON	_	PronType=Dem	3	nsubj	_	prpos=Pd|uppos=PRO
-2	ne	ne	ADV	_	PronType=Neg	3	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+2	ne	ne	ADV	_	Polarity=Neg	3	advmod	_	prpos=Rp|uppos=NEG
 3	vout	vouloir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	0	root	_	prpos=Vvc|uppos=MDJ
 4	respondre	répondre	VERB	_	VerbForm=Inf	3	xcomp	_	prpos=Vvn|SpaceAfter=No|uppos=VX
 5	,	,	PUNCT	_	_	4	punct	_	join=left|prpos=Fw|uppos=PON
@@ -15808,7 +15822,7 @@
 32	dist	dire	VERB	_	Number=Sing|Person=3|VerbForm=Fin	0	root	_	prpos=Vvc|uppos=VJ
 33	que	que	SCONJ	_	_	36	mark	_	prpos=Cs|uppos=CONJS
 34	il	il	PRON	_	PronType=Prs	36	nsubj	_	prpos=Pp|uppos=PRO
-35	ne	ne	ADV	_	PronType=Neg	36	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+35	ne	ne	ADV	_	Polarity=Neg	36	advmod	_	prpos=Rp|uppos=NEG
 36	vouloit	vouloir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	32	ccomp	_	prpos=Vvc|uppos=VJ
 37	jamès	jamais	ADV	_	_	36	advmod	_	prpos=Rg|uppos=ADV
 38	que	que	SCONJ	_	_	41	mark	_	prpos=Cs|uppos=CONJS
@@ -15839,7 +15853,7 @@
 15	,	,	PUNCT	_	_	12	punct	_	join=left|prpos=Fw|uppos=PON
 16	que	que	SCONJ	_	_	19	mark	_	prpos=Cs|uppos=CONJS
 17	il	il	PRON	_	PronType=Prs	19	nsubj	_	prpos=Pp|uppos=PRO
-18	ne	ne	ADV	_	PronType=Neg	19	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+18	ne	ne	ADV	_	Polarity=Neg	19	advmod	_	prpos=Rp|uppos=NEG
 19	recorderoit	recorder	VERB	_	Number=Sing|Person=3|VerbForm=Fin	1	ccomp	_	prpos=Vvc|uppos=VJ
 20	plus	plus	ADV	_	_	19	advmod	_	prpos=Rg|SpaceAfter=No|uppos=ADV
 21	.	.	PUNCT	_	_	1	punct	_	join=left|prpos=Fs|uppos=PONFP
@@ -15865,7 +15879,7 @@
 16	que	que	SCONJ	_	_	24	mark	_	prpos=Cs|uppos=CONJS
 17	la	le	DET	_	Definite=Def|PronType=Art	18	det	_	prpos=Da|uppos=D
 18	chartre	chartre	NOUN	_	Number=Sing	24	nsubj	_	prpos=Nc|uppos=NCS
-19	n'	ne	ADV	_	PronType=Neg	24	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+19	n'	ne	ADV	_	Polarity=Neg	24	advmod	_	prpos=Rp|uppos=NEG
 20	en	en	PRON	_	PronType=Prs	24	obl	_	prpos=Pp|uppos=PRO
 21	avoit	avoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	24	aux	_	prpos=Vuc|uppos=AJ
 22	onques	onques	ADV	_	_	24	advmod	_	prpos=Rg|uppos=ADV
@@ -16056,9 +16070,9 @@
 13	que	que	SCONJ	_	_	17	mark	_	prpos=Cs|uppos=CONJS
 14	l'	le	DET	_	Definite=Def|PronType=Art	15	det	_	prpos=Da|uppos=D
 15	autre	autre	PRON	_	PronType=Ind	17	nsubj	_	prpos=Pi|uppos=PRO
-16	n'	ne	ADV	_	PronType=Neg	17	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+16	n'	ne	ADV	_	Polarity=Neg	17	advmod	_	prpos=Rp|uppos=NEG
 17	aroit	avoir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	11	conj	_	prpos=Vuc|uppos=AJ
-18	pas	pas	ADV	_	PronType=Neg	17	advmod	_	prpos=Rg|uppos=ADVNEG
+18	pas	pas	ADV	_	Polarity=Neg	17	advmod	_	prpos=Rg|uppos=ADVNEG
 19	le	le	DET	_	Definite=Def|PronType=Art	20	det	_	prpos=Da|uppos=D
 20	marchié	marché	NOUN	_	Number=Sing	17	obj	_	prpos=Nc|SpaceAfter=No|uppos=NCS
 21	.	.	PUNCT	_	_	1	punct	_	join=left|prpos=Fs|uppos=PONFP
@@ -16210,16 +16224,16 @@
 11	,	,	PUNCT	_	_	8	punct	_	join=left|prpos=Fw|uppos=PON
 12	la	la	DET	_	Definite=Def|ExtPos=PRON	17	nsubj	_	_
 13	quele	quel	PRON	_	PronType=Rel	12	fixed	_	prpos=Pr|uppos=WPRO
-14	n'	ne	ADV	_	PronType=Neg	17	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+14	n'	ne	ADV	_	Polarity=Neg	17	advmod	_	prpos=Rp|uppos=NEG
 15	est	être	AUX	_	Number=Sing|Person=3|VerbForm=Fin	17	aux:pass	_	prpos=Vuc|uppos=EJ
-16	pas	pas	ADV	_	PronType=Neg	17	advmod	_	prpos=Rg|uppos=ADVNEG
+16	pas	pas	ADV	_	Polarity=Neg	17	advmod	_	prpos=Rg|uppos=ADVNEG
 17	fete	faire	VERB	_	Tense=Past|VerbForm=Part	8	acl:relcl	_	prpos=Ge|SpaceAfter=No|uppos=VPP
 18	,	,	PUNCT	_	_	3	punct	_	join=left|prpos=Fw|uppos=PON
 19	si	si	ADV	_	_	20	advmod	_	prpos=Rg|uppos=ADV
 20	di	dire	VERB	_	Number=Sing|Person=1|VerbForm=Fin	3	conj	_	prpos=Vvc|uppos=VJ
 21	que	que	SCONJ	_	_	26	mark	_	prpos=Cs|uppos=CONJS
 22	vous	vous	PRON	_	PronType=Prs	26	nsubj	_	prpos=Pp|uppos=PRO
-23	ne	ne	ADV	_	PronType=Neg	26	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+23	ne	ne	ADV	_	Polarity=Neg	26	advmod	_	prpos=Rp|uppos=NEG
 24	pouez	pouvoir	AUX	_	Number=Plur|Person=2|VerbForm=Fin	26	aux	_	prpos=Vvc|uppos=MDJ
 25	avoir	avoir	AUX	_	VerbForm=Inf	26	aux	_	prpos=Vun|uppos=AX
 26	ataint	atteindre	VERB	_	Tense=Past|VerbForm=Part	20	ccomp	_	prpos=Ge|uppos=VPP
@@ -16236,7 +16250,7 @@
 37	,	,	PUNCT	_	_	36	punct	_	join=left|prpos=Fw|uppos=PON
 38	qui	qui	PRON	_	PronType=Rel	42	nsubj	_	prpos=Pr|uppos=WPRO
 39	onques	onques	ADV	_	_	42	advmod	_	prpos=Rg|uppos=ADV
-40	ne	ne	ADV	_	PronType=Neg	42	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+40	ne	ne	ADV	_	Polarity=Neg	42	advmod	_	prpos=Rp|uppos=NEG
 41	fut	être	AUX	_	Number=Sing|Person=3|VerbForm=Fin	42	aux:pass	_	prpos=Vuc|uppos=EJ
 42	fete	faire	VERB	_	Tense=Past|VerbForm=Part	34	acl:relcl	_	prpos=Ge|uppos=VPP
 43	par	par	ADP	_	_	45	case	_	prpos=S|uppos=P
@@ -16285,12 +16299,12 @@
 20	ancesour	ancêtre	NOUN	_	Number=Sing	17	nmod	_	prpos=Nc|SpaceAfter=No|uppos=NCS
 21	,	,	PUNCT	_	_	14	punct	_	join=left|prpos=Fw|uppos=PON
 22	il	il	PRON	_	PronType=Prs	24	nsubj	_	prpos=Pp|uppos=PRO
-23	ne	ne	ADV	_	PronType=Neg	24	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+23	ne	ne	ADV	_	Polarity=Neg	24	advmod	_	prpos=Rp|uppos=NEG
 24	respondroit	répondre	VERB	_	Number=Sing|Person=3|VerbForm=Fin	5	ccomp	_	prpos=Vvc|uppos=VJ
 25	se	si	SCONJ	_	_	30	mark	_	prpos=Cs|uppos=CONJS
 26	l'	le	DET	_	Definite=Def|PronType=Art	27	det	_	prpos=Da|uppos=D
 27	en	on	PRON	_	PronType=Prs	30	nsubj	_	prpos=Pp|uppos=PRO
-28	n'	ne	ADV	_	PronType=Neg	30	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+28	n'	ne	ADV	_	Polarity=Neg	30	advmod	_	prpos=Rp|uppos=NEG
 29	avoit	avoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	30	aux	_	prpos=Vuc|uppos=AJ
 30	semons	semondre	VERB	_	Tense=Past|VerbForm=Part	24	advcl	_	prpos=Ge|uppos=VPP
 31	de	de	ADP	_	_	33	case	_	prpos=S|uppos=P
@@ -16338,10 +16352,10 @@
 27	la	là	ADV	_	_	26	advmod	_	prpos=Rg|uppos=ADV
 28	ou	où	PRON	_	PronType=Rel	31	obl	_	prpos=Pr|uppos=WPRO
 29	il	il	PRON	_	PronType=Prs	31	nsubj	_	prpos=Pp|uppos=PRO
-30	ne	ne	ADV	_	PronType=Neg	31	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+30	ne	ne	ADV	_	Polarity=Neg	31	advmod	_	prpos=Rp|uppos=NEG
 31	pouait	pouvoir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	27	acl:relcl	_	prpos=Vvc|uppos=VJ
 32	ne	ni	CCONJ	_	_	34	cc	_	prpos=Cc|uppos=CONJO
-33	ne	ne	ADV	_	PronType=Neg	34	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+33	ne	ne	ADV	_	Polarity=Neg	34	advmod	_	prpos=Rp|uppos=NEG
 34	devoit	devoir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	31	conj	_	prpos=Vvc|SpaceAfter=No|uppos=VJ
 35	,	,	PUNCT	_	_	17	punct	_	join=left|prpos=Fw|uppos=PON
 36	la	le	DET	_	Definite=Def|PronType=Art	37	det	_	prpos=Da|uppos=D
@@ -16358,9 +16372,9 @@
 47	,	,	PUNCT	_	_	38	punct	_	join=left|prpos=Fw|uppos=PON
 48	les	le	DET	_	Definite=Def|PronType=Art	49	det	_	prpos=Da|uppos=D
 49	nans	nant	NOUN	_	Number=Plur	53	nsubj	_	prpos=Nc|uppos=NCPL
-50	ne	ne	ADV	_	PronType=Neg	53	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+50	ne	ne	ADV	_	Polarity=Neg	53	advmod	_	prpos=Rp|uppos=NEG
 51	seront	être	AUX	_	Number=Plur|Person=3|VerbForm=Fin	53	aux:pass	_	prpos=Vuc|uppos=EJ
-52	pas	pas	ADV	_	PronType=Neg	53	advmod	_	prpos=Rg|uppos=NEG
+52	pas	pas	ADV	_	Polarity=Neg	53	advmod	_	prpos=Rg|uppos=NEG
 53	forfez	forfaire	VERB	_	Tense=Past|VerbForm=Part	5	ccomp	_	prpos=Ge|SpaceAfter=No|uppos=VPP
 54	,	,	PUNCT	_	_	53	punct	_	join=left|prpos=Fw|uppos=PON
 55	ains	ains	ADV	_	_	56	advmod	_	prpos=Rg|uppos=ADV
@@ -16416,7 +16430,7 @@
 8	ou	où	PRON	_	PronType=Rel	13	obl	_	prpos=Pr|uppos=WPRO
 9	l'	le	DET	_	Definite=Def|PronType=Art	10	det	_	prpos=Da|uppos=D
 10	en	on	PRON	_	PronType=Prs	13	nsubj	_	prpos=Pp|uppos=PRO
-11	ne	ne	ADV	_	PronType=Neg	13	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+11	ne	ne	ADV	_	Polarity=Neg	13	advmod	_	prpos=Rp|uppos=NEG
 12	puet	pouvoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	13	aux	_	prpos=Vvc|uppos=MDJ
 13	avoir	avoir	VERB	_	VerbForm=Inf	7	acl:relcl	_	prpos=Vun|uppos=AX
 14	congié	congé	NOUN	_	Number=Sing	13	obj	_	prpos=Nc|uppos=NCS
@@ -16497,9 +16511,9 @@
 52	serement	serment	NOUN	_	Number=Sing	48	obl	_	prpos=Nc|uppos=NCS
 53	que	que	SCONJ	_	_	56	mark	_	prpos=Cs|uppos=CONJS
 54	ce	ce	PRON	_	PronType=Dem	56	nsubj	_	prpos=Pd|uppos=PRO
-55	n'	ne	ADV	_	PronType=Neg	56	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+55	n'	ne	ADV	_	Polarity=Neg	56	advmod	_	prpos=Rp|uppos=NEG
 56	est	être	VERB	_	Number=Sing|Person=3|VerbForm=Fin	49	acl	_	prpos=Vuc|uppos=EJ
-57	mie	mie	ADV	_	PronType=Neg	56	advmod	_	prpos=Rg|uppos=ADV
+57	mie	mie	ADV	_	Polarity=Neg	56	advmod	_	prpos=Rg|uppos=ADV
 58	por	pour	ADP	_	_	60	case	_	prpos=S|uppos=P
 59	la	le	DET	_	Definite=Def|PronType=Art	60	det	_	prpos=Da|uppos=D
 60	cause	cause	NOUN	_	Number=Sing	56	obl	_	prpos=Nc|SpaceAfter=No|uppos=NCS
@@ -16638,10 +16652,10 @@
 6	«	«	PUNCT	_	_	4	punct	_	prpos=Fo|uppos=PON
 7	Mon	mon	DET	_	Poss=Yes	8	det	_	prpos=Ds|uppos=DZ
 8	argent	argent	NOUN	_	Number=Sing	13	obj	_	prpos=Nc|uppos=NCS
-9	ne	ne	ADV	_	PronType=Neg	13	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+9	ne	ne	ADV	_	Polarity=Neg	13	advmod	_	prpos=Rp|uppos=NEG
 10	devez	devoir	AUX	_	Number=Plur|Person=2|VerbForm=Fin	13	aux	_	prpos=Vvc|uppos=MDJ
 11	vous	vous	PRON	_	PronType=Prs	13	nsubj	_	prpos=Pp|uppos=PRO
-12	pas	pas	ADV	_	PronType=Neg	13	advmod	_	prpos=Rg|uppos=ADVNEG
+12	pas	pas	ADV	_	Polarity=Neg	13	advmod	_	prpos=Rg|uppos=ADVNEG
 13	avoir	avoir	VERB	_	VerbForm=Inf	4	ccomp	_	prpos=Vun|SpaceAfter=No|uppos=AX
 14	,	,	PUNCT	_	_	4	punct	_	join=left|prpos=Fw|uppos=PON
 
@@ -16650,7 +16664,7 @@
 # len = 34
 1	quar	car	CCONJ	_	_	8	cc	_	prpos=Cc|uppos=CONJO
 2	je	je	PRON	_	PronType=Prs	8	nsubj	_	prpos=Pp|uppos=PRO
-3	ne	ne	ADV	_	PronType=Neg	8	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+3	ne	ne	ADV	_	Polarity=Neg	8	advmod	_	prpos=Rp|uppos=NEG
 4	sui	être	AUX	_	Number=Sing|Person=1|VerbForm=Fin	8	cop	_	prpos=Vuc|uppos=EJ
 5	de	de	ADP	_	_	6	case	_	prpos=S|uppos=P
 6	riens	rien	PRON	_	PronType=Ind	8	nmod	_	prpos=Pi|uppos=PRO
@@ -16663,7 +16677,7 @@
 # len = 34
 1	ne	ni	CCONJ	_	_	7	cc	_	prpos=Cc|uppos=CONJO
 2	je	je	PRON	_	PronType=Prs	7	nsubj	_	prpos=Pp|uppos=PRO
-3	ne	ne	ADV	_	PronType=Neg	7	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+3	ne	ne	ADV	_	Polarity=Neg	7	advmod	_	prpos=Rp|uppos=NEG
 4	sui	être	AUX	_	Number=Sing|Person=1|VerbForm=Fin	7	cop	_	prpos=Vuc|uppos=EJ
 5	de	de	ADP	_	_	6	case	_	prpos=S|uppos=P
 6	riens	rien	PRON	_	PronType=Ind	7	nmod	_	prpos=Pi|uppos=PRO
@@ -16678,7 +16692,7 @@
 # text = nul achateor n' a riens fors son argent en l' eritage que il achata devant que l' an et le jour est passé;
 1	nul	nul	DET	_	Definite=Ind	2	det	_	prpos=Di|uppos=D
 2	achateor	acheteur	NOUN	_	Number=Sing	4	nsubj	_	prpos=Nc|uppos=NCS
-3	n'	ne	ADV	_	PronType=Neg	4	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+3	n'	ne	ADV	_	Polarity=Neg	4	advmod	_	prpos=Rp|uppos=NEG
 4	a	avoir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	0	root	_	prpos=Vuc|uppos=AJ
 5	riens	rien	PRON	_	PronType=Ind	4	obj	_	prpos=Pi|uppos=PRO
 6	fors	fors	ADP	_	_	8	case	_	prpos=S|uppos=P
@@ -16742,14 +16756,14 @@
 5	Si	si	ADV	_	ExtPos=SCONJ	11	mark	_	prpos=Rg|uppos=ADV
 6	comme	comme	SCONJ	_	_	5	fixed	_	prpos=Cs|uppos=CONJS
 7	je	je	PRON	_	PronType=Prs	11	nsubj	_	prpos=Pp|uppos=PRO
-8	ne	ne	ADV	_	PronType=Neg	11	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+8	ne	ne	ADV	_	Polarity=Neg	11	advmod	_	prpos=Rp|uppos=NEG
 9	sui	être	AUX	_	Number=Sing|Person=1|VerbForm=Fin	11	cop	_	prpos=Vuc|uppos=EJ
 10	vostre	votre	DET	_	Poss=Yes	11	det	_	prpos=Ds|uppos=DZ
 11	obligié	obligé	NOUN	_	Number=Sing	60	advcl	_	prpos=Nc|SpaceAfter=No|uppos=NCS
 12	,	,	PUNCT	_	_	11	punct	_	join=left|prpos=Fw|uppos=PON
 13	ne	ni	CCONJ	_	_	16	cc	_	prpos=Cc|uppos=CONJO
 14	je	je	PRON	_	PronType=Prs	16	nsubj	_	prpos=Pp|uppos=PRO
-15	n'	ne	ADV	_	PronType=Neg	16	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+15	n'	ne	ADV	_	Polarity=Neg	16	advmod	_	prpos=Rp|uppos=NEG
 16	ai	avoir	VERB	_	Number=Sing|Person=1|VerbForm=Fin	11	conj	_	prpos=Vuc|uppos=AJ
 17-18	u	_	_	_	_	_	_	_	_
 17	a	à	ADP	_	_	19	case	_	prpos=S+Da|uppos=P
@@ -16793,12 +16807,12 @@
 55	obligié	obliger	VERB	_	Tense=Past|VerbForm=Part	51	acl:relcl	_	prpos=Ge|SpaceAfter=No|uppos=VPP
 56	,	,	PUNCT	_	_	11	punct	_	join=left|prpos=Fw|uppos=PON
 57	vous	vous	PRON	_	PronType=Prs	60	nsubj	_	prpos=Pp|uppos=PRO
-58	ne	ne	ADV	_	PronType=Neg	60	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+58	ne	ne	ADV	_	Polarity=Neg	60	advmod	_	prpos=Rp|uppos=NEG
 59	poez	pouvoir	AUX	_	Number=Plur|Person=2|VerbForm=Fin	60	aux	_	prpos=Vvc|uppos=MDJ
 60	destourber	détourber	VERB	_	VerbForm=Inf	2	ccomp	_	prpos=Vvn|uppos=VX
 61	que	que	SCONJ	_	_	64	mark	_	prpos=Cs|uppos=CONJS
 62	je	je	PRON	_	PronType=Prs	64	nsubj	_	prpos=Pp|uppos=PRO
-63	n'	ne	ADV	_	PronType=Neg	64	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+63	n'	ne	ADV	_	Polarity=Neg	64	advmod	_	prpos=Rp|uppos=NEG
 64	aie	avoir	VERB	_	Number=Sing|Person=1|VerbForm=Fin	60	ccomp	_	prpos=Vuc|uppos=AJ
 65	mon	mon	DET	_	Poss=Yes	66	det	_	prpos=Ds|uppos=DZ
 66	argent	argent	NOUN	_	Number=Sing	64	obj	_	prpos=Nc|uppos=NCS
@@ -17017,7 +17031,7 @@
 6	savoir	savoir	VERB	_	VerbForm=Inf	0	root	_	prpos=Vvn|uppos=VX
 7	que	que	SCONJ	_	_	11	mark	_	prpos=Cs|uppos=CONJS
 8	nul	nul	PRON	_	PronType=Ind	11	nsubj	_	prpos=Pi|uppos=PRO
-9	n'	ne	ADV	_	PronType=Neg	11	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+9	n'	ne	ADV	_	Polarity=Neg	11	advmod	_	prpos=Rp|uppos=NEG
 10	est	être	AUX	_	Number=Sing|Person=3|VerbForm=Fin	11	aux:pass	_	prpos=Vuc|uppos=EJ
 11	tenu	tenir	VERB	_	Tense=Past|VerbForm=Part	6	ccomp	_	prpos=Ge|uppos=VPP
 12	a	à	ADP	_	_	13	mark	_	prpos=S|uppos=P
@@ -17030,7 +17044,7 @@
 19	,	,	PUNCT	_	_	11	punct	_	join=left|prpos=Fw|uppos=PON
 20	se	si	SCONJ	_	_	25	mark	_	prpos=Cs|uppos=CONJS
 21	il	il	PRON	_	PronType=Prs	25	nsubj	_	prpos=Pp|uppos=PRO
-22	n'	ne	ADV	_	PronType=Neg	25	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+22	n'	ne	ADV	_	Polarity=Neg	25	advmod	_	prpos=Rp|uppos=NEG
 23	i	y	PRON	_	PronType=Prs	25	obl	_	prpos=Pp|uppos=PRO
 24	est	être	AUX	_	Number=Sing|Person=3|VerbForm=Fin	25	aux:pass	_	prpos=Vuc|uppos=EJ
 25	obligié	obliger	VERB	_	Tense=Past|VerbForm=Part	11	advcl	_	prpos=Ge|uppos=VPP
@@ -17252,7 +17266,7 @@
 19	fin	fin	NOUN	_	Number=Sing	18	obj	_	prpos=Nc|SpaceAfter=No|uppos=NCS
 20	,	,	PUNCT	_	_	18	punct	_	join=left|prpos=Fw|uppos=PON
 21	je	je	PRON	_	PronType=Prs	24	nsubj	_	prpos=Pp|uppos=PRO
-22	ne	ne	ADV	_	PronType=Neg	24	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+22	ne	ne	ADV	_	Polarity=Neg	24	advmod	_	prpos=Rp|uppos=NEG
 23	suis	être	AUX	_	Number=Sing|Person=1|VerbForm=Fin	24	aux:pass	_	prpos=Vuc|uppos=EJ
 24	tenu	tenir	VERB	_	Tense=Past|VerbForm=Part	2	ccomp	_	prpos=Ge|uppos=VPP
 25	a	à	ADP	_	_	26	mark	_	prpos=S|uppos=P
@@ -17301,7 +17315,7 @@
 31	en	en	ADP	_	_	32	case	_	prpos=S|uppos=P
 32	Normendie	Normandie	PROPN	_	Number=Sing	36	obl	_	prpos=Np|uppos=NPRS
 33	devise	devise	NOUN	_	Number=Sing	36	nsubj	_	prpos=Nc|uppos=NCS
-34	ne	ne	ADV	_	PronType=Neg	36	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+34	ne	ne	ADV	_	Polarity=Neg	36	advmod	_	prpos=Rp|uppos=NEG
 35	seroit	être	AUX	_	Number=Sing|Person=3|VerbForm=Fin	36	aux:pass	_	prpos=Vuc|uppos=EJ
 36	fete	faire	VERB	_	Tense=Past|VerbForm=Part	3	ccomp	_	prpos=Ge|SpaceAfter=No|uppos=VPP
 37	,	,	PUNCT	_	_	3	punct	_	join=left|prpos=Fw|uppos=PON
@@ -17383,9 +17397,9 @@
 # len = 114
 1	mes	mais	CCONJ	_	_	6	cc	_	prpos=Cc|uppos=CONJO
 2	il	il	PRON	_	PronType=Prs	6	expl	_	prpos=Pp|uppos=PRO
-3	[n'	ne	ADV	_	PronType=Neg	6	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+3	[n'	ne	ADV	_	Polarity=Neg	6	advmod	_	prpos=Rp|uppos=NEG
 4	est]	être	AUX	_	Number=Sing|Person=3|VerbForm=Fin	6	aux:pass	_	prpos=Vuc|uppos=EJ
-5	mie	mie	ADV	_	PronType=Neg	6	advmod	_	prpos=Rg|uppos=ADV
+5	mie	mie	ADV	_	Polarity=Neg	6	advmod	_	prpos=Rg|uppos=ADV
 6	conneü	connaître	VERB	_	Tense=Past|VerbForm=Part	0	root	_	prpos=Ge|uppos=VPP
 7	que	que	SCONJ	_	_	10	mark	_	prpos=Cs|uppos=CONJS
 8	je	je	PRON	_	PronType=Prs	10	nsubj	_	prpos=Pp|uppos=PRO
@@ -17406,14 +17420,14 @@
 2	di	dire	VERB	_	Number=Sing|Person=1|VerbForm=Fin	0	root	_	prpos=Vvc|uppos=VJ
 3	que	que	SCONJ	_	_	8	mark	_	prpos=Cs|uppos=CONJS
 4	vous	vous	PRON	_	PronType=Prs	8	nsubj	_	prpos=Pp|uppos=PRO
-5	ne	ne	ADV	_	PronType=Neg	8	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+5	ne	ne	ADV	_	Polarity=Neg	8	advmod	_	prpos=Rp|uppos=NEG
 6	vous	vous	PRON	_	PronType=Prs	8	obj	_	prpos=Pp|uppos=PRO
 7	pouez	pouvoir	AUX	_	Number=Plur|Person=2|VerbForm=Fin	8	aux	_	prpos=Vvc|uppos=MDJ
 8	deffendre	défendre	VERB	_	VerbForm=Inf	2	ccomp	_	prpos=Vvn|uppos=VX
 9	que	que	SCONJ	_	_	14	mark	_	prpos=Cs|uppos=CONJS
 10	la	le	DET	_	Definite=Def|PronType=Art	11	det	_	prpos=Da|uppos=D
 11	devise	devise	NOUN	_	Number=Sing	14	nsubj	_	prpos=Nc|uppos=NCS
-12	ne	ne	ADV	_	PronType=Neg	14	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+12	ne	ne	ADV	_	Polarity=Neg	14	advmod	_	prpos=Rp|uppos=NEG
 13	se	se	PRON	_	PronType=Prs	14	expl	_	prpos=Pp|uppos=PRO
 14	fache	faire	VERB	_	Number=Sing|Person=3|VerbForm=Fin	8	advcl	_	prpos=Vvc|SpaceAfter=No|uppos=VJ
 15	,	,	PUNCT	_	_	2	punct	_	join=left|prpos=Fw|uppos=PON
@@ -17454,7 +17468,7 @@
 16	et	et	CCONJ	_	_	17	cc	_	prpos=Cc|uppos=CONJO
 17	jour	jour	NOUN	_	Number=Sing	15	conj	_	prpos=Nc|uppos=NCS
 18	et	et	CCONJ	_	_	22	cc	_	prpos=Cc|uppos=CONJO
-19	ne	ne	ADV	_	PronType=Neg	22	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+19	ne	ne	ADV	_	Polarity=Neg	22	advmod	_	prpos=Rp|uppos=NEG
 20	li	il	PRON	_	PronType=Prs	22	iobj	_	prpos=Pp|uppos=PRO
 21	sont	être	AUX	_	Number=Plur|Person=3|VerbForm=Fin	22	aux	_	prpos=Vuc|uppos=EJ
 22	requis	requérir	VERB	_	Tense=Past|VerbForm=Part	13	conj	_	prpos=Ge|uppos=VPP
@@ -17466,7 +17480,7 @@
 28	jour	jour	NOUN	_	Number=Sing	25	conj	_	prpos=Nc|SpaceAfter=No|uppos=NCS
 29	,	,	PUNCT	_	_	13	punct	_	join=left|prpos=Fw|uppos=PON
 30	il	il	PRON	_	PronType=Prs	35	nsubj	_	prpos=Pp|uppos=PRO
-31	n'	ne	ADV	_	PronType=Neg	35	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+31	n'	ne	ADV	_	Polarity=Neg	35	advmod	_	prpos=Rp|uppos=NEG
 32	en	en	PRON	_	PronType=Prs	37	obl	_	prpos=Pp|uppos=PRO
 33	est	être	AUX	_	Number=Sing|Person=3|VerbForm=Fin	35	aux:pass	_	prpos=Vuc|uppos=EJ
 34	puis	puis	ADV	_	_	35	advmod	_	prpos=Rg|uppos=ADV
@@ -17512,7 +17526,7 @@
 32	,	,	PUNCT	_	_	5	punct	_	join=left|prpos=Fw|uppos=PON
 33	l'	le	DET	_	Definite=Def|PronType=Art	34	det	_	prpos=Da|uppos=D
 34	en	on	PRON	_	PronType=Prs	38	nsubj	_	prpos=Pp|uppos=PRO
-35	n'	ne	ADV	_	PronType=Neg	38	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+35	n'	ne	ADV	_	Polarity=Neg	38	advmod	_	prpos=Rp|uppos=NEG
 36	i	y	PRON	_	PronType=Prs	38	obl	_	prpos=Pp|uppos=PRO
 37	est	être	AUX	_	Number=Sing|Person=3|VerbForm=Fin	38	aux	_	prpos=Vuc|uppos=EJ
 38	tenu	tenir	VERB	_	Tense=Past|VerbForm=Part	0	root	_	prpos=Ge|uppos=VPP
@@ -17528,7 +17542,7 @@
 48	se	si	SCONJ	_	_	53	mark	_	prpos=Cs|uppos=CONJS
 49	l'	le	DET	_	Definite=Def|PronType=Art	50	det	_	prpos=Da|uppos=D
 50	en	on	PRON	_	PronType=Prs	53	nsubj	_	prpos=Pp|uppos=PRO
-51	ne	ne	ADV	_	PronType=Neg	53	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+51	ne	ne	ADV	_	Polarity=Neg	53	advmod	_	prpos=Rp|uppos=NEG
 52	se	se	PRON	_	PronType=Prs	61	expl	_	prpos=Pp|uppos=PRO
 53	veut	vouloir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	38	advcl	_	prpos=Vvc|SpaceAfter=No|uppos=MDJ
 54	,	,	PUNCT	_	_	61	punct	_	join=left|prpos=Fw|uppos=PON
@@ -17735,9 +17749,9 @@
 4	oppose	opposer	VERB	_	Number=Sing|Person=1|VerbForm=Fin	0	root	_	prpos=Vvc|SpaceAfter=No|uppos=VJ
 5	,	,	PUNCT	_	_	4	punct	_	join=left|prpos=Fw|uppos=PON
 6	ne	ni	CCONJ	_	_	8	cc	_	prpos=Cc|uppos=CONJO
-7	ne	ne	ADV	_	PronType=Neg	8	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+7	ne	ne	ADV	_	Polarity=Neg	8	advmod	_	prpos=Rp|uppos=NEG
 8	vueil	vouloir	VERB	_	Number=Sing|Person=1|VerbForm=Fin	4	conj	_	prpos=Vvc|uppos=VJ
-9	mie	mie	ADV	_	PronType=Neg	8	advmod	_	prpos=Rg|uppos=ADV
+9	mie	mie	ADV	_	Polarity=Neg	8	advmod	_	prpos=Rg|uppos=ADV
 10	que	que	SCONJ	_	_	14	mark	_	prpos=Cs|uppos=CONJS
 11	l'	le	DET	_	Definite=Def|PronType=Art	12	det	_	prpos=Da|uppos=D
 12	en	on	PRON	_	PronType=Prs	14	nsubj	_	prpos=Pp|uppos=PRO
@@ -17754,10 +17768,10 @@
 # text = Mais ce ne feïstes vous mie,
 1	Mais	mais	CCONJ	_	_	4	cc	_	prpos=Cc|uppos=CONJO
 2	ce	ce	PRON	_	PronType=Dem	4	obj	_	prpos=Pd|uppos=PRO
-3	ne	ne	ADV	_	PronType=Neg	4	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+3	ne	ne	ADV	_	Polarity=Neg	4	advmod	_	prpos=Rp|uppos=NEG
 4	feïstes	faire	VERB	_	Number=Plur|Person=2|VerbForm=Fin	0	root	_	prpos=Vvc|uppos=VJ
 5	vous	vous	PRON	_	PronType=Prs	4	nsubj	_	prpos=Pp|uppos=PRO
-6	mie	mie	ADV	_	PronType=Neg	4	advmod	_	prpos=Rg|SpaceAfter=No|uppos=ADV
+6	mie	mie	ADV	_	Polarity=Neg	4	advmod	_	prpos=Rg|SpaceAfter=No|uppos=ADV
 7	,	,	PUNCT	_	_	4	punct	_	join=left|prpos=Fw|uppos=PON
 
 # sent_id = 1314_Atir_1_1_133_1_6
@@ -17823,9 +17837,9 @@
 17	et	et	CCONJ	_	_	23	cc	_	prpos=Cc|uppos=CONJO
 18	que	que	SCONJ	_	_	23	mark	_	prpos=Cs|uppos=CONJS
 19	il	il	PRON	_	PronType=Prs	23	nsubj	_	prpos=Pp|uppos=PRO
-20	ne	ne	ADV	_	PronType=Neg	23	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+20	ne	ne	ADV	_	Polarity=Neg	23	advmod	_	prpos=Rp|uppos=NEG
 21	doit	devoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	23	aux	_	prpos=Vvc|uppos=MDJ
-22	mie	mie	ADV	_	PronType=Neg	23	advmod	_	prpos=Rg|uppos=ADV
+22	mie	mie	ADV	_	Polarity=Neg	23	advmod	_	prpos=Rg|uppos=ADV
 23	courre	courir	VERB	_	VerbForm=Inf	13	conj	_	prpos=Vvn|uppos=VX
 24	et	et	CCONJ	_	_	26	cc	_	prpos=Cc|uppos=CONJO
 25	en	en	PRON	_	PronType=Prs	27	nmod	_	prpos=Pp|uppos=PRO
@@ -17853,13 +17867,13 @@
 14	homme	homme	NOUN	_	Number=Sing	12	obl	_	prpos=Nc|uppos=NCS
 15	qui	qui	PRON	_	PronType=Rel	19	nsubj	_	prpos=Pr|uppos=WPRO
 16	riens	rien	PRON	_	PronType=Ind	19	obj	_	prpos=Pi|uppos=PRO
-17	n'	ne	ADV	_	PronType=Neg	19	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+17	n'	ne	ADV	_	Polarity=Neg	19	advmod	_	prpos=Rp|uppos=NEG
 18	i	y	PRON	_	PronType=Prs	19	obl	_	prpos=Pp|uppos=PRO
 19	avoit	avoir	VERB	_	Number=Sing|Person=3|VerbForm=Fin	14	acl:relcl	_	prpos=Vuc|SpaceAfter=No|uppos=AJ
 20	,	,	PUNCT	_	_	8	punct	_	join=left|prpos=Fw|uppos=PON
 21	que	que	SCONJ	_	_	26	mark	_	prpos=Cs|uppos=CONJS
 22	il	il	PRON	_	PronType=Prs	26	nsubj	_	prpos=Pp|uppos=PRO
-23	ne	ne	ADV	_	PronType=Neg	26	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+23	ne	ne	ADV	_	Polarity=Neg	26	advmod	_	prpos=Rp|uppos=NEG
 24	devoit	devoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	26	aux	_	prpos=Vvc|uppos=MDJ
 25	estre	être	AUX	_	VerbForm=Inf	26	aux:pass	_	prpos=Vun|uppos=EX
 26	dessaisi	dessaisir	VERB	_	Tense=Past|VerbForm=Part	4	ccomp	_	prpos=Ge|uppos=VPP
@@ -17926,7 +17940,7 @@
 34	pledier	plaider	VERB	_	VerbForm=Inf	29	xcomp	_	prpos=Vvn|SpaceAfter=No|uppos=VX
 35	,	,	PUNCT	_	_	13	punct	_	join=left|prpos=Fw|uppos=PON
 36	nus	nul	PRON	_	PronType=Prs	39	nsubj	_	prpos=Pp|uppos=PRO
-37	ne	ne	ADV	_	PronType=Neg	39	advmod	_	Polarity=Neg|prpos=Rp|uppos=NEG
+37	ne	ne	ADV	_	Polarity=Neg	39	advmod	_	prpos=Rp|uppos=NEG
 38	puet	pouvoir	AUX	_	Number=Sing|Person=3|VerbForm=Fin	39	aux	_	prpos=Vvc|uppos=MDJ
 39	vouchier	voucher	VERB	_	VerbForm=Inf	6	ccomp	_	prpos=Vvn|uppos=VX
 40	garant	garant	NOUN	_	Number=Sing	39	obj	_	prpos=Nc|uppos=NCS
