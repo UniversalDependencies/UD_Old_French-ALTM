@@ -1,15 +1,3 @@
-# sent_id = 1_1_17_1_1
-# len = 8
-# text = Item , un homme avoit eue fame ;
-1	Item	item	ADV	_	_	6	advmod	_	gold_pos=ADV|prpos=Rg|uppos=ADV
-2	,	,	PUNCT	_	_	1	punct	_	gold_pos=PUNCT|join=left|prpos=Fw|uppos=PON
-3	un	un	DET	_	Definite=Ind	4	det	_	gold_pos=DET|prpos=Dn|uppos=D
-4	homme	homme	NOUN	_	Number=Sing	6	nsubj	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
-5	avoit	avoir	AUX	_	VerbForm=Fin	6	aux	_	gold_pos=AUX|prpos=Vuc|uppos=AJ
-6	eue	avoir	VERB	_	VerbForm=Part	0	root	_	gold_pos=VERB|prpos=Ge|uppos=APP
-7	fame	femme	NOUN	_	Number=Sing	6	obj	_	gold_pos=NOUN|prpos=Nc|uppos=NCS
-8	;	;	PUNCT	_	_	6	punct	_	gold_pos=PUNCT|join=left|prpos=Fw|uppos=PON
-
 # sent_id = 1314_Atir_1_1_1_1_1
 # len = 73
 # text = Premierement, l' en doit savoir que un homme qui achate terre la puet donner a qui que il veut dedens l' an et le jor que il l' a achatée comme son meuble, sans ce que l' en le puist rapeler par don desavenant mes, se il l' avoit tenue par ans et par jors, il n' en porroit donner que le tiers que ce ne fust don desavenant.
