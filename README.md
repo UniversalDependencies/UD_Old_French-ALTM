@@ -15,6 +15,7 @@ As part of [AUTOMATED project](https://www.unicaen.fr/projet_de_recherche/automa
 Annotation was conducted following the guidelines for Old French developed by the ([Profiterole project](https://github.com/UniversalDependencies/UD_Old_French-PROFITEROLE)).
 Wherever possible, lemmata used in the corpus are modern French or lemmata of the ([Dictionnaire du Moyen Français](http://zeus.atilf.fr/dmf/)).
 
+Please note that Old_French-ALTM treebank is still under development and new material will be added to the collection in future UD releases. Please do not hesitate to contact us is you have any questions, suggestions or comments.
 
 # Acknowledgments
 
