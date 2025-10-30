@@ -1872,7 +1872,7 @@
 5	jugié	juger	VERB	_	Tense=Past|VerbForm=Part	0	root	_	prpos=Ge|SpaceAfter=No|uppos=VPP
 6	,	,	PUNCT	_	_	5	punct	_	join=left|prpos=Fw|uppos=PON
 7	qui	qui	PRON	_	PronType=Rel	8	nsubj	_	prpos=Pr|uppos=WPRO
-8	desbourse	débourser	VERB	_	Number=Sing|Person=3|VerbForm=Fin	20	csubj	_	prpos=Vvc|uppos=VJ
+8	desbourse	débourser	VERB	_	Number=Sing|Person=3|VerbForm=Fin	20	advcl	_	prpos=Vvc|uppos=VJ
 9	terre	terre	NOUN	_	Number=Sing	8	obj	_	prpos=Nc|uppos=NCS
 10	et	et	CCONJ	_	_	13	cc	_	prpos=Cc|uppos=CONJO
 11	il	il	PRON	_	PronType=Prs	13	nsubj	_	prpos=Pp|uppos=PRO
