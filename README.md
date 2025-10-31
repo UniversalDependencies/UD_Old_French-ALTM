@@ -6,7 +6,7 @@ Currently in contains one text, _Atiremens et jugiés d'eschequiers_, dated 1314
 
 # Introduction
 The text of _Atiremens et jugiés d'eschequiers_ was digitised from the following edition:
-R. Génestal & E.-J. Tardif (eds.) 1921. _Atiremenz et jugiés d'eschequiers_. Caen: A. Olivier. pp. 1-75.
+R. Génestal & E.-J. Tardif (eds.) 1921. _Atiremenz et jugiés d'eschequiers_. Caen: A. Olivier, pp. 1-75.
 
 The text was first annotated in PoS, lemmatised and automatically parsed as part of the Franco-German [MICLE project](https://www.unicaen.fr/projet_de_recherche/micle/) (2021-2024) led by Professor Pierre Larrivée (University of Caen) and Professor Cecilia Poletto (University of Frankfurt). An earlier version, annotated with [HT-CRISCO workflow](https://github.com/Corpus-Diachroniques-CRISCO/HT-CRISCO) incorporating the use of [HOPS parser](https://github.com/hopsparser/hopsparser), can be consulted on [CRISCO Lab's TXM server](https://txm-crisco.huma-num.fr/txm/) and via the [website](https://criscoht.unicaen.fr/).
 
