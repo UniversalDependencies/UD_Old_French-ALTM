@@ -1,0 +1,51 @@
+Running the following version of UD tools:
+commit 26e6c87a2f518322d15901a351199b6be6569062
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Fri Nov 7 15:39:58 2025 +0100
+Evaluating the following revision of UD_Old_French-ALTM:
+commit c9e7e477b7dc9e5e9cd60b1402c72a8c2197c96a
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 15:20:40 2025 +0100
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'fro_altm'
+Language code (from CoNLL-U file name) = 'fro'
+Found the following data files: fro_altm-ud-test.conllu
+Size: counted 15285 of 15285 words (nodes).
+Size: min(0, log((N/1000)**2)) = 5.4537439106856.
+Size: maximum value 13.815511 is for 1000000 words or more.
+Split: Did not find more than 10000 training words.
+Split: Did not find at least 10000 development words.
+Split: Found at least 10000 test words.
+Lemmas: source of annotation (from README) factor is 1.
+Universal POS tags: 13 out of 17 found in the corpus.
+Universal POS tags: source of annotation (from README) factor is 1.
+Features: 10062 out of 15285 total words have one or more features.
+Features: source of annotation (from README) factor is 1.
+Universal relations: 29 out of 37 found in the corpus.
+Universal relations: source of annotation (from README) factor is 1.
+Genres: found 1 out of 18 known.
+/net/work/people/zeman/unidep/tools/validate.py --lang fro --max-err=10 UD_Old_French-ALTM/fro_altm-ud-test.conllu
+[Line 8 Sent 1314_Atir_1_1_1_1_1]: [L3 Warning verbform-fin-without-mood] Finite verb 'doit' lacks the 'Mood' feature
+[Line 14 Sent 1314_Atir_1_1_1_1_1]: [L3 Warning verbform-fin-without-mood] Finite verb 'achate' lacks the 'Mood' feature
+[Line 17 Sent 1314_Atir_1_1_1_1_1]: [L3 Warning verbform-fin-without-mood] Finite verb 'puet' lacks the 'Mood' feature
+[Line 23 Sent 1314_Atir_1_1_1_1_1]: [L3 Warning verbform-fin-without-mood] Finite verb 'veut' lacks the 'Mood' feature
+[Line 33 Sent 1314_Atir_1_1_1_1_1]: [L3 Warning verbform-fin-without-mood] Finite verb 'a' lacks the 'Mood' feature
+[Line 36 Sent 1314_Atir_1_1_1_1_1]: [L3 Warning pron-det-without-prontype] The word 'son' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 45 Sent 1314_Atir_1_1_1_1_1]: [L3 Warning verbform-fin-without-mood] Finite verb 'puist' lacks the 'Mood' feature
+[Line 55 Sent 1314_Atir_1_1_1_1_1]: [L3 Warning verbform-fin-without-mood] Finite verb 'avoit' lacks the 'Mood' feature
+[Line 66 Sent 1314_Atir_1_1_1_1_1]: [L3 Warning verbform-fin-without-mood] Finite verb 'porroit' lacks the 'Mood' feature
+[Line 74 Sent 1314_Atir_1_1_1_1_1]: [L3 Warning verbform-fin-without-mood] Finite verb 'fust' lacks the 'Mood' feature
+...suppressing further errors regarding Warning
+Warnings: 2330
+*** PASSED ***
+Validity: 1
+(weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
+(weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
+(weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
+(weight=0.37037037037037) * (score{size}=0.394755147687369) = 0.146205610254581
+(weight=0.0740740740740741) * (score{split}=0.34) = 0.0251851851851852
+(weight=0.111111111111111) * (score{tags}=0.764705882352941) = 0.0849673202614379
+(weight=0.111111111111111) * (score{udeprels}=0.783783783783784) = 0.0870870870870871
+(TOTAL score=0.571840264516686) * (availability=1) * (validity=1) = 0.571840264516686
+STARS = 3
+UD_Old_French-ALTM	0.571840264516686	3
