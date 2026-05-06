@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Old_French-ALTM:
-commit c9e7e477b7dc9e5e9cd60b1402c72a8c2197c96a
+commit 2bdb708f5c162636070e9c01f98483c77063cfc9
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 11 15:20:40 2025 +0100
+Date:   Tue Nov 11 20:23:40 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'fro_altm'
 Language code (from CoNLL-U file name) = 'fro'
@@ -25,17 +25,17 @@ Universal relations: 29 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang fro --max-err=10 UD_Old_French-ALTM/fro_altm-ud-test.conllu
-[Line 8 Sent 1314_Atir_1_1_1_1_1]: [L3 Warning verbform-fin-without-mood] Finite verb 'doit' lacks the 'Mood' feature
-[Line 14 Sent 1314_Atir_1_1_1_1_1]: [L3 Warning verbform-fin-without-mood] Finite verb 'achate' lacks the 'Mood' feature
-[Line 17 Sent 1314_Atir_1_1_1_1_1]: [L3 Warning verbform-fin-without-mood] Finite verb 'puet' lacks the 'Mood' feature
-[Line 23 Sent 1314_Atir_1_1_1_1_1]: [L3 Warning verbform-fin-without-mood] Finite verb 'veut' lacks the 'Mood' feature
-[Line 33 Sent 1314_Atir_1_1_1_1_1]: [L3 Warning verbform-fin-without-mood] Finite verb 'a' lacks the 'Mood' feature
-[Line 36 Sent 1314_Atir_1_1_1_1_1]: [L3 Warning pron-det-without-prontype] The word 'son' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 45 Sent 1314_Atir_1_1_1_1_1]: [L3 Warning verbform-fin-without-mood] Finite verb 'puist' lacks the 'Mood' feature
-[Line 55 Sent 1314_Atir_1_1_1_1_1]: [L3 Warning verbform-fin-without-mood] Finite verb 'avoit' lacks the 'Mood' feature
-[Line 66 Sent 1314_Atir_1_1_1_1_1]: [L3 Warning verbform-fin-without-mood] Finite verb 'porroit' lacks the 'Mood' feature
-[Line 74 Sent 1314_Atir_1_1_1_1_1]: [L3 Warning verbform-fin-without-mood] Finite verb 'fust' lacks the 'Mood' feature
-...suppressing further errors regarding Warning
+[Line 8 Sent 1314_Atir_1_1_1_1_1]: [L3 WARNING verbform-fin-without-mood] Finite verb 'doit' lacks the 'Mood' feature
+[Line 14 Sent 1314_Atir_1_1_1_1_1]: [L3 WARNING verbform-fin-without-mood] Finite verb 'achate' lacks the 'Mood' feature
+[Line 17 Sent 1314_Atir_1_1_1_1_1]: [L3 WARNING verbform-fin-without-mood] Finite verb 'puet' lacks the 'Mood' feature
+[Line 23 Sent 1314_Atir_1_1_1_1_1]: [L3 WARNING verbform-fin-without-mood] Finite verb 'veut' lacks the 'Mood' feature
+[Line 33 Sent 1314_Atir_1_1_1_1_1]: [L3 WARNING verbform-fin-without-mood] Finite verb 'a' lacks the 'Mood' feature
+[Line 36 Sent 1314_Atir_1_1_1_1_1]: [L3 WARNING pron-det-without-prontype] The word 'son' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 45 Sent 1314_Atir_1_1_1_1_1]: [L3 WARNING verbform-fin-without-mood] Finite verb 'puist' lacks the 'Mood' feature
+[Line 55 Sent 1314_Atir_1_1_1_1_1]: [L3 WARNING verbform-fin-without-mood] Finite verb 'avoit' lacks the 'Mood' feature
+[Line 66 Sent 1314_Atir_1_1_1_1_1]: [L3 WARNING verbform-fin-without-mood] Finite verb 'porroit' lacks the 'Mood' feature
+[Line 74 Sent 1314_Atir_1_1_1_1_1]: [L3 WARNING verbform-fin-without-mood] Finite verb 'fust' lacks the 'Mood' feature
+...suppressing further messages regarding WARNING/MORPHO
 Warnings: 2330
 *** PASSED ***
 Validity: 1
