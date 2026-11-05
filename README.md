@@ -22,7 +22,7 @@ Please note that Old_French-ALTM treebank is still under development and new mat
 
 # Acknowledgments
 
-This work was funded by ANR-DFG and Normandy Region grants and took place under the direction of Professor Pierre Larrivée (University of Caen). Mathieu Goux conducted initial PoS annotation and lemmatisation. Natasha Romanova is responsible for the revision of the annotation and for syntactic parsing. Rayan Ziane and Khensa Daoudi provided technical support. 
+This work was funded by ANR-DFG and Normandy Region grants and took place under the direction of Professor Pierre Larrivée (University of Caen). Mathieu Goux conducted initial PoS annotation and lemmatisation. Natasha Romanova is responsible for the revision of the annotation and for syntactic parsing. Rayan Ziane and Khensa Daoudi provided technical support.
 
 ## References
 
@@ -47,7 +47,7 @@ UPOS: manual native
 XPOS: not available
 Features: manual native
 Relations: manual native
-Contributors: Romanova, Natalia; Ziane, Rayan; Goux, Mathieu; Daoudi, Khensa; Larrivée, Pierre
+Contributors: Romanova, Natasha; Ziane, Rayan; Goux, Mathieu; Daoudi, Khensa; Larrivée, Pierre
 Contributing: here
 Contact: natalia.romanova@unicaen.fr
 ===============================================================================
